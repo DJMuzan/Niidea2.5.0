@@ -445,3 +445,29 @@
 [22:52:47] [Server thread/INFO]: Yukimedgz issued server command: /tpaccept DJMuzan
 [22:52:56] [Async Chat Thread - #15/INFO]: [Not Secure] <DJMuzan> Es la zona del spam
 [22:52:59] [Async Chat Thread - #14/INFO]: [Not Secure] <DJMuzan> Spawn gei
+[22:53:04] [Server thread/INFO]: DJMuzan issued server command: /ps info
+[22:53:09] [Server thread/INFO]: Yukimedgz issued server command: /skin set Night
+[22:53:21] [Server thread/INFO]: Yukimedgz issued server command: /skin set goku
+[22:53:22] [Async Chat Thread - #14/INFO]: [Not Secure] <DJMuzan> ¿Qué te parece el mundo?
+[22:53:27] [Async Chat Thread - #16/INFO]: [Not Secure] <Yukimedgz> discofrd
+[22:55:00] [Server thread/INFO]: Yukimedgz issued server command: /skin set goku
+[22:55:19] [Server thread/INFO]: DJMuzan issued server command: /time set day
+[22:55:19] [Server thread/INFO]: [DJMuzan: Set the time to 1000]
+[22:55:28] [Server thread/INFO]: Yukimedgz issued server command: /terraform
+[22:55:51] [Server thread/INFO]: DJMuzan issued server command: /ps give 100 Yukimedgz
+[22:56:14] [Server thread/INFO]: DJMuzan issued server command: /ps home
+[22:56:33] [Async Chat Thread - #18/INFO]: [Not Secure] <DJMuzan> usa /enderchest
+[22:56:37] [Server thread/INFO]: DJMuzan issued server command: /deop DJMuzan
+[22:56:37] [Server thread/INFO]: [DJMuzan: Made DJMuzan no longer a server operator]
+[22:56:40] [Server thread/INFO]: DJMuzan issued server command: /enderchest
+[22:56:46] [Server thread/INFO]: Yukimedgz issued server command: /enderchest
+[22:58:33] [Server thread/INFO]: DJMuzan issued server command: /usa /tpa y el nombre
+[22:58:39] [Async Chat Thread - #19/INFO]: [Not Secure] <DJMuzan> usa /tpa y el nombre
+[22:58:44] [Server thread/INFO]: Yukimedgz issued server command: /tpa DJMuzan
+[22:58:48] [Server thread/INFO]: DJMuzan issued server command: /tpaccept Yukimedgz
+[22:58:55] [Server thread/INFO]: Yukimedgz issued server command: /tpa DJMuzan
+[22:58:57] [Server thread/INFO]: DJMuzan issued server command: /tpaccept Yukimedgz
+[22:59:38] [Server thread/INFO]: Yukimedgz issued server command: /enderchest
+[23:00:54] [Server thread/INFO]: DJMuzan issued server command: /tpa Yukimedgz
+[23:00:57] [Server thread/INFO]: Yukimedgz issued server command: /tpaccept DJMuzan
+[23:02:22] [Server thread/INFO]: DJMuzan issued server command: /ps home
