@@ -18,7 +18,7 @@ convert-current-ender-chest: true
 #If this is set to 0, players will need a permission to be able to open an enderchest
 default-rows: 3
 
-default-locale: 'en_us'
+default-locale: 'es_es'
 
 #This is used when the plugin hooks into placeholder api to provide placeholders
 #This allows you to modify the placeholder identifier.
@@ -30,7 +30,7 @@ papi-identifier: 'variableenderchests'
 #Any other command in the list will be considered as aliases.
 open-enderchest-commands:
   - 'enderchest'
-  - 'echest'
+  - 'ender'
 
 blacklisted-items:
   - 'COMMAND_BLOCK'
