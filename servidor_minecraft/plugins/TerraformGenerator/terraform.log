@@ -513,3 +513,17 @@
 [2024-12-01 23:27:25] [INFO   ] Generating org.terraform.structure.caves.LargeCavePopulator at chunk: -12,52 
 [2024-12-01 23:28:47] [INFO   ] Large Cave at 320,12,832 has water level > -28 with populator GenericLargeCavePopulator 
 [2024-12-01 23:28:47] [INFO   ] Calculated structure at 0,50 
+[2024-12-01 23:37:47] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -736 26 821 in a room of size 14x13 
+[2024-12-01 23:37:47] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -656 26 821 in a room of size 13x14 
+[2024-12-01 23:37:47] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -672 26 897 in a room of size 14x14 
+[2024-12-01 23:37:47] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -686 26 777 in a room of size 15x13 
+[2024-12-01 23:37:47] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -711 26 903 in a room of size 14x14 
+[2024-12-01 23:37:47] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -773 26 856 in a room of size 15x13 
+[2024-12-01 23:37:47] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -755 26 801 in a room of size 14x13 
+[2024-12-01 23:37:47] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -729 26 887 in a room of size 13x14 
+[2024-12-01 23:37:47] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -635 26 854 in a room of size 13x14 
+[2024-12-01 23:37:47] [INFO   ] Calculated structure at -33,43 
+[2024-12-01 23:40:53] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -37,46 
+[2024-12-01 23:40:53] [INFO   ] Spawning Underground Dungeon at -589,52,751 
+[2024-12-01 23:42:40] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -38,37 
+[2024-12-01 23:42:40] [INFO   ] Spawning Underground Dungeon at -594,39,604 
