@@ -367,3 +367,81 @@
 [22:42:25] [Async Chat Thread - #13/INFO]: [Not Secure] <DJMuzan> 50 bloques sigue siendo mucho JSAJas
 [22:42:28] [Async Chat Thread - #12/INFO]: [Not Secure] <.Mochhi02> dame mi cama
 [22:42:54] [Async Chat Thread - #12/INFO]: [Not Secure] <DJMuzan> Tengo que aplanar un coñazo de terreno
+[22:42:56] [Async Chat Thread - #13/INFO]: [Not Secure] <.Mochhi02> bueno espero
+[22:43:16] [Async Chat Thread - #13/INFO]: [Not Secure] <DJMuzan> Dale
+[22:43:20] [Server thread/INFO]: DJMuzan issued server command: /lp editor
+[22:46:29] [localSession-7-4/INFO]: [Geyser-Spigot] Mochhi02 has disconnected from the Java server because of Bedrock client disconnected
+[22:46:29] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Jugador conectado por Floodgate como .Mochhi02 se ha desconectado
+[22:46:29] [Server thread/INFO]: .Mochhi02 lost connection: Disconnected
+[22:47:58] [Server thread/INFO]: [VariableEnderChests] Saving data for .Mochhi02
+[22:51:50] [User Authenticator #3/INFO]: UUID of player Yukimedgz is ac9aa99e-b210-380a-8ddc-b13d3be82499
+[22:51:50] [Server thread/INFO]: Yukimedgz[/127.5.194.208:58471] logged in with entity id 3347 at ([world]9.5, 63.0, 9.5)
+[22:51:50] [Craft Scheduler Thread - 158 - VariableEnderChests/INFO]: [VariableEnderChests] Creating new enderchest for Yukimedgz
+[22:52:03] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Yukimedgz has successfully registered.
+[22:52:11] [Async Chat Thread - #14/INFO]: [Not Secure] <Yukimedgz> hey medio mierda
+[22:52:13] [Async Chat Thread - #15/INFO]: [Not Secure] <Yukimedgz> donde estas
+[22:52:20] [Server thread/INFO]: Yukimedgz issued server command: /tp DJMuzan
+[22:52:24] [Async Chat Thread - #14/INFO]: [Not Secure] <DJMuzan> Callese la jeta somalpario
+[22:52:29] [Async Chat Thread - #14/INFO]: [Not Secure] <Yukimedgz> por q no puedo minar
+[22:52:31] [Server thread/INFO]: DJMuzan issued server command: /lp applyedits eHIGgcUraN
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.count.others true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.setparent true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.destroy true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.members true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.info true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add clicktpa.tptoggle true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.sethome true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.name true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add clicktpa.tpahere true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.create true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add clicktpa.tpadeny true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add enderchest.size.6 true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.list true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.unhide true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.count true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.view.others true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.owners true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.info.others true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add clicktpa.tpa true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.hide true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.unclaim true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add clicktpa.tpaccept true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add clicktpa.tpacancel true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.merge true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.view true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add enderchest.command true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.flags true
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[22:52:31] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add protectionstones.home true
+[22:52:40] [Server thread/INFO]: DJMuzan issued server command: /tpa Yukimedgz
+[22:52:45] [Server thread/INFO]: Yukimedgz issued server command: /tpaccept DJMuzan
+[22:52:47] [Server thread/INFO]: Yukimedgz issued server command: /tpaccept DJMuzan
+[22:52:56] [Async Chat Thread - #15/INFO]: [Not Secure] <DJMuzan> Es la zona del spam
+[22:52:59] [Async Chat Thread - #14/INFO]: [Not Secure] <DJMuzan> Spawn gei
