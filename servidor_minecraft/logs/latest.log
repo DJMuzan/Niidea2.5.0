@@ -251,3 +251,337 @@
 [23:21:12] [Server thread/INFO]: .Hamarof issued server command: /tpaccept
 [23:21:25] [Server thread/INFO]: Yukimedgz issued server command: /tpahere .Hamarof
 [23:21:31] [Server thread/INFO]: .Hamarof issued server command: /tpaccept Yukimedgz
+[23:23:18] [Server thread/INFO]: Yukimedgz issued server command: /tpahere .Hamarof
+[23:23:38] [Server thread/INFO]: .Hamarof issued server command: /tpaccept Yukimedgz
+[23:23:50] [Server thread/INFO]: Set the time to 1000
+[23:24:14] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[23:24:24] [Server thread/INFO]: [Not Secure] [Server] Les recuerdo que tienen un inventario que pueden abrir en donde sea con /ender
+[23:24:27] [Server thread/INFO]: Yukimedgz issued server command: /tpahere .Hamarof
+[23:24:38] [Server thread/INFO]: DJMuzan issued server command: /ender
+[23:24:48] [Server thread/INFO]: .Hamarof issued server command: /tpaccept Yukimedgz
+[23:27:33] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[23:27:37] [Server thread/INFO]: --------- Help: Index ---------------------------
+[23:27:37] [Server thread/INFO]: Use /help [n] to get page n of help.
+[23:27:37] [Server thread/INFO]: Aliases: Lists command aliases
+[23:27:37] [Server thread/INFO]: AngelChest: All commands for AngelChest
+[23:27:37] [Server thread/INFO]: AuraSkills: All commands for AuraSkills
+[23:27:37] [Server thread/INFO]: Bukkit: All commands for Bukkit
+[23:27:37] [Server thread/INFO]: Chunky: All commands for Chunky
+[23:27:37] [Server thread/INFO]: ClickTpa: All commands for ClickTpa
+[23:27:37] [Server thread/INFO]: floodgate: All commands for floodgate
+[23:27:37] [Server thread/INFO]: Geyser-Spigot: All commands for Geyser-Spigot
+[23:27:37] [Server thread/INFO]: HealthBar-Reloaded: All commands for HealthBar-Reloaded
+[23:27:37] [Server thread/INFO]: LuckPerms: All commands for LuckPerms
+[23:27:37] [Server thread/INFO]: Minecraft: All commands for Minecraft
+[23:27:37] [Server thread/INFO]: nLogin: All commands for nLogin
+[23:27:37] [Server thread/INFO]: ProtocolLib: All commands for ProtocolLib
+[23:27:37] [Server thread/INFO]: SkinsRestorer: All commands for SkinsRestorer
+[23:27:37] [Server thread/INFO]: TerraformGenerator: All commands for TerraformGenerator
+[23:27:37] [Server thread/INFO]: ViaVersion: All commands for ViaVersion
+[23:27:37] [Server thread/INFO]: WorldEdit: All commands for WorldEdit
+[23:27:37] [Server thread/INFO]: WorldGuard: All commands for WorldGuard
+[23:27:37] [Server thread/INFO]: /.s: Execute last CraftScript
+[23:27:37] [Server thread/INFO]: //: Toggle the super pickaxe function
+[23:27:37] [Server thread/INFO]: //calculate: Evaluate a mathematical expression
+[23:27:37] [Server thread/INFO]: //center: Set the center block(s)
+[23:27:37] [Server thread/INFO]: //chunk: Set the selection to your current chunk.
+[23:27:37] [Server thread/INFO]: //cone: Generates a cone.
+[23:27:37] [Server thread/INFO]: //contract: Contract the selection area
+[23:27:37] [Server thread/INFO]: //copy: Copy the selection to the clipboard
+[23:27:37] [Server thread/INFO]: //count: Counts the number of blocks matching a mask
+[23:27:37] [Server thread/INFO]: //curve: Draws a spline through selected points
+[23:27:37] [Server thread/INFO]: //cut: Cut the selection to the clipboard
+[23:27:37] [Server thread/INFO]: //cyl: Generates a cylinder.
+[23:27:37] [Server thread/INFO]: //deform: Deforms a selected region with an expression
+[23:27:37] [Server thread/INFO]: //distr: Get the distribution of blocks in the selection
+[23:27:37] [Server thread/INFO]: //drain: Drain a pool
+[23:27:37] [Server thread/INFO]: //drawsel: Toggle drawing the current selection
+[23:27:37] [Server thread/INFO]: //expand: Expand the selection area
+[23:27:37] [Server thread/INFO]: //faces: Build the walls, ceiling, and floor of a selection
+[23:27:37] [Server thread/INFO]: //fast: Toggle fast mode
+[23:27:37] [Server thread/INFO]: //feature: Generate Minecraft features
+[23:27:37] [Server thread/INFO]: //fill: Fill a hole
+[23:27:37] [Server thread/INFO]: //fillr: Fill a hole recursively
+[23:27:37] [Server thread/INFO]: //flip: Flip the contents of the clipboard across the origin
+[23:27:37] [Server thread/INFO]: //flora: Make flora within the region
+[23:27:37] [Server thread/INFO]: //forest: Make a forest within the region
+[23:27:37] [Server thread/INFO]: //generate: Generates a shape according to a formula.
+[23:27:37] [Server thread/INFO]: //generatebiome: Sets biome according to a formula.
+[23:27:37] [Server thread/INFO]: //hcyl: Generates a hollow cylinder.
+[23:27:37] [Server thread/INFO]: //help: Displays help for WorldEdit commands
+[23:27:37] [Server thread/INFO]: //hollow: Hollows out the object contained in this selection
+[23:27:37] [Server thread/INFO]: //hpos1: Set position 1 to targeted block
+[23:27:37] [Server thread/INFO]: //hpos2: Set position 2 to targeted block
+[23:27:37] [Server thread/INFO]: //hpyramid: Generate a hollow pyramid
+[23:27:37] [Server thread/INFO]: //hsphere: Generates a hollow sphere.
+[23:27:37] [Server thread/INFO]: //inset: Inset the selection area
+[23:27:37] [Server thread/INFO]: //limit: Modify block change limit
+[23:27:37] [Server thread/INFO]: //line: Draws line segments between cuboid selection corners or convex polyhedral selection vertices
+[23:27:37] [Server thread/INFO]: //move: Move the contents of the selection
+[23:27:37] [Server thread/INFO]: //naturalize: 3 layers of dirt on top then rock below
+[23:27:37] [Server thread/INFO]: //outset: Outset the selection area
+[23:27:37] [Server thread/INFO]: //overlay: Set a block on top of blocks in the region
+[23:27:37] [Server thread/INFO]: //paste: Paste the clipboard's contents
+[23:27:37] [Server thread/INFO]: //perf: Toggle side effects for performance
+[23:27:37] [Server thread/INFO]: //pos: Set positions
+[23:27:37] [Server thread/INFO]: //pos1: Set position 1
+[23:27:37] [Server thread/INFO]: //pos2: Set position 2
+[23:27:37] [Server thread/INFO]: //pyramid: Generate a filled pyramid
+[23:27:37] [Server thread/INFO]: //regen: Regenerates the contents of the selection
+[23:27:37] [Server thread/INFO]: //reorder: Sets the reorder mode of WorldEdit
+[23:27:37] [Server thread/INFO]: //replace: Replace all blocks in the selection with another
+[23:27:37] [Server thread/INFO]: //rotate: Rotate the contents of the clipboard
+[23:27:37] [Server thread/INFO]: //sel: Choose a region selector
+[23:27:37] [Server thread/INFO]: //set: Sets all the blocks in the region
+[23:27:37] [Server thread/INFO]: //setbiome: Sets the biome of your current block or region.
+[23:27:37] [Server thread/INFO]: //shift: Shift the selection area
+[23:27:37] [Server thread/INFO]: //size: Get information about the selection
+[23:27:37] [Server thread/INFO]: //smooth: Smooth the elevation in the selection
+[23:27:37] [Server thread/INFO]: //snowsmooth: Smooth the elevation in the selection with snow layers
+[23:27:37] [Server thread/INFO]: //sphere: Generates a filled sphere.
+[23:27:37] [Server thread/INFO]: //stack: Repeat the contents of the selection
+[23:27:37] [Server thread/INFO]: //structure: Generate Minecraft structures
+[23:27:37] [Server thread/INFO]: //timeout: Modify evaluation timeout time.
+[23:27:37] [Server thread/INFO]: //trim: Minimize the selection to encompass matching blocks
+[23:27:37] [Server thread/INFO]: //update: Apply side effects to your selection
+[23:27:37] [Server thread/INFO]: //walls: Build the four sides of the selection
+[23:27:37] [Server thread/INFO]: //wand: Get the wand item
+[23:27:37] [Server thread/INFO]: //watchdog: Changes watchdog hook state.
+[23:27:37] [Server thread/INFO]: //world: Sets the world override
+[23:27:37] [Server thread/INFO]: /abtoggle: Toggle your own action bar
+[23:27:37] [Server thread/INFO]: /acadmin: 
+[23:27:37] [Server thread/INFO]: /acdebug: AngelChest debug command
+[23:27:37] [Server thread/INFO]: /acfetch: Teleports your AngelChest to your current location.
+[23:27:37] [Server thread/INFO]: /acgraveyard: Manage Graveyard settings
+[23:27:37] [Server thread/INFO]: /acgui: Opens the AngelChest GUI.
+[23:27:37] [Server thread/INFO]: /aclist: Shows a list of all your AngelChests.
+[23:27:37] [Server thread/INFO]: /acopen: 
+[23:27:37] [Server thread/INFO]: /acreload: Reloads AngelChest configuration
+[23:27:37] [Server thread/INFO]: /actoggle: 
+[23:27:37] [Server thread/INFO]: /actp: Teleports you to your of your AngelChest.
+[23:27:37] [Server thread/INFO]: /acunlock: Unlocks your AngelChest.
+[23:27:37] [Server thread/INFO]: /acversion: Shows AngelChest version information.
+[23:27:37] [Server thread/INFO]: /advancement: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /agility: 
+[23:27:37] [Server thread/INFO]: /alchemy: 
+[23:27:37] [Server thread/INFO]: /allowfire: [<world>] - Allows all fire spread temporarily
+[23:27:37] [Server thread/INFO]: /angelchesttoggle: 
+[23:27:37] [Server thread/INFO]: /archery: 
+[23:27:37] [Server thread/INFO]: /ascend: Go up a floor
+[23:27:37] [Server thread/INFO]: /attribute: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /ban: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /ban-ip: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /banlist: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /biomeinfo: Get the biome of the targeted block.
+[23:27:37] [Server thread/INFO]: /biomelist: Gets all biomes available.
+[23:27:37] [Server thread/INFO]: /bossbar: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /brush: Brushing commands
+[23:27:37] [Server thread/INFO]: /butcher: Kill all or nearby mobs
+[23:27:37] [Server thread/INFO]: /callback: ClickEvent callback
+[23:27:37] [Server thread/INFO]: /ceil: Go to the ceiling
+[23:27:37] [Server thread/INFO]: /changepass: CComando para cambiar la contraseña registrada.
+[23:27:37] [Server thread/INFO]: /chunkinfo: Get information about the chunk you're inside
+[23:27:37] [Server thread/INFO]: /chunky: Generates chunks
+[23:27:37] [Server thread/INFO]: /clear: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /clearclipboard: Clear your clipboard
+[23:27:37] [Server thread/INFO]: /clearenderchest: 
+[23:27:37] [Server thread/INFO]: /clearhistory: Clear your history
+[23:27:37] [Server thread/INFO]: /clicktparl: 
+[23:27:37] [Server thread/INFO]: /clone: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /cs: Execute a CraftScript
+[23:27:37] [Server thread/INFO]: /cycler: Block data cycler tool
+[23:27:37] [Server thread/INFO]: /damage: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /data: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /datapack: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /debug: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /defense: 
+[23:27:37] [Server thread/INFO]: /delchunks: Delete chunks that your selection includes
+[23:27:37] [Server thread/INFO]: /deltree: Floating tree remover tool
+[23:27:37] [Server thread/INFO]: /deop: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /descend: Go down a floor
+[23:27:37] [Server thread/INFO]: /difficulty: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /effect: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /enchant: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /enchanting: 
+[23:27:37] [Server thread/INFO]: /enderchest: 
+[23:27:37] [Server thread/INFO]: /enderchestconvert: 
+[23:27:37] [Server thread/INFO]: /excavation: 
+[23:27:37] [Server thread/INFO]: /execute: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /experience: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /extinguish: Extinguish nearby fire
+[23:27:37] [Server thread/INFO]: /farming: 
+[23:27:37] [Server thread/INFO]: /farwand: Wand at a distance tool
+[23:27:37] [Server thread/INFO]: /fighting: 
+[23:27:37] [Server thread/INFO]: /fill: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /fillbiome: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /filter: Add or remove programmable filters to the packet listeners.
+[23:27:37] [Server thread/INFO]: /fishing: 
+[23:27:37] [Server thread/INFO]: /fixlava: Fix lava to be stationary
+[23:27:37] [Server thread/INFO]: /fixwater: Fix water to be stationary
+[23:27:37] [Server thread/INFO]: /floodfill: Flood fill tool
+[23:27:37] [Server thread/INFO]: /floodgate: A set of Floodgate related actions in one command
+[23:27:37] [Server thread/INFO]: /foraging: 
+[23:27:37] [Server thread/INFO]: /forceload: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /forestgen: Generate a forest
+[23:27:37] [Server thread/INFO]: /function: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /fwhitelist: Easy way to whitelist Bedrock players
+[23:27:37] [Server thread/INFO]: /gamemode: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /gamerule: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /geyser: Shows help for all registered commands.
+[23:27:37] [Server thread/INFO]: /give: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /gmask: Set the global mask
+[23:27:37] [Server thread/INFO]: /god: [player] - Enable godmode on a player
+[23:27:37] [Server thread/INFO]: /green: Converts dirt to grass blocks in the area
+[23:27:37] [Server thread/INFO]: /halt-activity: [confirm] - Attempts to cease as much activity in order to stop lag
+[23:27:37] [Server thread/INFO]: /heal: [player] - Heal a player
+[23:27:37] [Server thread/INFO]: /healthbar: Main command for HealthBar, use /hbr help for commands.
+[23:27:37] [Server thread/INFO]: /help: Shows the help menu
+[23:27:37] [Server thread/INFO]: /info: Block information tool
+[23:27:37] [Server thread/INFO]: /item: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /jfr: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /jumpto: Teleport to a location
+[23:27:37] [Server thread/INFO]: /kick: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /kill: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /linkaccount: Link your Java account with your Bedrock account
+[23:27:37] [Server thread/INFO]: /list: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /listchunks: List chunks that your selection includes
+[23:27:37] [Server thread/INFO]: /locate: [player] - Locate a player
+[23:27:37] [Server thread/INFO]: /login: Comando para iniciar sesión en el servidor.
+[23:27:37] [Server thread/INFO]: /loot: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /lrbuild: Long-range building tool
+[23:27:37] [Server thread/INFO]: /luckperms: Manage permissions
+[23:27:37] [Server thread/INFO]: /mana: Display your or another player's current and max mana
+[23:27:37] [Server thread/INFO]: /mask: Set the brush mask
+[23:27:37] [Server thread/INFO]: /material: Set the brush material
+[23:27:37] [Server thread/INFO]: /me: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /minecraft:locate: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /minecraft:teleport: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /mining: 
+[23:27:37] [Server thread/INFO]: /msg: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /mspt: View server tick times
+[23:27:37] [Server thread/INFO]: /navwand: Navigation wand tool
+[23:27:37] [Server thread/INFO]: /nlogin: nLogin primary command
+[23:27:37] [Server thread/INFO]: /nloginc: Core command for nLogin
+[23:27:37] [Server thread/INFO]: /none: Unbind a bound tool from your current item
+[23:27:37] [Server thread/INFO]: /op: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /packet: Add or remove a simple packet listener.
+[23:27:37] [Server thread/INFO]: /packetlog: Logs hex representations of packets to a file or console
+[23:27:37] [Server thread/INFO]: /paper: Paper related commands
+[23:27:37] [Server thread/INFO]: /pardon: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /particle: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /perf: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /place: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /placement: Select which placement to use
+[23:27:37] [Server thread/INFO]: /playsound: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
+[23:27:37] [Server thread/INFO]: /protocol: Performs administrative tasks regarding ProtocolLib.
+[23:27:37] [Server thread/INFO]: /ps: 
+[23:27:37] [Server thread/INFO]: /pumpkins: Generate pumpkin patches
+[23:27:37] [Server thread/INFO]: /range: Set the brush range
+[23:27:37] [Server thread/INFO]: /recipe: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /redo: Redoes the last action (from history)
+[23:27:37] [Server thread/INFO]: /region: Region management commands
+[23:27:37] [Server thread/INFO]: /register: Comando para registrar una cuenta.
+[23:27:37] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
+[23:27:37] [Server thread/INFO]: /remove: Remove all entities of a type
+[23:27:37] [Server thread/INFO]: /removeabove: Remove blocks above your head.
+[23:27:37] [Server thread/INFO]: /removebelow: Remove blocks below you.
+[23:27:37] [Server thread/INFO]: /removenear: Remove blocks near you.
+[23:27:37] [Server thread/INFO]: /repl: Block replacer tool
+[23:27:37] [Server thread/INFO]: /replacenear: Replace nearby blocks
+[23:27:37] [Server thread/INFO]: /restart: Restarts the server
+[23:27:37] [Server thread/INFO]: /restore: Restore the selection from a snapshot
+[23:27:37] [Server thread/INFO]: /return: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /ride: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /save-all: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /save-off: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /save-on: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /say: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /schedule: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /schematic: Schematic commands for saving/loading areas
+[23:27:37] [Server thread/INFO]: /scoreboard: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /searchitem: Search for an item
+[23:27:37] [Server thread/INFO]: /seed: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /selwand: Selection wand tool
+[23:27:37] [Server thread/INFO]: /setblock: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /size: Set the brush size
+[23:27:37] [Server thread/INFO]: /sk: Opens the Skills menu, where you can browse skills, progress, and abilities.
+[23:27:37] [Server thread/INFO]: /skill: Opens the Skills menu, where you can browse skills, progress, and abilities.
+[23:27:37] [Server thread/INFO]: /skillrank: Shows your skill rankings
+[23:27:37] [Server thread/INFO]: /skills: Opens the Skills menu, where you can browse skills, progress, and abilities.
+[23:27:37] [Server thread/INFO]: /skilltop: Shows the top players in a skill
+[23:27:37] [Server thread/INFO]: /skin: Changes your own skin.
+[23:27:37] [Server thread/INFO]: /skins: Opens the skins GUI.
+[23:27:37] [Server thread/INFO]: /slay: [player] - Slay a player
+[23:27:37] [Server thread/INFO]: /snapshot: Snapshot commands for restoring backups
+[23:27:37] [Server thread/INFO]: /snow: Simulates snow
+[23:27:37] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /spectate: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /spigot: Spigot related commands
+[23:27:37] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /sr: Admin commands for SkinsRestorer.
+[23:27:37] [Server thread/INFO]: /stack: Stack items
+[23:27:37] [Server thread/INFO]: /stats: Opens the Stats menu where you can see current stat levels and descriptions.
+[23:27:37] [Server thread/INFO]: /stop: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /stopfire: [<world>] - Disables all fire spread temporarily
+[23:27:37] [Server thread/INFO]: /stopsound: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /summon: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /superpickaxe: Super-pickaxe commands
+[23:27:37] [Server thread/INFO]: /tag: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /team: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /teammsg: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /tell: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /tellraw: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /terraform: Main command
+[23:27:37] [Server thread/INFO]: /thaw: Thaws the area
+[23:27:37] [Server thread/INFO]: /thru: Pass through walls
+[23:27:37] [Server thread/INFO]: /time: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
+[23:27:37] [Server thread/INFO]: /title: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /tm: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /toggleeditwand: Remind the user that the wand is now a tool and can be unbound with /tool none.
+[23:27:37] [Server thread/INFO]: /toggleplace: Switch between your position and pos1 for placement
+[23:27:37] [Server thread/INFO]: /tool: Binds a tool to the item in your hand
+[23:27:37] [Server thread/INFO]: /tp: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /tpa: 
+[23:27:37] [Server thread/INFO]: /tpacancel: 
+[23:27:37] [Server thread/INFO]: /tpaccept: 
+[23:27:37] [Server thread/INFO]: /tpadeny: 
+[23:27:37] [Server thread/INFO]: /tpahere: 
+[23:27:37] [Server thread/INFO]: /tpo: 
+[23:27:37] [Server thread/INFO]: /tpohere: 
+[23:27:37] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
+[23:27:37] [Server thread/INFO]: /tptoggle: 
+[23:27:37] [Server thread/INFO]: /tracemask: Set the mask used to stop tool traces
+[23:27:37] [Server thread/INFO]: /tree: Tree generator tool
+[23:27:37] [Server thread/INFO]: /trigger: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /undo: Undoes the last action (from history)
+[23:27:37] [Server thread/INFO]: /ungod: [player] - Disable godmode on a player
+[23:27:37] [Server thread/INFO]: /unlinkaccount: Unlink your Java account from your Bedrock account
+[23:27:37] [Server thread/INFO]: /unstuck: Escape from being stuck inside a block
+[23:27:37] [Server thread/INFO]: /up: Go upwards some distance
+[23:27:37] [Server thread/INFO]: /vecdebug: 
+[23:27:37] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
+[23:27:37] [Server thread/INFO]: /viaversion: Shows ViaVersion Version and more.
+[23:27:37] [Server thread/INFO]: /w: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /weather: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /whitelist: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /worldborder: A Mojang provided command.
+[23:27:37] [Server thread/INFO]: /worldedit: WorldEdit commands
+[23:27:37] [Server thread/INFO]: /worldguard: WorldGuard commands
+[23:27:37] [Server thread/INFO]: /xp: A Mojang provided command.
+[23:27:42] [Server thread/INFO]: Made DJMuzan a server operator
+[23:28:07] [Server thread/INFO]: Yukimedgz has made the advancement [Getting an Upgrade]
+[23:28:13] [Server thread/INFO]: .Hamarof has made the advancement [Getting an Upgrade]
+[23:28:47] [Server thread/INFO]: DJMuzan issued server command: /ps give 100 .Hamarof
+[23:29:00] [Server thread/INFO]: DJMuzan issued server command: /deop DJMuzan
+[23:29:00] [Server thread/INFO]: [DJMuzan: Made DJMuzan no longer a server operator]
+[23:32:18] [Server thread/INFO]: Made DJMuzan a server operator
+[23:32:31] [Server thread/INFO]: DJMuzan issued server command: /give DJMuzan minecraft:torch 64
+[23:32:31] [Server thread/INFO]: [DJMuzan: Gave 64 [Torch] to DJMuzan]
