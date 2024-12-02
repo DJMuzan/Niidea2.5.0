@@ -252,3 +252,14 @@
 [18:19:48] [Server thread/INFO]: DJMuzan issued server command: /give DJMuzan minecraft:bone 10
 [18:19:48] [Server thread/INFO]: [DJMuzan: Gave 10 [Bone] to DJMuzan]
 [18:19:52] [Server thread/INFO]: DJMuzan has made the advancement [Best Friends Forever]
+[18:27:14] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Mochhi02
+[18:27:14] [localSession-7-2/INFO]: [Geyser-Spigot] Mochhi02 (logged in as: Mochhi02) has connected to the Java server
+[18:27:14] [User Authenticator #1/INFO]: UUID of player .Mochhi02 is 00000000-0000-0000-0009-01f873e88de6
+[18:27:15] [Server thread/INFO]: [floodgate] Jugador conectado por Floodgate como .Mochhi02 se ha conectado (UUID: 00000000-0000-0000-0009-01f873e88de6)
+[18:27:15] [Server thread/INFO]: .Mochhi02[/127.0.0.1:0] logged in with entity id 2072 at ([world]-240.84914, 70.0, 101.66482)
+[18:27:15] [Craft Scheduler Thread - 14 - VariableEnderChests/INFO]: [VariableEnderChests] Loaded enderchest for .Mochhi02
+[18:27:33] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user .Mochhi02 has successfully logged in.
+[18:29:41] [Async Chat Thread - #1/INFO]: [Not Secure] <.Mochhi02> que tramposo
+[18:29:42] [Server thread/INFO]: DJMuzan issued server command: /combatplus menu
+[18:30:56] [Server thread/WARN]: DJMuzan was kicked due to keepalive timeout!
+[18:30:56] [Server thread/INFO]: DJMuzan lost connection: Timed out
