@@ -313,3 +313,61 @@
 [19:31:35] [localSession-7-1/INFO]: [Geyser-Spigot] G4sh4dokuro has disconnected from the Java server because of Bedrock client disconnected
 [19:31:35] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Jugador conectado por Floodgate como .G4sh4dokuro se ha desconectado
 [19:31:35] [Server thread/INFO]: .G4sh4dokuro lost connection: Disconnected
+[19:32:04] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username G4sh4dokuro
+[19:32:04] [localSession-7-2/INFO]: [Geyser-Spigot] G4sh4dokuro (logged in as: G4sh4dokuro) has connected to the Java server
+[19:32:04] [User Authenticator #4/INFO]: UUID of player .G4sh4dokuro is 00000000-0000-0000-0009-01fdd2f603f8
+[19:32:04] [Server thread/INFO]: [floodgate] Jugador conectado por Floodgate como .G4sh4dokuro se ha conectado (UUID: 00000000-0000-0000-0009-01fdd2f603f8)
+[19:32:04] [Server thread/INFO]: .G4sh4dokuro[/127.0.0.1:0] logged in with entity id 3176 at ([world]-236.84729, 69.0, 42.29779)
+[19:32:33] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user .G4sh4dokuro has successfully logged in.
+[19:33:41] [Async Chat Thread - #4/INFO]: [Not Secure] <DJMuzan> Mano
+[19:33:52] [localSession-7-2/INFO]: [Geyser-Spigot] G4sh4dokuro has disconnected from the Java server because of Bedrock client disconnected
+[19:33:52] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Jugador conectado por Floodgate como .G4sh4dokuro se ha desconectado
+[19:33:52] [Server thread/INFO]: .G4sh4dokuro lost connection: Disconnected
+[19:33:52] [Server thread/INFO]: [AngelChest] Trying to hook into WorldGuard...
+[19:33:52] [Server thread/INFO]: [AngelChest] Successfully hooked into WorldGuard.
+[19:33:52] [Server thread/INFO]: .G4sh4dokuro died
+[19:33:52] [Server thread/INFO]: [Combat+]: .G4sh4dokuro Died due to logging out while in combat
+[19:34:18] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username G4sh4dokuro
+[19:34:18] [localSession-7-3/INFO]: [Geyser-Spigot] G4sh4dokuro (logged in as: G4sh4dokuro) has connected to the Java server
+[19:34:18] [User Authenticator #5/INFO]: UUID of player .G4sh4dokuro is 00000000-0000-0000-0009-01fdd2f603f8
+[19:34:18] [Server thread/INFO]: [floodgate] Jugador conectado por Floodgate como .G4sh4dokuro se ha conectado (UUID: 00000000-0000-0000-0009-01fdd2f603f8)
+[19:34:18] [Server thread/INFO]: .G4sh4dokuro[/127.0.0.1:0] logged in with entity id 3263 at ([world]10.5, 63.100000001490116, 9.5)
+[19:34:43] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user .G4sh4dokuro has successfully logged in.
+[19:35:14] [Server thread/INFO]: DJMuzan issued server command: /tpohere .G4sh4dokuro
+[19:35:22] [Server thread/INFO]: Made DJMuzan a server operator
+[19:35:24] [Server thread/INFO]: DJMuzan issued server command: /tpohere .G4sh4dokuro
+[19:35:24] [Server thread/WARN]: .G4sh4dokuro moved too quickly! -201.84563576344868,1.0,20.14300248583282
+[19:35:24] [Server thread/WARN]: .G4sh4dokuro moved too quickly! -201.84563576344868,1.0,20.14300248583282
+[19:35:24] [Server thread/WARN]: .G4sh4dokuro moved too quickly! -201.84563576344868,1.0,20.14300248583282
+[19:35:24] [Server thread/WARN]: .G4sh4dokuro moved too quickly! -201.84563576344868,1.0,20.14300248583282
+[19:35:24] [Server thread/WARN]: .G4sh4dokuro moved too quickly! -201.84563576344868,1.0,20.14300248583282
+[19:35:24] [Server thread/WARN]: .G4sh4dokuro moved too quickly! -201.84563576344868,1.0,20.14300248583282
+[19:35:24] [Server thread/WARN]: .G4sh4dokuro moved too quickly! -201.84563576344868,1.0,20.14300248583282
+[19:35:24] [Server thread/WARN]: .G4sh4dokuro moved too quickly! -201.84563576344868,1.0,20.14300248583282
+[19:35:24] [Server thread/WARN]: .G4sh4dokuro moved too quickly! -201.84563576344868,1.0,20.14300248583282
+[19:35:24] [Server thread/WARN]: .G4sh4dokuro moved too quickly! -201.84563576344868,1.0,20.14300248583282
+[19:35:24] [Server thread/WARN]: .G4sh4dokuro moved too quickly! -201.84563576344868,1.0,20.14300248583282
+[19:35:24] [Server thread/WARN]: .G4sh4dokuro moved too quickly! -201.84563576344868,1.0,20.14300248583282
+[19:35:24] [Server thread/WARN]: .G4sh4dokuro moved too quickly! -201.84563576344868,1.0,20.14300248583282
+[19:35:24] [Server thread/WARN]: .G4sh4dokuro moved too quickly! -201.84563576344868,1.0,20.14300248583282
+[19:36:04] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
+[19:36:04] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
+[19:36:21] [Server thread/INFO]: DJMuzan issued server command: /gamemode survival
+[19:36:21] [Server thread/INFO]: [DJMuzan: Set own game mode to Survival Mode]
+[19:36:27] [Server thread/INFO]: DJMuzan issued server command: /deop DJ
+[19:36:30] [Server thread/INFO]: DJMuzan issued server command: /deop DJMuzan
+[19:36:30] [Server thread/INFO]: [DJMuzan 10❤: Made DJMuzan no longer a server operator]
+[19:37:20] [Server thread/INFO]: Made DJMuzan a server operator
+[19:37:36] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
+[19:37:36] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
+[19:37:47] [Server thread/INFO]: DJMuzan issued server command: /gamemode survival
+[19:37:47] [Server thread/INFO]: [DJMuzan: Set own game mode to Survival Mode]
+[19:37:49] [Server thread/INFO]: DJMuzan issued server command: /deop DJMuzan
+[19:37:49] [Server thread/INFO]: [DJMuzan: Made DJMuzan no longer a server operator]
+[19:39:32] [Server thread/INFO]: Made DJMuzan a server operator
+[19:39:38] [Server thread/INFO]: DJMuzan issued server command: /lp editor
+[19:41:38] [Server thread/INFO]: DJMuzan issued server command: /lp applyedits T4hzofM53p
+[19:41:38] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[19:41:38] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add cp.bypass.gapple true
+[19:41:38] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[19:41:38] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add cp.bypass.epearl true

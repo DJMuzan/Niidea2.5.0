@@ -661,7 +661,9 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_mutton": "2024-12-02 02:24:19 +0000",
-      "cooked_beef": "2024-12-02 01:51:48 +0000"
+      "cooked_beef": "2024-12-02 01:51:48 +0000",
+      "golden_apple": "2024-12-02 19:36:42 +0000",
+      "enchanted_golden_apple": "2024-12-02 19:36:49 +0000"
     },
     "done": false
   },
@@ -962,6 +964,12 @@
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2024-12-02 19:15:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2024-12-02 19:30:29 +0000"
     },
     "done": true
   },
