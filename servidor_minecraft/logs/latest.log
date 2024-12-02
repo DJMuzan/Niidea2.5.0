@@ -263,3 +263,49 @@
 [18:29:42] [Server thread/INFO]: DJMuzan issued server command: /combatplus menu
 [18:30:56] [Server thread/WARN]: DJMuzan was kicked due to keepalive timeout!
 [18:30:56] [Server thread/INFO]: DJMuzan lost connection: Timed out
+[18:31:24] [User Authenticator #2/INFO]: UUID of player DJMuzan is b705c7ae-ef57-3962-9515-3bbc4cfd154f
+[18:31:24] [Server thread/INFO]: DJMuzan[/127.188.191.102:37273] logged in with entity id 2667 at ([world]-179.23750001192093, 71.0, 107.05100095074393)
+[18:31:31] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user DJMuzan has successfully logged in.
+[18:32:13] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[18:32:56] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Shh
+[18:33:04] [Server thread/INFO]: DJMuzan issued server command: /combatplus menu
+[18:34:23] [Async Chat Thread - #4/INFO]: [Not Secure] <.Mochhi02> tramposo
+[18:34:57] [Server thread/INFO]: DJMuzan issued server command: /combatplus menu
+[18:35:21] [Async Chat Thread - #4/INFO]: [Not Secure] <.Mochhi02> tienes cama?
+[18:35:26] [Async Chat Thread - #5/INFO]: [Not Secure] <DJMuzan> Sí
+[18:35:31] [Server thread/INFO]: DJMuzan issued server command: /combatplus reload
+[18:35:31] [Server thread/INFO]:  
+[18:35:31] [Server thread/INFO]: Combat Plus v1.7.4
+[18:35:31] [Server thread/INFO]:  
+[18:35:31] [Server thread/INFO]:   Author: Nik
+[18:35:31] [Server thread/INFO]:  
+[18:35:31] [Craft Scheduler Thread - 17 - CombatPlus/INFO]: [Combat+]: No updates are found, You're running the Latest Version <3
+[18:35:36] [Async Chat Thread - #4/INFO]: [Not Secure] <.Mochhi02> duerme
+[18:35:40] [Server thread/INFO]: .Mochhi02 has made the advancement [Sweet Dreams]
+[18:35:45] [Async Chat Thread - #5/INFO]: [Not Secure] <DJMuzan> Esperando...
+[18:35:46] [Async Chat Thread - #4/INFO]: [Not Secure] <DJMuzan> a
+[18:35:57] [Server thread/INFO]: DJMuzan issued server command: /set home
+[18:36:04] [Server thread/INFO]: DJMuzan issued server command: /plugins
+[18:36:19] [Server thread/INFO]: .Mochhi02 has made the advancement [Stone Age]
+[18:36:20] [Server thread/INFO]: DJMuzan issued server command: /uh
+[18:36:24] [Server thread/INFO]: DJMuzan issued server command: /uh
+[18:36:39] [Server thread/INFO]: DJMuzan issued server command: /ultimatehomes:home
+[18:36:46] [Server thread/INFO]: DJMuzan issued server command: /ultimatehomes:home .Mochhi02
+[18:36:52] [Server thread/INFO]: DJMuzan issued server command: /homes
+[18:36:58] [Server thread/INFO]: DJMuzan issued server command: /sethome Mi casa
+[18:37:04] [Server thread/INFO]: DJMuzan issued server command: /sethome Micasa
+[18:37:09] [Server thread/INFO]: DJMuzan issued server command: /home
+[18:37:11] [Server thread/INFO]: DJMuzan issued server command: /homes
+[18:37:16] [Server thread/INFO]: DJMuzan issued server command: /tphome
+[18:37:26] [Server thread/INFO]: DJMuzan issued server command: /ultimatehomes
+[18:37:31] [Server thread/INFO]: DJMuzan issued server command: /home
+[18:37:40] [Server thread/INFO]: DJMuzan issued server command: /micasa
+[18:37:44] [Server thread/INFO]: DJMuzan issued server command: /home micasa
+[18:37:55] [Async Chat Thread - #6/INFO]: [Not Secure] <DJMuzan> Funciona el sethome y eso
+[18:38:03] [Server thread/INFO]: DJMuzan issued server command: /deop DJMuzan
+[18:38:03] [Server thread/INFO]: [DJMuzan: Made DJMuzan no longer a server operator]
+[18:38:05] [Async Chat Thread - #7/INFO]: [Not Secure] <.Mochhi02> tienes un misero lingote que me regales
+[18:38:13] [Server thread/INFO]: .Mochhi02 has made the advancement [Acquire Hardware]
+[18:38:18] [Async Chat Thread - #6/INFO]: [Not Secure] <.Mochhi02> gracias
+[18:38:54] [Server thread/INFO]: .Mochhi02 has made the advancement [Isn't It Iron Pick]
+[18:39:33] [Server thread/INFO]: DJMuzan issued server command: /lp editor
