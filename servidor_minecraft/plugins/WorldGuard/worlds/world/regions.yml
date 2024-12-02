@@ -10,20 +10,6 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
-    ps-286x74y469z:
-        min: {x: -386, y: -32768, z: 369}
-        max: {x: -186, y: 32767, z: 569}
-        members: {}
-        flags: {wither-damage: deny, creeper-explosion: deny, farewell-action: §lLeaving
-                §b§lYukimedgz's §f§lprotected area, greeting-action: §lEntering §b§lYukimedgz's
-                §f§lprotected area, greeting: §lEntering §b§lYukimedgz's §f§lprotected
-                area, pvp: deny, ps-home: -286.0 75.0 469.0, tnt: deny, ps-tax-autopayer: ac9aa99e-b210-380a-8ddc-b13d3be82499,
-            ghast-fireball: deny, ps-block-material: AMETHYST_BLOCK, farewell: §lLeaving
-                §b§lYukimedgz's §f§lprotected area}
-        owners:
-            unique-ids: [ac9aa99e-b210-380a-8ddc-b13d3be82499]
-        type: cuboid
-        priority: 0
     ps-183x70y106z:
         min: {x: -233, y: -32768, z: 56}
         max: {x: -133, y: 32767, z: 156}
@@ -31,9 +17,9 @@ regions:
         flags: {wither-damage: deny, creeper-explosion: deny, farewell-action: §lLeaving
                 §b§lDJMuzan's §f§lprotected area, greeting-action: §lEntering §b§lDJMuzan's
                 §f§lprotected area, greeting: §lEntering §b§lDJMuzan's §f§lprotected
-                area, pvp: deny, ps-home: -183.0 71.0 106.0, tnt: deny, ps-tax-autopayer: b705c7ae-ef57-3962-9515-3bbc4cfd154f,
-            ghast-fireball: deny, ps-block-material: COAL_BLOCK, farewell: §lLeaving
-                §b§lDJMuzan's §f§lprotected area}
+                area, pvp: deny, tnt: deny, ps-home: -183.0 71.0 106.0, ghast-fireball: deny,
+            ps-tax-autopayer: b705c7ae-ef57-3962-9515-3bbc4cfd154f, ps-block-material: COAL_BLOCK,
+            farewell: §lLeaving §b§lDJMuzan's §f§lprotected area}
         owners:
             unique-ids: [b705c7ae-ef57-3962-9515-3bbc4cfd154f]
         type: cuboid
