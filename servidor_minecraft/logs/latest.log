@@ -299,3 +299,25 @@
 [20:24:57] [Async Chat Thread - #11/INFO]: [Not Secure] <.Mochhi02> help
 [20:25:20] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mochhi02> help
 [20:25:23] [Async Chat Thread - #11/INFO]: [Not Secure] <DJMuzan> Que pasó
+[20:25:43] [Async Chat Thread - #11/INFO]: [Not Secure] <.Mochhi02> duerme
+[20:26:00] [Server thread/INFO]: DJMuzan issued server command: /home micasa
+[20:26:17] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mochhi02> ayudaaa
+[20:26:30] [Server thread/INFO]: DJMuzan issued server command: /home list
+[20:26:35] [Server thread/INFO]: DJMuzan issued server command: /homes
+[20:26:39] [Server thread/INFO]: DJMuzan issued server command: /homes .Mochhi02
+[20:26:44] [Async Chat Thread - #11/INFO]: [Not Secure] <DJMuzan> Que pasóoo
+[20:27:06] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mochhi02> habia un creeper
+[20:27:15] [Async Chat Thread - #11/INFO]: [Not Secure] <DJMuzan> Y yo lo maté
+[20:28:53] [Async Chat Thread - #12/INFO]: [Not Secure] <DJMuzan> Qué bendición
+[20:28:58] [Async Chat Thread - #12/INFO]: [Not Secure] <DJMuzan> Conseguí dos pollos juntos
+[20:29:05] [Async Chat Thread - #12/INFO]: [Not Secure] <.Mochhi02> genial
+[20:29:10] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Jugador conectado por Floodgate como .Mochhi02 se ha desconectado
+[20:29:10] [Server thread/INFO]: .Mochhi02 lost connection: Disconnected
+[20:29:10] [localSession-7-2/INFO]: [Geyser-Spigot] Mochhi02 has disconnected from the Java server because of Bedrock client disconnected
+[20:30:08] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Mochhi02
+[20:30:08] [localSession-7-3/INFO]: [Geyser-Spigot] Mochhi02 (logged in as: Mochhi02) has connected to the Java server
+[20:30:08] [User Authenticator #1/INFO]: UUID of player .Mochhi02 is 00000000-0000-0000-0009-01f873e88de6
+[20:30:08] [Server thread/INFO]: [floodgate] Jugador conectado por Floodgate como .Mochhi02 se ha conectado (UUID: 00000000-0000-0000-0009-01f873e88de6)
+[20:30:09] [Server thread/INFO]: .Mochhi02[/127.0.0.1:0] logged in with entity id 2425 at ([world]-208.97482, 77.0, 169.66457)
+[20:30:23] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user .Mochhi02 has successfully logged in.
+[20:31:57] [Server thread/INFO]: DJMuzan has made the advancement [The Parrots and the Bats]
