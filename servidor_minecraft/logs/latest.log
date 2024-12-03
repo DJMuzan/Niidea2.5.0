@@ -743,3 +743,6 @@
 [21:24:11] [Server thread/INFO]: .Mochhi02 issued server command: /home
 [21:24:20] [Server thread/INFO]: There are 1 of a max of 20 players online: .Mochhi02
 [21:34:09] [Server thread/INFO]: .Mochhi02 issued server command: /home
+[21:45:29] [localSession-7-1/INFO]: [Geyser-Spigot] Mochhi02 has disconnected from the Java server because of Bedrock client disconnected
+[21:45:29] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Jugador conectado por Floodgate como .Mochhi02 se ha desconectado
+[21:45:29] [Server thread/INFO]: .Mochhi02 lost connection: Disconnected
