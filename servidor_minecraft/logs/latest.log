@@ -333,3 +333,29 @@
 [20:43:01] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Jugador conectado por Floodgate como .Mochhi02 se ha desconectado
 [20:43:01] [Server thread/INFO]: .Mochhi02 lost connection: Disconnected
 [20:43:03] [Async Chat Thread - #17/INFO]: [Not Secure] <DJMuzan> Dale
+[20:46:04] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Mochhi02
+[20:46:04] [localSession-7-4/INFO]: [Geyser-Spigot] Mochhi02 (logged in as: Mochhi02) has connected to the Java server
+[20:46:04] [User Authenticator #2/INFO]: UUID of player .Mochhi02 is 00000000-0000-0000-0009-01f873e88de6
+[20:46:05] [Server thread/INFO]: [floodgate] Jugador conectado por Floodgate como .Mochhi02 se ha conectado (UUID: 00000000-0000-0000-0009-01f873e88de6)
+[20:46:05] [Server thread/INFO]: .Mochhi02[/127.0.0.1:0] logged in with entity id 4656 at ([world]-208.13815, 76.0, 170.10345)
+[20:46:27] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user .Mochhi02 has successfully logged in.
+[20:47:06] [Async Chat Thread - #18/INFO]: [Not Secure] <.Mochhi02> donde andqa
+[20:47:31] [Async Chat Thread - #19/INFO]: [Not Secure] <DJMuzan> Ya va
+[20:47:59] [Server thread/WARN]: .Mochhi02 moved too quickly! 12.266210000000001,-1.0,1.401270000000011
+[20:47:59] [Server thread/WARN]: .Mochhi02 moved too quickly! 11.988650000000007,-1.0,1.3571400000000153
+[20:47:59] [Server thread/WARN]: .Mochhi02 moved too quickly! 11.988650000000007,-1.0,1.3571400000000153
+[20:47:59] [Server thread/WARN]: .Mochhi02 moved too quickly! 11.988650000000007,-1.0,1.3571400000000153
+[20:47:59] [Server thread/WARN]: .Mochhi02 moved too quickly! 11.988650000000007,-1.0,1.3571400000000153
+[20:47:59] [Server thread/WARN]: .Mochhi02 moved too quickly! 11.988650000000007,-1.0,1.3571400000000153
+[20:48:05] [Server thread/WARN]: .Mochhi02 moved too quickly! -9.146550000000019,-6.0,3.2267300000000034
+[20:49:05] [Async Chat Thread - #20/INFO]: [Not Secure] <DJMuzan> Quiero quitar la probabilidad de captura
+[20:49:07] [Async Chat Thread - #21/INFO]: [Not Secure] <DJMuzan> De los huevos
+[20:49:10] [Async Chat Thread - #20/INFO]: [Not Secure] <DJMuzan> Fallan mucho
+[20:49:33] [Async Chat Thread - #20/INFO]: [Not Secure] <DJMuzan> Estoy en tu cas
+[20:49:57] [Async Chat Thread - #21/INFO]: [Not Secure] <.Mochhi02> voy
+[20:50:02] [Async Chat Thread - #20/INFO]: [Not Secure] <DJMuzan> Tengo un stack y algo más de abedul
+[20:50:35] [Async Chat Thread - #21/INFO]: [Not Secure] <.Mochhi02> gracias
+[20:50:55] [Server thread/INFO]: DJMuzan has made the advancement [A Seedy Place]
+[20:54:11] [localSession-7-4/INFO]: [Geyser-Spigot] Mochhi02 has disconnected from the Java server because of Bedrock client disconnected
+[20:54:11] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Jugador conectado por Floodgate como .Mochhi02 se ha desconectado
+[20:54:11] [Server thread/INFO]: .Mochhi02 lost connection: Disconnected

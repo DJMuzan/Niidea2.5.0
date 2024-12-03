@@ -16,14 +16,14 @@ skills:
     level: 0
     xp: 13.0
   auraskills/foraging:
-    level: 0
-    xp: 90.3999999999998
+    level: 2
+    xp: 199.9999999999999
   auraskills/archery:
     level: 0
     xp: 0.0
   auraskills/agility:
     level: 2
-    xp: 91.49100000000006
+    xp: 167.61300000000008
   auraskills/fishing:
     level: 0
     xp: 0.0
@@ -40,4 +40,8 @@ trait_modifiers:
   '0':
     name: excavation_luck_ability
     trait: auraskills/excavation_luck
+    value: 10.0
+  '1':
+    name: foraging_luck_ability
+    trait: auraskills/foraging_luck
     value: 10.0
