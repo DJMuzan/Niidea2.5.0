@@ -119,5 +119,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2024-12-02 19:39:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2024-12-02 19:41:21 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

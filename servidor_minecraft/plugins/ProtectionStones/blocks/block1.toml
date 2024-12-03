@@ -5,7 +5,7 @@
 # To use custom player heads, you need the base64 value of the head. On minecraft-heads.com, you will find this value in the Other section under "Value:".
 # To use UUIDs for player heads, go to https://sessionserver.mojang.com/session/minecraft/profile/PUT-UUID-HERE and copy the value from the "value" field not including quotes.
 # When you have the value, you can set the type to "PLAYER_HEAD:value"
-type = "COAL_BLOCK"
+type = "AMETHYST_BLOCK"
 
 # Another way to refer to the protection stone
 # Can be used for /ps give and /ps get
