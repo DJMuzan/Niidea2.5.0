@@ -321,3 +321,15 @@
 [20:30:09] [Server thread/INFO]: .Mochhi02[/127.0.0.1:0] logged in with entity id 2425 at ([world]-208.97482, 77.0, 169.66457)
 [20:30:23] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user .Mochhi02 has successfully logged in.
 [20:31:57] [Server thread/INFO]: DJMuzan has made the advancement [The Parrots and the Bats]
+[20:38:20] [Async Chat Thread - #15/INFO]: [Not Secure] <.Mochhi02> Qué estás haciendo Me puedes traer más abedul por favor
+[20:38:26] [Async Chat Thread - #15/INFO]: [Not Secure] <DJMuzan> ?
+[20:39:18] [Async Chat Thread - #14/INFO]: [Not Secure] <.Mochhi02> me puedes traer más abedul por favor
+[20:39:44] [Async Chat Thread - #14/INFO]: [Not Secure] <DJMuzan> Un momento
+[20:39:46] [Async Chat Thread - #15/INFO]: [Not Secure] <DJMuzan> Ya te llevo
+[20:40:06] [Server thread/INFO]: .Mochhi02 issued server command: /sethome
+[20:40:59] [Server thread/INFO]: .Mochhi02 2❤ has made the advancement [Monster Hunter]
+[20:42:57] [Async Chat Thread - #17/INFO]: [Not Secure] <.Mochhi02> ya vengo, 2 min
+[20:43:01] [localSession-7-3/INFO]: [Geyser-Spigot] Mochhi02 has disconnected from the Java server because of Bedrock client disconnected
+[20:43:01] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Jugador conectado por Floodgate como .Mochhi02 se ha desconectado
+[20:43:01] [Server thread/INFO]: .Mochhi02 lost connection: Disconnected
+[20:43:03] [Async Chat Thread - #17/INFO]: [Not Secure] <DJMuzan> Dale
