@@ -1265,3 +1265,21 @@ Use /mte help for all commands.
 [06:59:08] [Server thread/INFO]: DJMuzan issued server command: /ender
 [06:59:41] [Server thread/INFO]: TheXigonGK issued server command: /ender
 [07:01:22] [Server thread/INFO]: TheXigonGK issued server command: /home granja
+[07:02:49] [Server thread/INFO]: TheXigonGK issued server command: /home granja
+[07:02:56] [Server thread/INFO]: DJMuzan issued server command: /tpa TheXigonGK
+[07:02:59] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
+[07:04:14] [Server thread/INFO]: DJMuzan issued server command: /ps home
+[07:04:16] [Server thread/INFO]: DJMuzan issued server command: /ps home ps656x65y-287z
+[07:04:17] [Server thread/INFO]: TheXigonGK issued server command: /ps home
+[07:04:31] [Server thread/INFO]: TheXigonGK issued server command: /back
+[07:04:34] [Server thread/INFO]: TheXigonGK issued server command: /home granja
+[07:04:39] [Server thread/INFO]: TheXigonGK issued server command: /tpahere DJMuzan
+[07:04:44] [Server thread/INFO]: DJMuzan issued server command: /ps
+[07:04:48] [Server thread/INFO]: DJMuzan issued server command: /home micasa
+[07:04:49] [Server thread/INFO]: TheXigonGK issued server command: /ps home
+[07:04:50] [Server thread/INFO]: DJMuzan issued server command: /home micasa
+[07:04:57] [Server thread/INFO]: TheXigonGK issued server command: /home granja
+[07:05:08] [Server thread/INFO]: TheXigonGK issued server command: /ender
+[07:05:18] [Server thread/INFO]: DJMuzan issued server command: /tpa TheXigonGK
+[07:05:20] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
+[07:05:20] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
