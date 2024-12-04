@@ -1288,3 +1288,11 @@ Use /mte help for all commands.
 [07:12:48] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
 [07:12:50] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
 [07:12:57] [Server thread/INFO]: TheXigonGK issued server command: /home granja
+[07:24:34] [Server thread/INFO]: Made DJMuzan a server operator
+[07:24:41] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
+[07:24:41] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
+[07:27:03] [Server thread/INFO]: DJMuzan issued server command: /gamemode survival
+[07:27:03] [Server thread/INFO]: [DJMuzan: Set own game mode to Survival Mode]
+[07:27:06] [Server thread/INFO]: DJMuzan issued server command: /deop DJMuzan
+[07:27:06] [Server thread/INFO]: [DJMuzan: Made DJMuzan no longer a server operator]
+[07:31:28] [Server thread/INFO]: TheXigonGK issued server command: /home granja
