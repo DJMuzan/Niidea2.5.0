@@ -3,9 +3,9 @@ player:
     lastSeenAs: TheXigonGK
 homes:
   granja:
-    x: 658
+    x: 655
     y: 99
-    z: -287
-    yaw: 73.93707
-    pitch: 40.696743
+    z: -288
+    yaw: -95.51282
+    pitch: 2.0318985
     world: world
