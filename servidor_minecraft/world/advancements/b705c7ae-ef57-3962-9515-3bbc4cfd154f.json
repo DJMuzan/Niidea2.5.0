@@ -11,6 +11,7 @@
       "minecraft:taiga": "2024-12-01 23:56:25 +0000",
       "minecraft:frozen_river": "2024-12-01 23:59:46 +0000",
       "minecraft:birch_forest": "2024-12-02 00:00:33 +0000",
+      "minecraft:badlands": "2024-12-04 06:12:09 +0000",
       "minecraft:beach": "2024-12-01 22:14:14 +0000",
       "minecraft:river": "2024-12-01 22:14:21 +0000",
       "minecraft:snowy_plains": "2024-12-01 23:59:40 +0000",
@@ -1292,6 +1293,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2024-12-04 06:15:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2024-12-04 04:36:42 +0000"
@@ -1694,6 +1701,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2024-12-04 06:15:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2024-12-04 05:09:51 +0000"
@@ -1751,6 +1764,12 @@
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2024-12-04 04:40:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2024-12-04 06:15:14 +0000"
     },
     "done": true
   },
