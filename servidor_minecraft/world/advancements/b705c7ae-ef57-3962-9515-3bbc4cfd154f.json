@@ -21,6 +21,7 @@
       "minecraft:lush_caves": "2024-12-04 04:53:47 +0000",
       "minecraft:ice_spikes": "2024-12-01 23:57:02 +0000",
       "minecraft:desert": "2024-12-04 04:53:40 +0000",
+      "minecraft:ocean": "2024-12-04 05:31:43 +0000",
       "minecraft:snowy_beach": "2024-12-02 00:02:02 +0000",
       "minecraft:savanna": "2024-12-02 19:22:20 +0000",
       "minecraft:plains": "2024-12-01 22:18:35 +0000"
@@ -1629,6 +1630,12 @@
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2024-12-04 05:09:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2024-12-04 05:28:42 +0000"
     },
     "done": true
   },
