@@ -1434,3 +1434,44 @@ Use /mte help for all commands.
 [08:51:19] [Server thread/INFO]: [DJMuzan: Set TheXigonGK's game mode to Spectator Mode]
 [08:51:48] [Server thread/INFO]: DJMuzan issued server command: //removeabove 30
 [08:51:50] [Server thread/WARN]: TheXigonGK moved too quickly! 2.142500253397884,-14.250000566244125,-0.8792084175241826
+[08:53:30] [Server thread/INFO]: DJMuzan issued server command: //brush
+[08:54:39] [Server thread/INFO]: DJMuzan issued server command: /worldedit help
+[08:54:51] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative TheXigonGK
+[08:54:51] [Server thread/INFO]: [DJMuzan: Set TheXigonGK's game mode to Creative Mode]
+[08:55:08] [Server thread/INFO]: DJMuzan issued server command: /op TheXigonGK
+[08:55:08] [Server thread/INFO]: [DJMuzan: Made TheXigonGK a server operator]
+[08:55:15] [Server thread/INFO]: TheXigonGK issued server command: /spectate
+[08:55:19] [Server thread/INFO]: TheXigonGK issued server command: /spectate TheXigonGK
+[08:55:29] [Server thread/INFO]: TheXigonGK issued server command: /gamemode spectator
+[08:55:29] [Server thread/INFO]: [TheXigonGK: Set own game mode to Spectator Mode]
+[08:55:56] [Server thread/INFO]: DJMuzan issued server command: //set minecraft:cobbled_deepslate
+[08:55:59] [Server thread/INFO]: TheXigonGK issued server command: /gamemode creative
+[08:55:59] [Server thread/INFO]: [TheXigonGK: Set own game mode to Creative Mode]
+[08:56:49] [Server thread/INFO]: TheXigonGK issued server command: /worldedit:.s
+[08:56:55] [Server thread/INFO]: DJMuzan issued server command: /tp TheXigonGK
+[08:56:55] [Server thread/INFO]: [DJMuzan: Teleported DJMuzan to TheXigonGK]
+[08:57:28] [Server thread/INFO]: TheXigonGK issued server command: /worldedit:/limit
+[08:59:25] [Server thread/INFO]: TheXigonGK issued server command: /gamemode
+[08:59:29] [Server thread/INFO]: TheXigonGK issued server command: /gamemode spectator
+[08:59:29] [Server thread/INFO]: [TheXigonGK: Set own game mode to Spectator Mode]
+[08:59:35] [Server thread/INFO]: DJMuzan issued server command: /gamemode spectator
+[08:59:35] [Server thread/INFO]: [DJMuzan: Set own game mode to Spectator Mode]
+[08:59:57] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
+[08:59:57] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
+[09:00:06] [Server thread/INFO]: TheXigonGK issued server command: /tp dj
+[09:00:08] [Server thread/INFO]: TheXigonGK issued server command: /tp DJMuzan
+[09:00:08] [Server thread/INFO]: [TheXigonGK: Teleported TheXigonGK to DJMuzan]
+[09:00:20] [Server thread/INFO]: TheXigonGK issued server command: /gamemode creative
+[09:00:20] [Server thread/INFO]: [TheXigonGK: Set own game mode to Creative Mode]
+[09:01:09] [Server thread/INFO]: DJMuzan issued server command: /gamemode survival
+[09:01:09] [Server thread/INFO]: [DJMuzan: Set own game mode to Survival Mode]
+[09:01:30] [Server thread/INFO]: TheXigonGK issued server command: /time set night
+[09:01:30] [Server thread/INFO]: [TheXigonGK: Set the time to 13000]
+[09:01:34] [Server thread/INFO]: TheXigonGK issued server command: /gamemode spectator
+[09:01:34] [Server thread/INFO]: [TheXigonGK: Set own game mode to Spectator Mode]
+[09:02:01] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
+[09:02:01] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
+[09:02:09] [Server thread/INFO]: TheXigonGK issued server command: /gamemode survival
+[09:02:09] [Server thread/INFO]: [TheXigonGK: Set own game mode to Survival Mode]
+[09:02:42] [Server thread/INFO]: TheXigonGK issued server command: /gamemode spectator
+[09:02:42] [Server thread/INFO]: [TheXigonGK: Set own game mode to Spectator Mode]
