@@ -1297,3 +1297,13 @@ Use /mte help for all commands.
 [07:27:06] [Server thread/INFO]: [DJMuzan: Made DJMuzan no longer a server operator]
 [07:31:28] [Server thread/INFO]: TheXigonGK issued server command: /home granja
 [07:35:02] [Async Chat Thread - #62/INFO]: [Not Secure] <DJMuzan> zinli
+[07:45:42] [Server thread/INFO]: DJMuzan issued server command: /tpa TheXigonGK
+[07:45:47] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
+[07:45:48] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
+[07:46:34] [Server thread/INFO]: TheXigonGK issued server command: /ps home
+[07:46:43] [Server thread/INFO]: TheXigonGK issued server command: /ps home
+[07:47:57] [Server thread/INFO]: TheXigonGK issued server command: /home granja
+[07:48:25] [Server thread/INFO]: TheXigonGK issued server command: /ps home
+[07:49:40] [Server thread/INFO]: The difficulty has been set to Hard
+[07:50:58] [Server thread/INFO]: The difficulty has been set to Peaceful
+[07:51:06] [Server thread/INFO]: The difficulty has been set to Normal
