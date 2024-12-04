@@ -1307,3 +1307,23 @@ Use /mte help for all commands.
 [07:49:40] [Server thread/INFO]: The difficulty has been set to Hard
 [07:50:58] [Server thread/INFO]: The difficulty has been set to Peaceful
 [07:51:06] [Server thread/INFO]: The difficulty has been set to Normal
+[07:54:45] [Server thread/INFO]: Made DJMuzan a server operator
+[07:54:50] [Server thread/INFO]: DJMuzan issued server command: /gamemode spectator
+[07:54:50] [Server thread/INFO]: [DJMuzan: Set own game mode to Spectator Mode]
+[07:55:02] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
+[07:55:02] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
+[07:55:18] [Server thread/INFO]: DJMuzan issued server command: /gamemode survival
+[07:55:18] [Server thread/INFO]: [DJMuzan: Set own game mode to Survival Mode]
+[07:55:28] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
+[07:55:41] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
+[07:55:53] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
+[07:56:10] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
+[07:56:10] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
+[07:56:15] [Server thread/INFO]: DJMuzan issued server command: /gamemode spectator
+[07:56:15] [Server thread/INFO]: [DJMuzan: Set own game mode to Spectator Mode]
+[07:56:19] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
+[07:56:22] [Server thread/INFO]: DJMuzan issued server command: /gamemode survival
+[07:56:22] [Server thread/INFO]: [DJMuzan: Set own game mode to Survival Mode]
+[07:56:25] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
+[07:56:28] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
+[07:56:31] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
