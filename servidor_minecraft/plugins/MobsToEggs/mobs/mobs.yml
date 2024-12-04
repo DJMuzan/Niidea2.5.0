@@ -12,7 +12,7 @@ allay:
     money-cost: 10
     # The chance in percentage (%) to catch the mob.
     # Example: 100 = 100% success rate for catching, 0 = can never catch.
-    catch-chance: 30
+    catch-chance: 75
   egg:
     # egg-data allows you to edit the mob data and look of the egg that is dropped.
     egg-data:

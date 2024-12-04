@@ -44,13 +44,13 @@ capsule:
   projectile-type: Egg
   item: Egg
   data: -1
-  name: ''
+  name: 'Capturador'
   lore: []
 # You can create a custom crafting recipe for the capsule.
 capsule-crafting-recipe:
   # Do you want to use the crafting recipe for your capsule?
   # You will need to restart your server if you change this value.
-  use-capsule-crafting-recipe: false
+  use-capsule-crafting-recipe: true
   # Here you can define how the recipe looks in your crafting table. Each new line is a crafting table slot going from left to right with a max of 9 slots.
   # If you want the slot to be blank, set it to " ".
   # The default shape would look like this (using the 1st letter of each item):

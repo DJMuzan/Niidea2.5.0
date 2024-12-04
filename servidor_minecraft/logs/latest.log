@@ -1,749 +1,265 @@
-[20:06:03] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:06:08] [ServerMain/INFO]: Loaded 7 recipes
-[20:06:10] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[20:06:10] [Server thread/INFO]: Loading properties
-[20:06:10] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[20:06:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:06:13] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:06:14] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[03:26:02] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:26:06] [ServerMain/INFO]: Loaded 7 recipes
+[03:26:08] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[03:26:08] [Server thread/INFO]: Loading properties
+[03:26:08] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[03:26:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:26:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:26:11] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[20:06:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[20:06:15] [Server thread/INFO]: Default game type: SURVIVAL
-[20:06:15] [Server thread/INFO]: Generating keypair
-[20:06:16] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:06:16] [Server thread/INFO]: Using epoll channel type
-[20:06:17] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[20:06:17] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[20:06:18] [Server thread/INFO]: [AngelChest] Hooked into WorldGuard 7.0.9+5934e49
-[20:06:20] [Server thread/INFO]: [SpigotLibraryLoader] [MobsToEggs] Loading 1 libraries... please wait
-[20:06:21] [Server thread/INFO]: [SpigotLibraryLoader] [MobsToEggs] Loaded library /workspaces/Niidea2.5.0/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/1.9.22/kotlin-stdlib-1.9.22.jar
-[20:06:21] [Server thread/INFO]: [SpigotLibraryLoader] [MobsToEggs] Loaded library /workspaces/Niidea2.5.0/servidor_minecraft/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
-[20:06:22] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[20:06:29] [Server thread/WARN]: Legacy plugin ClickTpa v1.7.6 does not specify an api-version.
-[20:06:29] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.2-SNAPSHOT
-[20:06:29] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[20:06:30] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[20:06:30] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[20:06:31] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[20:06:31] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[20:06:31] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[20:06:32] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.1+6763-2e55f4f
-[20:06:33] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@71c95851]
-[20:06:33] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
-[20:06:34] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
-[20:06:34] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[20:06:35] [Server thread/INFO]: [floodgate] Tardó 1,370ms en iniciar Floodgate
-[20:06:35] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.1.2-SNAPSHOT
-[20:06:35] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
-[20:06:36] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.0
-[20:06:37] [Server thread/INFO]: [AngelChest] Successfully registered WorldGuard flags.
-[20:06:37] [Server thread/INFO]: [VariableEnderChests] Loading server plugin VariableEnderChests v1.11.2.1
-[20:06:37] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v17.0.1
-[20:06:37] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.17
-[20:06:39] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
-[20:06:40] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[20:06:40] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[20:06:40] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
-[20:06:40] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.3
-[20:06:40] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.6
-[20:06:41] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.136
-[20:06:41] [Server thread/INFO]: [CombatPlus] Loading server plugin CombatPlus v1.7.4
-[20:06:41] [Server thread/INFO]: [MobsToEggs] Loading server plugin MobsToEggs v1.7.14
-[20:06:41] [Server thread/INFO]: [ProtectionStones] Loading server plugin ProtectionStones v2.10.4
-[20:06:41] [Server thread/INFO]: [ClickTpa] Loading server plugin ClickTpa v1.7.6
-[20:06:41] [Server thread/INFO]: [UltimateHomes] Loading server plugin UltimateHomes v3.0
-[20:06:41] [Server thread/INFO]: [HealthBar-Reloaded] Loading server plugin HealthBar-Reloaded v2.0.4.1
-[20:06:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:06:41] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
-[20:06:41] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[20:06:42] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[20:06:43] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[20:06:45] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
-[20:06:45] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
-[20:06:46] [Server thread/INFO]:         __    
-[20:06:46] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
-[20:06:46] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[20:06:46] [Server thread/INFO]: 
-[20:06:46] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[20:06:47] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[20:06:49] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[20:06:49] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[20:06:50] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 4515ms)
-[20:06:50] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v17.0.1
-[20:06:50] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
-[20:06:50] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
-[20:06:50] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.20.1, number: 20.1
-[20:06:50] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.17
-[20:06:52] [Server thread/INFO]: [nLogin] Successful plugin core start (took 1.23s)
-[20:06:53] [Server thread/INFO]:           __             _       
-[20:06:53] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
-[20:06:53] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
-[20:06:53] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
-[20:06:53] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
-[20:06:53] [Server thread/INFO]:                   |___/            
-[20:06:53] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.17 DEVELOPMENT
-[20:06:53] [Server thread/INFO]:  
-[20:06:55] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
-[20:06:56] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[20:06:57] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
-[20:06:57] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[20:06:58] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[20:06:58] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.3
-[20:06:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:06:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:06:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:06:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:06:58] [Server thread/INFO]: Preparing level "world"
-[20:06:58] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:06:58] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[20:06:58] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[20:06:58] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
-[20:06:58] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[20:06:58] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[20:06:58] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:06:58] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.4.4
-[20:06:58] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: dc501c7
-[20:06:58] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
-[20:06:58] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:06:58] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[20:06:58] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[20:07:00] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
-[20:07:00] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
-[20:07:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:07:01] [Server thread/INFO]: Time elapsed: 731 ms
-[20:07:01] [Server thread/INFO]: [TerraformGenerator] world loaded.
-[20:07:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:07:02] [Server thread/INFO]: Time elapsed: 115 ms
-[20:07:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:07:02] [Server thread/INFO]: Time elapsed: 217 ms
-[20:07:02] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.2-SNAPSHOT
-[20:07:02] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
-[20:07:02] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
-[20:07:04] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[20:07:04] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[20:07:04] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[20:07:04] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[20:07:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[20:07:04] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[20:07:04] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[20:07:04] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[20:07:04] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[20:07:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[20:07:04] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[20:07:04] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[20:07:04] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[20:07:04] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[20:07:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[20:07:04] [Server thread/INFO]: [WorldGuard] Loading region data...
-[20:07:05] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[20:07:06] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.1.2-SNAPSHOT
-[20:07:06] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.0
-[20:07:06] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
-[20:07:06] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
-[20:07:06] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
-[20:07:07] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
-[20:07:07] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
-[20:07:07] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
-[20:07:07] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.0 (Premium: false)
-[20:07:07] [Server thread/INFO]: [VariableEnderChests] Enabling VariableEnderChests v1.11.2.1
-[20:07:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
-[20:07:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
-[20:07:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'VariableEnderChests' to create a bStats instance!
-[20:07:08] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
-[20:07:09] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.6
-[20:07:12] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
-[20:07:13] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
-[20:07:14] [Server thread/INFO]: [AuraSkills] Successfully registered hook ProtocolLib
-[20:07:14] [Server thread/INFO]: [AuraSkills] Successfully registered hook WorldGuard
-[20:07:14] [Server thread/INFO]: [AuraSkills] Loaded 150 config options in 81 ms
-[20:07:14] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
-[20:07:14] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
-[20:07:14] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
-[20:07:14] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
-[20:07:14] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[20:07:15] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.136
-[20:07:15] [Server thread/INFO]: [CombatPlus] Enabling CombatPlus v1.7.4
-[20:07:16] [Server thread/INFO]:  
-[20:07:16] [Server thread/INFO]: Combat Plus v1.7.4
-[20:07:16] [Server thread/INFO]:  
-[20:07:16] [Server thread/INFO]:   Author: Nik
-[20:07:16] [Server thread/INFO]:  
-[20:07:16] [Server thread/INFO]: [MobsToEggs] Enabling MobsToEggs v1.7.14
-[20:07:16] [Server thread/INFO]: [MobsToEggs] Loading files for MobsToEggs...
-[20:07:16] [Server thread/INFO]: [MobsToEggs] Loading language: es
-[20:07:16] [Server thread/INFO]: [MobsToEggs] Using Dependencies:
-[20:07:16] [Server thread/INFO]: [MobsToEggs] ✔️ [WorldGuard]
-[20:07:16] [Server thread/INFO]: [MobsToEggs] ❌ [Vault, MythicMobs, NBTAPI, StackMob, Towny]
-[20:07:16] [Server thread/INFO]: [ProtectionStones] Enabling ProtectionStones v2.10.4
-[20:07:16] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.GreetingFlagHandler
-[20:07:16] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.FarewellFlagHandler
-[20:07:16] [Server thread/WARN]: [ProtectionStones] Vault not enabled! There will be no economy support!
-[20:07:16] [Server thread/INFO]: [ProtectionStones] PlaceholderAPI not found! There will be no PlaceholderAPI support.
-[20:07:16] [Server thread/INFO]: [ProtectionStones] LuckPerms support enabled!
-[20:07:16] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
-[20:07:17] [Server thread/INFO]: [ProtectionStones] - AMETHYST_BLOCK (50)
-[20:07:17] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
-[20:07:17] [Server thread/INFO]: [ProtectionStones] Building region cache...
-[20:07:17] [Server thread/INFO]: [ProtectionStones] Building UUID cache... (if slow change async-load-uuid-cache in the config to true)
-[20:07:18] [Server thread/INFO]: [ProtectionStones] Checking if PS regions have been updated to UUIDs...
-[20:07:18] [Server thread/INFO]: [ProtectionStones] §fProtectionStones has successfully started!
-[20:07:18] [Server thread/INFO]: [ClickTpa] Enabling ClickTpa v1.7.6*
-[20:07:18] [Server thread/INFO]: [ClickTpa] ClickTpa v1.7.6 has been loaded successfully!
-[20:07:18] [Server thread/INFO]: [ClickTpa] ---------------------------------------
-[20:07:18] [Server thread/INFO]: [ClickTpa] To any ClickTpa users who have a version before 1.7.6:
-[20:07:18] [Server thread/INFO]: [ClickTpa] There has been an update to the config; some messages have been removed.
-[20:07:18] [Server thread/INFO]: [ClickTpa] Therefore, if your config.yml is not updated, you will get errors.
-[20:07:18] [Server thread/INFO]: [ClickTpa] ---------------------------------------
-[20:07:18] [Server thread/INFO]: [UltimateHomes] Enabling UltimateHomes v3.0
-[20:07:18] [Server thread/INFO]: 
-[20:07:18] [Server thread/INFO]: --------------------------------------
-[20:07:18] [Server thread/INFO]:        UltimateHomes by kixmc
-[20:07:18] [Server thread/INFO]:        Enabled on version 3.0
-[20:07:18] [Server thread/INFO]: --------------------------------------
-[20:07:18] [Server thread/INFO]:  
-[20:07:18] [Server thread/INFO]: [HealthBar-Reloaded] Enabling HealthBar-Reloaded v2.0.4.1
-[20:07:19] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[20:07:19] [Server thread/INFO]: [Geyser-Spigot] 
-[20:07:19] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b716 (git-master-2ebce9c)
-[20:07:19] [Server thread/INFO]: [Geyser-Spigot] 
-[20:07:19] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[20:07:27] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[20:07:27] [Server thread/INFO]: [Geyser-Spigot] Done (8.506s)! Run /geyser help for help!
-[20:07:27] [Server thread/INFO]: Running delayed init tasks
-[20:07:28] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[20:07:28] [Thread-24/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.50. Download it here: https://geysermc.org/download
-[20:07:28] [Craft Scheduler Thread - 6 - VariableEnderChests/INFO]: [VariableEnderChests] VariableEnderChests is up to date.
-[20:07:28] [Craft Scheduler Thread - 9 - CombatPlus/INFO]: [Combat+]: No updates are found, You're running the Latest Version <3
-[20:07:29] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 306 total sources
-[20:07:29] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
-[20:07:29] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
-[20:07:29] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
-[20:07:29] [Server thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:07:30] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
-[20:07:30] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
-[20:07:30] [Server thread/INFO]: Done (80.232s)! For help, type "help"
-[20:07:30] [Server thread/INFO]: Timings Reset
-[20:07:33] [Server thread/INFO]: [AngelChest] ========================================================
-[20:07:33] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
-[20:07:33] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
-[20:07:33] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
-[20:07:33] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
-[20:07:33] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
-[20:07:33] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
-[20:07:33] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
-[20:07:33] [Server thread/INFO]: [AngelChest] 
-[20:07:33] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
-[20:07:33] [Server thread/INFO]: [AngelChest] ========================================================
-[20:09:20] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Mochhi02
-[20:09:20] [localSession-7-2/INFO]: [Geyser-Spigot] Mochhi02 (logged in as: Mochhi02) has connected to the Java server
-[20:09:21] [User Authenticator #0/INFO]: UUID of player .Mochhi02 is 00000000-0000-0000-0009-01f873e88de6
-[20:09:21] [Server thread/INFO]: [floodgate] Jugador conectado por Floodgate como .Mochhi02 se ha conectado (UUID: 00000000-0000-0000-0009-01f873e88de6)
-[20:09:21] [Server thread/INFO]: .Mochhi02[/127.0.0.1:0] logged in with entity id 193 at ([world]-220.06259, 77.0, 174.98367)
-[20:09:22] [Craft Scheduler Thread - 12 - VariableEnderChests/INFO]: [VariableEnderChests] Loaded enderchest for .Mochhi02
-[20:09:38] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user .Mochhi02 has successfully logged in.
-[20:09:47] [Async Chat Thread - #1/INFO]: [Not Secure] <.Mochhi02> hola
-[20:09:48] [User Authenticator #0/INFO]: UUID of player DJMuzan is b705c7ae-ef57-3962-9515-3bbc4cfd154f
-[20:09:48] [Server thread/INFO]: DJMuzan[/127.70.48.53:35569] logged in with entity id 366 at ([world]-182.3829654622682, 71.0, 105.61379542831644)
-[20:09:48] [Craft Scheduler Thread - 9 - VariableEnderChests/INFO]: [VariableEnderChests] Loaded enderchest for DJMuzan
-[20:09:55] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user DJMuzan has successfully logged in.
-[20:10:03] [Async Chat Thread - #0/INFO]: [Not Secure] <DJMuzan> Hola
-[20:11:20] [Async Chat Thread - #2/INFO]: [Not Secure] <.Mochhi02> ven
-[20:11:37] [Server thread/INFO]: DJMuzan issued server command: /tpa .Mochhi02
-[20:11:50] [Server thread/INFO]: .Mochhi02 issued server command: /tpaccept djmuzan
-[20:12:04] [Async Chat Thread - #3/INFO]: [Not Secure] <.Mochhi02> intenta romper
-[20:12:11] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> No me deja
-[20:12:18] [Server thread/INFO]: .Mochhi02 issued server command: /ps home
-[20:12:36] [Async Chat Thread - #2/INFO]: [Not Secure] <DJMuzan> Dice que es tu area
-[20:12:40] [Server thread/INFO]: DJMuzan issued server command: /ps info
-[20:12:40] [Server thread/INFO]: §cThis region is problematic, and the block type (COAL_BLOCK) is not configured.
-[20:12:50] [Async Chat Thread - #3/INFO]: [Not Secure] <.Mochhi02> moví el bloque porque quiero moverme un poco más allá pero no se cambió
-[20:12:58] [Async Chat Thread - #3/INFO]: [Not Secure] <.Mochhi02> Supongo que fue porque cambiaste el tipo de bloque
-[20:13:03] [Async Chat Thread - #2/INFO]: [Not Secure] <DJMuzan> Exactamente
-[20:13:07] [Async Chat Thread - #2/INFO]: [Not Secure] <DJMuzan> Justo te iba a decir eso
-[20:13:09] [Async Chat Thread - #2/INFO]: [Not Secure] <DJMuzan> usa
-[20:13:12] [Async Chat Thread - #3/INFO]: [Not Secure] <.Mochhi02> y ahora
-[20:13:17] [Async Chat Thread - #2/INFO]: [Not Secure] <DJMuzan> usa /ps unclaim
-[20:13:25] [Server thread/INFO]: .Mochhi02 issued server command: /ps unclaim
-[20:13:34] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[20:13:34] [Async Chat Thread - #3/INFO]: [Not Secure] <.Mochhi02> ya
-[20:13:41] [Async Chat Thread - #2/INFO]: [Not Secure] <.Mochhi02> Dame otro
-[20:14:12] [Server thread/INFO]: Gave 50 to .Mochhi02.
-[20:14:32] [Async Chat Thread - #3/INFO]: [Not Secure] <.Mochhi02> gracias
-[20:14:37] [Async Chat Thread - #2/INFO]: [Not Secure] <DJMuzan> De nada reina
-[20:15:04] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[20:15:44] [Server thread/INFO]: Gave 50 to DJMuzan.
-[20:15:54] [Server thread/INFO]: DJMuzan issued server command: /ps unclaim
-[20:16:04] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[20:16:34] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[20:16:43] [Async Chat Thread - #4/INFO]: [Not Secure] <.Mochhi02> entre nosotros solo hay un bloque de separación libre
-[20:16:51] [Async Chat Thread - #4/INFO]: [Not Secure] <DJMuzan> Interesante
-[20:17:16] [Async Chat Thread - #5/INFO]: [Not Secure] <DJMuzan> Y sí
-[20:17:17] [Async Chat Thread - #5/INFO]: [Not Secure] <DJMuzan> JAJA
-[20:17:32] [Async Chat Thread - #4/INFO]: [Not Secure] <.Mochhi02> me puse a contar bloque por bloque y Solo dejé uno
-[20:17:38] [Async Chat Thread - #4/INFO]: [Not Secure] <DJMuzan> Ahh
-[20:17:52] [Async Chat Thread - #5/INFO]: [Not Secure] <DJMuzan> Me hubieras dicho, con el mod del mapa es más rápido calcular las distancias
-[20:19:35] [Server thread/INFO]: The difficulty has been set to Normal
-[20:21:30] [Async Chat Thread - #6/INFO]: [Not Secure] <DJMuzan> Te toy viendo
-[20:21:39] [Async Chat Thread - #7/INFO]: [Not Secure] <DJMuzan> Tas destruyendo patrimonio natural
-[20:21:40] [Async Chat Thread - #6/INFO]: [Not Secure] <.Mochhi02> qué averiguas chismoso
-[20:21:41] [Async Chat Thread - #7/INFO]: [Not Secure] <DJMuzan> u.u
-[20:21:47] [Async Chat Thread - #6/INFO]: [Not Secure] <.Mochhi02> Quién dice
-[20:21:58] [Async Chat Thread - #7/INFO]: [Not Secure] <DJMuzan> Esos árboles tienen 1500 años de antigüedad
-[20:23:38] [Async Chat Thread - #8/INFO]: [Not Secure] <.Mochhi02> estás probando un nuevo plugin
-[20:23:47] [Async Chat Thread - #8/INFO]: [Not Secure] <DJMuzan> Nop
-[20:24:46] [Server thread/INFO]: [AngelChest] Trying to hook into WorldGuard...
-[20:24:46] [Server thread/INFO]: [AngelChest] Successfully hooked into WorldGuard.
-[20:24:46] [Server thread/INFO]: .Mochhi02 was shot by Skeleton
-[20:24:57] [Async Chat Thread - #10/INFO]: [Not Secure] <DJMuzan> xd
-[20:24:57] [Async Chat Thread - #11/INFO]: [Not Secure] <.Mochhi02> help
-[20:25:20] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mochhi02> help
-[20:25:23] [Async Chat Thread - #11/INFO]: [Not Secure] <DJMuzan> Que pasó
-[20:25:43] [Async Chat Thread - #11/INFO]: [Not Secure] <.Mochhi02> duerme
-[20:26:00] [Server thread/INFO]: DJMuzan issued server command: /home micasa
-[20:26:17] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mochhi02> ayudaaa
-[20:26:30] [Server thread/INFO]: DJMuzan issued server command: /home list
-[20:26:35] [Server thread/INFO]: DJMuzan issued server command: /homes
-[20:26:39] [Server thread/INFO]: DJMuzan issued server command: /homes .Mochhi02
-[20:26:44] [Async Chat Thread - #11/INFO]: [Not Secure] <DJMuzan> Que pasóoo
-[20:27:06] [Async Chat Thread - #10/INFO]: [Not Secure] <.Mochhi02> habia un creeper
-[20:27:15] [Async Chat Thread - #11/INFO]: [Not Secure] <DJMuzan> Y yo lo maté
-[20:28:53] [Async Chat Thread - #12/INFO]: [Not Secure] <DJMuzan> Qué bendición
-[20:28:58] [Async Chat Thread - #12/INFO]: [Not Secure] <DJMuzan> Conseguí dos pollos juntos
-[20:29:05] [Async Chat Thread - #12/INFO]: [Not Secure] <.Mochhi02> genial
-[20:29:10] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Jugador conectado por Floodgate como .Mochhi02 se ha desconectado
-[20:29:10] [Server thread/INFO]: .Mochhi02 lost connection: Disconnected
-[20:29:10] [localSession-7-2/INFO]: [Geyser-Spigot] Mochhi02 has disconnected from the Java server because of Bedrock client disconnected
-[20:30:08] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Mochhi02
-[20:30:08] [localSession-7-3/INFO]: [Geyser-Spigot] Mochhi02 (logged in as: Mochhi02) has connected to the Java server
-[20:30:08] [User Authenticator #1/INFO]: UUID of player .Mochhi02 is 00000000-0000-0000-0009-01f873e88de6
-[20:30:08] [Server thread/INFO]: [floodgate] Jugador conectado por Floodgate como .Mochhi02 se ha conectado (UUID: 00000000-0000-0000-0009-01f873e88de6)
-[20:30:09] [Server thread/INFO]: .Mochhi02[/127.0.0.1:0] logged in with entity id 2425 at ([world]-208.97482, 77.0, 169.66457)
-[20:30:23] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user .Mochhi02 has successfully logged in.
-[20:31:57] [Server thread/INFO]: DJMuzan has made the advancement [The Parrots and the Bats]
-[20:38:20] [Async Chat Thread - #15/INFO]: [Not Secure] <.Mochhi02> Qué estás haciendo Me puedes traer más abedul por favor
-[20:38:26] [Async Chat Thread - #15/INFO]: [Not Secure] <DJMuzan> ?
-[20:39:18] [Async Chat Thread - #14/INFO]: [Not Secure] <.Mochhi02> me puedes traer más abedul por favor
-[20:39:44] [Async Chat Thread - #14/INFO]: [Not Secure] <DJMuzan> Un momento
-[20:39:46] [Async Chat Thread - #15/INFO]: [Not Secure] <DJMuzan> Ya te llevo
-[20:40:06] [Server thread/INFO]: .Mochhi02 issued server command: /sethome
-[20:40:59] [Server thread/INFO]: .Mochhi02 2❤ has made the advancement [Monster Hunter]
-[20:42:57] [Async Chat Thread - #17/INFO]: [Not Secure] <.Mochhi02> ya vengo, 2 min
-[20:43:01] [localSession-7-3/INFO]: [Geyser-Spigot] Mochhi02 has disconnected from the Java server because of Bedrock client disconnected
-[20:43:01] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Jugador conectado por Floodgate como .Mochhi02 se ha desconectado
-[20:43:01] [Server thread/INFO]: .Mochhi02 lost connection: Disconnected
-[20:43:03] [Async Chat Thread - #17/INFO]: [Not Secure] <DJMuzan> Dale
-[20:46:04] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Mochhi02
-[20:46:04] [localSession-7-4/INFO]: [Geyser-Spigot] Mochhi02 (logged in as: Mochhi02) has connected to the Java server
-[20:46:04] [User Authenticator #2/INFO]: UUID of player .Mochhi02 is 00000000-0000-0000-0009-01f873e88de6
-[20:46:05] [Server thread/INFO]: [floodgate] Jugador conectado por Floodgate como .Mochhi02 se ha conectado (UUID: 00000000-0000-0000-0009-01f873e88de6)
-[20:46:05] [Server thread/INFO]: .Mochhi02[/127.0.0.1:0] logged in with entity id 4656 at ([world]-208.13815, 76.0, 170.10345)
-[20:46:27] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user .Mochhi02 has successfully logged in.
-[20:47:06] [Async Chat Thread - #18/INFO]: [Not Secure] <.Mochhi02> donde andqa
-[20:47:31] [Async Chat Thread - #19/INFO]: [Not Secure] <DJMuzan> Ya va
-[20:47:59] [Server thread/WARN]: .Mochhi02 moved too quickly! 12.266210000000001,-1.0,1.401270000000011
-[20:47:59] [Server thread/WARN]: .Mochhi02 moved too quickly! 11.988650000000007,-1.0,1.3571400000000153
-[20:47:59] [Server thread/WARN]: .Mochhi02 moved too quickly! 11.988650000000007,-1.0,1.3571400000000153
-[20:47:59] [Server thread/WARN]: .Mochhi02 moved too quickly! 11.988650000000007,-1.0,1.3571400000000153
-[20:47:59] [Server thread/WARN]: .Mochhi02 moved too quickly! 11.988650000000007,-1.0,1.3571400000000153
-[20:47:59] [Server thread/WARN]: .Mochhi02 moved too quickly! 11.988650000000007,-1.0,1.3571400000000153
-[20:48:05] [Server thread/WARN]: .Mochhi02 moved too quickly! -9.146550000000019,-6.0,3.2267300000000034
-[20:49:05] [Async Chat Thread - #20/INFO]: [Not Secure] <DJMuzan> Quiero quitar la probabilidad de captura
-[20:49:07] [Async Chat Thread - #21/INFO]: [Not Secure] <DJMuzan> De los huevos
-[20:49:10] [Async Chat Thread - #20/INFO]: [Not Secure] <DJMuzan> Fallan mucho
-[20:49:33] [Async Chat Thread - #20/INFO]: [Not Secure] <DJMuzan> Estoy en tu cas
-[20:49:57] [Async Chat Thread - #21/INFO]: [Not Secure] <.Mochhi02> voy
-[20:50:02] [Async Chat Thread - #20/INFO]: [Not Secure] <DJMuzan> Tengo un stack y algo más de abedul
-[20:50:35] [Async Chat Thread - #21/INFO]: [Not Secure] <.Mochhi02> gracias
-[20:50:55] [Server thread/INFO]: DJMuzan has made the advancement [A Seedy Place]
-[20:54:11] [localSession-7-4/INFO]: [Geyser-Spigot] Mochhi02 has disconnected from the Java server because of Bedrock client disconnected
-[20:54:11] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Jugador conectado por Floodgate como .Mochhi02 se ha desconectado
-[20:54:11] [Server thread/INFO]: .Mochhi02 lost connection: Disconnected
-[20:57:24] [Async Chat Thread - #22/INFO]: [Not Secure] <DJMuzan> Esa es una casa de arquitect
-[20:57:26] [Async Chat Thread - #22/INFO]: [Not Secure] <DJMuzan> El weso
-[20:57:27] [Server thread/INFO]: [VariableEnderChests] Saving data for .Mochhi02
-[20:58:41] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Mochhi02
-[20:58:41] [localSession-7-1/INFO]: [Geyser-Spigot] Mochhi02 (logged in as: Mochhi02) has connected to the Java server
-[20:58:42] [User Authenticator #3/INFO]: UUID of player .Mochhi02 is 00000000-0000-0000-0009-01f873e88de6
-[20:58:42] [Server thread/INFO]: [floodgate] Jugador conectado por Floodgate como .Mochhi02 se ha conectado (UUID: 00000000-0000-0000-0009-01f873e88de6)
-[20:58:42] [Server thread/INFO]: .Mochhi02[/127.0.0.1:0] logged in with entity id 6555 at ([world]-209.84029, 77.0, 165.69999)
-[20:58:42] [Craft Scheduler Thread - 13 - VariableEnderChests/INFO]: [VariableEnderChests] Loaded enderchest for .Mochhi02
-[20:59:00] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user .Mochhi02 has successfully logged in.
-[20:59:15] [Server thread/INFO]: .Mochhi02 was slain by Zombie
-[20:59:41] [Server thread/INFO]: .Mochhi02 was slain by Zombie
-[20:59:50] [Async Chat Thread - #24/INFO]: [Not Secure] <DJMuzan> El zombie te la tiene montá
-[21:00:04] [Async Chat Thread - #25/INFO]: [Not Secure] <.Mochhi02> help
-[21:00:30] [Server thread/INFO]: DJMuzan has made the advancement [Take Aim]
-[21:02:14] [Server thread/INFO]: Gave 30 [Egg] to DJMuzan
-[21:03:54] [Async Chat Thread - #26/INFO]: [Not Secure] <DJMuzan> Mira
-[21:04:22] [Async Chat Thread - #26/INFO]: [Not Secure] <DJMuzan> Tienes el inventario fukll
-[21:08:35] [Async Chat Thread - #29/INFO]: [Not Secure] <.Mochhi02> si
-[21:08:44] [Async Chat Thread - #28/INFO]: [Not Secure] <.Mochhi02> pero de pura florecita que arranco
-[21:08:51] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Sisi
-[21:08:52] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> me pasa
-[21:09:12] [Async Chat Thread - #28/INFO]: [Not Secure] <.Mochhi02> Ya mi casa la hubiese hecho desde hace rato pero aquí en el teléfono me tardo mucho
-[21:09:23] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> claro
-[21:09:24] [Async Chat Thread - #28/INFO]: [Not Secure] <DJMuzan> Entiendo
-[21:09:29] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Ah mira
-[21:09:32] [Async Chat Thread - #28/INFO]: [Not Secure] <DJMuzan> Lo que no te pude dar
-[21:10:02] [Async Chat Thread - #28/INFO]: [Not Secure] <DJMuzan> Un zombie capturado
-[21:10:03] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Jsajasjsa
-[21:10:53] [Async Chat Thread - #28/INFO]: [Not Secure] <DJMuzan> Necesito minar
-[21:10:55] [Async Chat Thread - #29/INFO]: [Not Secure] <.Mochhi02> gracias
-[21:13:49] [Server thread/INFO]: .Mochhi02 was shot by Skeleton
-[21:14:01] [Async Chat Thread - #30/INFO]: [Not Secure] <.Mochhi02> ayudame
-[21:14:10] [Async Chat Thread - #31/INFO]: [Not Secure] <DJMuzan> Ni sé a donde estás
-[21:14:33] [Server thread/INFO]: .Mochhi02 has made the advancement [Suit Up]
-[21:15:14] [Async Chat Thread - #32/INFO]: [Not Secure] <.Mochhi02> veni
-[21:17:01] [Async Chat Thread - #34/INFO]: [Not Secure] <DJMuzan> Tienes que poner antorchas
-[21:18:02] [Async Chat Thread - #36/INFO]: [Not Secure] <.Mochhi02> va pa.tu zona
-[21:18:07] [Async Chat Thread - #37/INFO]: [Not Secure] <.Mochhi02> no me deja
-[21:18:11] [Async Chat Thread - #37/INFO]: [Not Secure] <DJMuzan> f
-[21:18:24] [Async Chat Thread - #37/INFO]: [Not Secure] <DJMuzan> Por cierto
-[21:18:32] [Async Chat Thread - #37/INFO]: [Not Secure] <DJMuzan> ¿Ya usaste el /sethome?
-[21:18:36] [Server thread/INFO]: DJMuzan issued server command: /home micasa
-[21:18:39] [Async Chat Thread - #36/INFO]: [Not Secure] <.Mochhi02> si
-[21:18:43] [Async Chat Thread - #37/INFO]: [Not Secure] <DJMuzan> Qué guapo
-[21:19:38] [Async Chat Thread - #36/INFO]: [Not Secure] <DJMuzan> Chama
-[21:19:40] [Async Chat Thread - #37/INFO]: [Not Secure] <DJMuzan> Vengo ahora
-[21:19:43] [Async Chat Thread - #36/INFO]: [Not Secure] <DJMuzan> Voy a la tienda
-[21:19:47] [Async Chat Thread - #36/INFO]: [Not Secure] <.Mochhi02> ok
-[21:19:53] [Async Chat Thread - #36/INFO]: [Not Secure] <DJMuzan> ¿Te dejo el sv prendido?
-[21:19:58] [Async Chat Thread - #37/INFO]: [Not Secure] <.Mochhi02> si
-[21:20:27] [Server thread/INFO]: .Mochhi02 issued server command: /home
-[21:21:05] [Server thread/INFO]: DJMuzan issued server command: /combatplus
-[21:21:24] [Server thread/INFO]: DJMuzan lost connection: Disconnected
-[21:22:27] [Server thread/INFO]: [VariableEnderChests] Saving data for DJMuzan
-[21:23:29] [Server thread/INFO]: --------- Help: Index ---------------------------
-[21:23:29] [Server thread/INFO]: Use /help [n] to get page n of help.
-[21:23:29] [Server thread/INFO]: Aliases: Lists command aliases
-[21:23:29] [Server thread/INFO]: AngelChest: All commands for AngelChest
-[21:23:29] [Server thread/INFO]: AuraSkills: All commands for AuraSkills
-[21:23:29] [Server thread/INFO]: Bukkit: All commands for Bukkit
-[21:23:29] [Server thread/INFO]: Chunky: All commands for Chunky
-[21:23:29] [Server thread/INFO]: ClickTpa: All commands for ClickTpa
-[21:23:29] [Server thread/INFO]: CombatPlus: All commands for CombatPlus
-[21:23:29] [Server thread/INFO]: floodgate: All commands for floodgate
-[21:23:29] [Server thread/INFO]: Geyser-Spigot: All commands for Geyser-Spigot
-[21:23:29] [Server thread/INFO]: HealthBar-Reloaded: All commands for HealthBar-Reloaded
-[21:23:29] [Server thread/INFO]: LuckPerms: All commands for LuckPerms
-[21:23:29] [Server thread/INFO]: Minecraft: All commands for Minecraft
-[21:23:29] [Server thread/INFO]: MobsToEggs: All commands for MobsToEggs
-[21:23:29] [Server thread/INFO]: nLogin: All commands for nLogin
-[21:23:29] [Server thread/INFO]: ProtocolLib: All commands for ProtocolLib
-[21:23:29] [Server thread/INFO]: SkinsRestorer: All commands for SkinsRestorer
-[21:23:29] [Server thread/INFO]: TerraformGenerator: All commands for TerraformGenerator
-[21:23:29] [Server thread/INFO]: UltimateHomes: All commands for UltimateHomes
-[21:23:29] [Server thread/INFO]: ViaVersion: All commands for ViaVersion
-[21:23:29] [Server thread/INFO]: WorldEdit: All commands for WorldEdit
-[21:23:29] [Server thread/INFO]: WorldGuard: All commands for WorldGuard
-[21:23:29] [Server thread/INFO]: /.s: Execute last CraftScript
-[21:23:29] [Server thread/INFO]: //: Toggle the super pickaxe function
-[21:23:29] [Server thread/INFO]: //calculate: Evaluate a mathematical expression
-[21:23:29] [Server thread/INFO]: //center: Set the center block(s)
-[21:23:29] [Server thread/INFO]: //chunk: Set the selection to your current chunk.
-[21:23:29] [Server thread/INFO]: //cone: Generates a cone.
-[21:23:29] [Server thread/INFO]: //contract: Contract the selection area
-[21:23:29] [Server thread/INFO]: //copy: Copy the selection to the clipboard
-[21:23:29] [Server thread/INFO]: //count: Counts the number of blocks matching a mask
-[21:23:29] [Server thread/INFO]: //curve: Draws a spline through selected points
-[21:23:29] [Server thread/INFO]: //cut: Cut the selection to the clipboard
-[21:23:29] [Server thread/INFO]: //cyl: Generates a cylinder.
-[21:23:29] [Server thread/INFO]: //deform: Deforms a selected region with an expression
-[21:23:29] [Server thread/INFO]: //distr: Get the distribution of blocks in the selection
-[21:23:29] [Server thread/INFO]: //drain: Drain a pool
-[21:23:29] [Server thread/INFO]: //drawsel: Toggle drawing the current selection
-[21:23:29] [Server thread/INFO]: //expand: Expand the selection area
-[21:23:29] [Server thread/INFO]: //faces: Build the walls, ceiling, and floor of a selection
-[21:23:29] [Server thread/INFO]: //fast: Toggle fast mode
-[21:23:29] [Server thread/INFO]: //feature: Generate Minecraft features
-[21:23:29] [Server thread/INFO]: //fill: Fill a hole
-[21:23:29] [Server thread/INFO]: //fillr: Fill a hole recursively
-[21:23:29] [Server thread/INFO]: //flip: Flip the contents of the clipboard across the origin
-[21:23:29] [Server thread/INFO]: //flora: Make flora within the region
-[21:23:29] [Server thread/INFO]: //forest: Make a forest within the region
-[21:23:29] [Server thread/INFO]: //generate: Generates a shape according to a formula.
-[21:23:29] [Server thread/INFO]: //generatebiome: Sets biome according to a formula.
-[21:23:29] [Server thread/INFO]: //hcyl: Generates a hollow cylinder.
-[21:23:29] [Server thread/INFO]: //help: Displays help for WorldEdit commands
-[21:23:29] [Server thread/INFO]: //hollow: Hollows out the object contained in this selection
-[21:23:29] [Server thread/INFO]: //hpos1: Set position 1 to targeted block
-[21:23:29] [Server thread/INFO]: //hpos2: Set position 2 to targeted block
-[21:23:29] [Server thread/INFO]: //hpyramid: Generate a hollow pyramid
-[21:23:29] [Server thread/INFO]: //hsphere: Generates a hollow sphere.
-[21:23:29] [Server thread/INFO]: //inset: Inset the selection area
-[21:23:29] [Server thread/INFO]: //limit: Modify block change limit
-[21:23:29] [Server thread/INFO]: //line: Draws line segments between cuboid selection corners or convex polyhedral selection vertices
-[21:23:29] [Server thread/INFO]: //move: Move the contents of the selection
-[21:23:29] [Server thread/INFO]: //naturalize: 3 layers of dirt on top then rock below
-[21:23:29] [Server thread/INFO]: //outset: Outset the selection area
-[21:23:29] [Server thread/INFO]: //overlay: Set a block on top of blocks in the region
-[21:23:29] [Server thread/INFO]: //paste: Paste the clipboard's contents
-[21:23:29] [Server thread/INFO]: //perf: Toggle side effects for performance
-[21:23:29] [Server thread/INFO]: //pos: Set positions
-[21:23:29] [Server thread/INFO]: //pos1: Set position 1
-[21:23:29] [Server thread/INFO]: //pos2: Set position 2
-[21:23:29] [Server thread/INFO]: //pyramid: Generate a filled pyramid
-[21:23:29] [Server thread/INFO]: //regen: Regenerates the contents of the selection
-[21:23:29] [Server thread/INFO]: //reorder: Sets the reorder mode of WorldEdit
-[21:23:29] [Server thread/INFO]: //replace: Replace all blocks in the selection with another
-[21:23:29] [Server thread/INFO]: //rotate: Rotate the contents of the clipboard
-[21:23:29] [Server thread/INFO]: //sel: Choose a region selector
-[21:23:29] [Server thread/INFO]: //set: Sets all the blocks in the region
-[21:23:29] [Server thread/INFO]: //setbiome: Sets the biome of your current block or region.
-[21:23:29] [Server thread/INFO]: //shift: Shift the selection area
-[21:23:29] [Server thread/INFO]: //size: Get information about the selection
-[21:23:29] [Server thread/INFO]: //smooth: Smooth the elevation in the selection
-[21:23:29] [Server thread/INFO]: //snowsmooth: Smooth the elevation in the selection with snow layers
-[21:23:29] [Server thread/INFO]: //sphere: Generates a filled sphere.
-[21:23:29] [Server thread/INFO]: //stack: Repeat the contents of the selection
-[21:23:29] [Server thread/INFO]: //structure: Generate Minecraft structures
-[21:23:29] [Server thread/INFO]: //timeout: Modify evaluation timeout time.
-[21:23:29] [Server thread/INFO]: //trim: Minimize the selection to encompass matching blocks
-[21:23:29] [Server thread/INFO]: //update: Apply side effects to your selection
-[21:23:29] [Server thread/INFO]: //walls: Build the four sides of the selection
-[21:23:29] [Server thread/INFO]: //wand: Get the wand item
-[21:23:29] [Server thread/INFO]: //watchdog: Changes watchdog hook state.
-[21:23:29] [Server thread/INFO]: //world: Sets the world override
-[21:23:29] [Server thread/INFO]: /abtoggle: Toggle your own action bar
-[21:23:29] [Server thread/INFO]: /acadmin: 
-[21:23:29] [Server thread/INFO]: /acdebug: AngelChest debug command
-[21:23:29] [Server thread/INFO]: /acfetch: Teleports your AngelChest to your current location.
-[21:23:29] [Server thread/INFO]: /acgraveyard: Manage Graveyard settings
-[21:23:29] [Server thread/INFO]: /acgui: Opens the AngelChest GUI.
-[21:23:29] [Server thread/INFO]: /aclist: Shows a list of all your AngelChests.
-[21:23:29] [Server thread/INFO]: /acopen: 
-[21:23:29] [Server thread/INFO]: /acreload: Reloads AngelChest configuration
-[21:23:29] [Server thread/INFO]: /actoggle: 
-[21:23:29] [Server thread/INFO]: /actp: Teleports you to your of your AngelChest.
-[21:23:29] [Server thread/INFO]: /acunlock: Unlocks your AngelChest.
-[21:23:29] [Server thread/INFO]: /acversion: Shows AngelChest version information.
-[21:23:29] [Server thread/INFO]: /advancement: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /agility: 
-[21:23:29] [Server thread/INFO]: /alchemy: 
-[21:23:29] [Server thread/INFO]: /allowfire: [<world>] - Allows all fire spread temporarily
-[21:23:29] [Server thread/INFO]: /angelchesttoggle: 
-[21:23:29] [Server thread/INFO]: /archery: 
-[21:23:29] [Server thread/INFO]: /ascend: Go up a floor
-[21:23:29] [Server thread/INFO]: /attribute: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /ban: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /ban-ip: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /banlist: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /biomeinfo: Get the biome of the targeted block.
-[21:23:29] [Server thread/INFO]: /biomelist: Gets all biomes available.
-[21:23:29] [Server thread/INFO]: /bossbar: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /brush: Brushing commands
-[21:23:29] [Server thread/INFO]: /butcher: Kill all or nearby mobs
-[21:23:29] [Server thread/INFO]: /callback: ClickEvent callback
-[21:23:29] [Server thread/INFO]: /ceil: Go to the ceiling
-[21:23:29] [Server thread/INFO]: /changepass: CComando para cambiar la contraseña registrada.
-[21:23:29] [Server thread/INFO]: /chunkinfo: Get information about the chunk you're inside
-[21:23:29] [Server thread/INFO]: /chunky: Generates chunks
-[21:23:29] [Server thread/INFO]: /clear: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /clearclipboard: Clear your clipboard
-[21:23:29] [Server thread/INFO]: /clearenderchest: 
-[21:23:29] [Server thread/INFO]: /clearhistory: Clear your history
-[21:23:29] [Server thread/INFO]: /clicktparl: 
-[21:23:29] [Server thread/INFO]: /clone: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /combatplus: The all in one Combat System!
-[21:23:29] [Server thread/INFO]: /cs: Execute a CraftScript
-[21:23:29] [Server thread/INFO]: /cycler: Block data cycler tool
-[21:23:29] [Server thread/INFO]: /damage: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /data: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /datapack: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /debug: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /defense: 
-[21:23:29] [Server thread/INFO]: /delchunks: Delete chunks that your selection includes
-[21:23:29] [Server thread/INFO]: /delhome: Delete your or another players home.
-[21:23:29] [Server thread/INFO]: /deltree: Floating tree remover tool
-[21:23:29] [Server thread/INFO]: /deop: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /descend: Go down a floor
-[21:23:29] [Server thread/INFO]: /difficulty: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /effect: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /enchant: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /enchanting: 
-[21:23:29] [Server thread/INFO]: /enderchest: 
-[21:23:29] [Server thread/INFO]: /enderchestconvert: 
-[21:23:29] [Server thread/INFO]: /excavation: 
-[21:23:29] [Server thread/INFO]: /execute: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /experience: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /extinguish: Extinguish nearby fire
-[21:23:29] [Server thread/INFO]: /farming: 
-[21:23:29] [Server thread/INFO]: /farwand: Wand at a distance tool
-[21:23:29] [Server thread/INFO]: /fighting: 
-[21:23:29] [Server thread/INFO]: /fill: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /fillbiome: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /filter: Add or remove programmable filters to the packet listeners.
-[21:23:29] [Server thread/INFO]: /fishing: 
-[21:23:29] [Server thread/INFO]: /fixlava: Fix lava to be stationary
-[21:23:29] [Server thread/INFO]: /fixwater: Fix water to be stationary
-[21:23:29] [Server thread/INFO]: /floodfill: Flood fill tool
-[21:23:29] [Server thread/INFO]: /floodgate: A set of Floodgate related actions in one command
-[21:23:29] [Server thread/INFO]: /foraging: 
-[21:23:29] [Server thread/INFO]: /forceload: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /forestgen: Generate a forest
-[21:23:29] [Server thread/INFO]: /function: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /fwhitelist: Easy way to whitelist Bedrock players
-[21:23:29] [Server thread/INFO]: /gamemode: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /gamerule: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /geyser: Shows help for all registered commands.
-[21:23:29] [Server thread/INFO]: /give: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /gmask: Set the global mask
-[21:23:29] [Server thread/INFO]: /god: [player] - Enable godmode on a player
-[21:23:29] [Server thread/INFO]: /green: Converts dirt to grass blocks in the area
-[21:23:29] [Server thread/INFO]: /halt-activity: [confirm] - Attempts to cease as much activity in order to stop lag
-[21:23:29] [Server thread/INFO]: /heal: [player] - Heal a player
-[21:23:29] [Server thread/INFO]: /healthbar: Main command for HealthBar, use /hbr help for commands.
-[21:23:29] [Server thread/INFO]: /help: Shows the help menu
-[21:23:29] [Server thread/INFO]: /home: Teleport to a personal home. (waypoint)
-[21:23:29] [Server thread/INFO]: /homes: List your or another players homes.
-[21:23:29] [Server thread/INFO]: /info: Block information tool
-[21:23:29] [Server thread/INFO]: /item: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /jfr: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /jumpto: Teleport to a location
-[21:23:29] [Server thread/INFO]: /kick: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /kill: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /linkaccount: Link your Java account with your Bedrock account
-[21:23:29] [Server thread/INFO]: /list: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /listchunks: List chunks that your selection includes
-[21:23:29] [Server thread/INFO]: /locate: [player] - Locate a player
-[21:23:29] [Server thread/INFO]: /login: Comando para iniciar sesión en el servidor.
-[21:23:29] [Server thread/INFO]: /loot: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /lrbuild: Long-range building tool
-[21:23:29] [Server thread/INFO]: /luckperms: Manage permissions
-[21:23:29] [Server thread/INFO]: /mana: Display your or another player's current and max mana
-[21:23:29] [Server thread/INFO]: /mask: Set the brush mask
-[21:23:29] [Server thread/INFO]: /material: Set the brush material
-[21:23:29] [Server thread/INFO]: /me: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /minecraft:locate: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /minecraft:teleport: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /mining: 
-[21:23:29] [Server thread/INFO]: /msg: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /mspt: View server tick times
-[21:23:29] [Server thread/INFO]: /mte: Mobs To Eggs main command
-[21:23:29] [Server thread/INFO]: /navwand: Navigation wand tool
-[21:23:29] [Server thread/INFO]: /nlogin: nLogin primary command
-[21:23:29] [Server thread/INFO]: /nloginc: Core command for nLogin
-[21:23:29] [Server thread/INFO]: /none: Unbind a bound tool from your current item
-[21:23:29] [Server thread/INFO]: /op: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /packet: Add or remove a simple packet listener.
-[21:23:29] [Server thread/INFO]: /packetlog: Logs hex representations of packets to a file or console
-[21:23:29] [Server thread/INFO]: /paper: Paper related commands
-[21:23:29] [Server thread/INFO]: /pardon: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /particle: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /perf: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /place: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /placement: Select which placement to use
-[21:23:29] [Server thread/INFO]: /playsound: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
-[21:23:29] [Server thread/INFO]: /protocol: Performs administrative tasks regarding ProtocolLib.
-[21:23:29] [Server thread/INFO]: /ps: 
-[21:23:29] [Server thread/INFO]: /pumpkins: Generate pumpkin patches
-[21:23:29] [Server thread/INFO]: /range: Set the brush range
-[21:23:29] [Server thread/INFO]: /recipe: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /redo: Redoes the last action (from history)
-[21:23:29] [Server thread/INFO]: /region: Region management commands
-[21:23:29] [Server thread/INFO]: /register: Comando para registrar una cuenta.
-[21:23:29] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
-[21:23:29] [Server thread/INFO]: /remove: Remove all entities of a type
-[21:23:29] [Server thread/INFO]: /removeabove: Remove blocks above your head.
-[21:23:29] [Server thread/INFO]: /removebelow: Remove blocks below you.
-[21:23:29] [Server thread/INFO]: /removenear: Remove blocks near you.
-[21:23:29] [Server thread/INFO]: /repl: Block replacer tool
-[21:23:29] [Server thread/INFO]: /replacenear: Replace nearby blocks
-[21:23:29] [Server thread/INFO]: /restart: Restarts the server
-[21:23:29] [Server thread/INFO]: /restore: Restore the selection from a snapshot
-[21:23:29] [Server thread/INFO]: /return: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /ride: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /save-all: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /save-off: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /save-on: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /say: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /schedule: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /schematic: Schematic commands for saving/loading areas
-[21:23:29] [Server thread/INFO]: /scoreboard: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /searchitem: Search for an item
-[21:23:29] [Server thread/INFO]: /seed: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /selwand: Selection wand tool
-[21:23:29] [Server thread/INFO]: /setblock: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /sethome: Set a personal home. (waypoint)
-[21:23:29] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /size: Set the brush size
-[21:23:29] [Server thread/INFO]: /sk: Opens the Skills menu, where you can browse skills, progress, and abilities.
-[21:23:29] [Server thread/INFO]: /skill: Opens the Skills menu, where you can browse skills, progress, and abilities.
-[21:23:29] [Server thread/INFO]: /skillrank: Shows your skill rankings
-[21:23:29] [Server thread/INFO]: /skills: Opens the Skills menu, where you can browse skills, progress, and abilities.
-[21:23:29] [Server thread/INFO]: /skilltop: Shows the top players in a skill
-[21:23:29] [Server thread/INFO]: /skin: Changes your own skin.
-[21:23:29] [Server thread/INFO]: /skins: Opens the skins GUI.
-[21:23:29] [Server thread/INFO]: /slay: [player] - Slay a player
-[21:23:29] [Server thread/INFO]: /snapshot: Snapshot commands for restoring backups
-[21:23:29] [Server thread/INFO]: /snow: Simulates snow
-[21:23:29] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /spectate: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /spigot: Spigot related commands
-[21:23:29] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /sr: Admin commands for SkinsRestorer.
-[21:23:29] [Server thread/INFO]: /stack: Stack items
-[21:23:29] [Server thread/INFO]: /stats: Opens the Stats menu where you can see current stat levels and descriptions.
-[21:23:29] [Server thread/INFO]: /stop: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /stopfire: [<world>] - Disables all fire spread temporarily
-[21:23:29] [Server thread/INFO]: /stopsound: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /summon: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /superpickaxe: Super-pickaxe commands
-[21:23:29] [Server thread/INFO]: /tag: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /team: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /teammsg: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /tell: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /tellraw: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /terraform: Main command
-[21:23:29] [Server thread/INFO]: /thaw: Thaws the area
-[21:23:29] [Server thread/INFO]: /thru: Pass through walls
-[21:23:29] [Server thread/INFO]: /time: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
-[21:23:29] [Server thread/INFO]: /title: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /tm: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /toggleeditwand: Remind the user that the wand is now a tool and can be unbound with /tool none.
-[21:23:29] [Server thread/INFO]: /toggleplace: Switch between your position and pos1 for placement
-[21:23:29] [Server thread/INFO]: /tool: Binds a tool to the item in your hand
-[21:23:29] [Server thread/INFO]: /tp: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /tpa: 
-[21:23:29] [Server thread/INFO]: /tpacancel: 
-[21:23:29] [Server thread/INFO]: /tpaccept: 
-[21:23:29] [Server thread/INFO]: /tpadeny: 
-[21:23:29] [Server thread/INFO]: /tpahere: 
-[21:23:29] [Server thread/INFO]: /tpo: 
-[21:23:29] [Server thread/INFO]: /tpohere: 
-[21:23:29] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
-[21:23:29] [Server thread/INFO]: /tptoggle: 
-[21:23:29] [Server thread/INFO]: /tracemask: Set the mask used to stop tool traces
-[21:23:29] [Server thread/INFO]: /tree: Tree generator tool
-[21:23:29] [Server thread/INFO]: /trigger: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /ultimatehomes: Information and admin command for UltimateHomes.
-[21:23:29] [Server thread/INFO]: /undo: Undoes the last action (from history)
-[21:23:29] [Server thread/INFO]: /ungod: [player] - Disable godmode on a player
-[21:23:29] [Server thread/INFO]: /unlinkaccount: Unlink your Java account from your Bedrock account
-[21:23:29] [Server thread/INFO]: /unstuck: Escape from being stuck inside a block
-[21:23:29] [Server thread/INFO]: /up: Go upwards some distance
-[21:23:29] [Server thread/INFO]: /vecdebug: 
-[21:23:29] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
-[21:23:29] [Server thread/INFO]: /viaversion: Shows ViaVersion Version and more.
-[21:23:29] [Server thread/INFO]: /w: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /weather: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /whitelist: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /worldborder: A Mojang provided command.
-[21:23:29] [Server thread/INFO]: /worldedit: WorldEdit commands
-[21:23:29] [Server thread/INFO]: /worldguard: WorldGuard commands
-[21:23:29] [Server thread/INFO]: /xp: A Mojang provided command.
-[21:24:11] [Server thread/INFO]: .Mochhi02 issued server command: /home
-[21:24:20] [Server thread/INFO]: There are 1 of a max of 20 players online: .Mochhi02
-[21:34:09] [Server thread/INFO]: .Mochhi02 issued server command: /home
-[21:45:29] [localSession-7-1/INFO]: [Geyser-Spigot] Mochhi02 has disconnected from the Java server because of Bedrock client disconnected
-[21:45:29] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Jugador conectado por Floodgate como .Mochhi02 se ha desconectado
-[21:45:29] [Server thread/INFO]: .Mochhi02 lost connection: Disconnected
-[21:47:27] [Server thread/INFO]: [VariableEnderChests] Saving data for .Mochhi02
+[03:26:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[03:26:11] [Server thread/INFO]: Default game type: SURVIVAL
+[03:26:11] [Server thread/INFO]: Generating keypair
+[03:26:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:26:12] [Server thread/INFO]: Using epoll channel type
+[03:26:12] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:26:12] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[03:26:13] [Server thread/INFO]: [AngelChest] Hooked into WorldGuard 7.0.9+5934e49
+[03:26:15] [Server thread/INFO]: [SpigotLibraryLoader] [MobsToEggs] Loading 1 libraries... please wait
+[03:26:15] [Server thread/INFO]: [SpigotLibraryLoader] [MobsToEggs] Loaded library /workspaces/Niidea2.5.0/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/1.9.22/kotlin-stdlib-1.9.22.jar
+[03:26:15] [Server thread/INFO]: [SpigotLibraryLoader] [MobsToEggs] Loaded library /workspaces/Niidea2.5.0/servidor_minecraft/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[03:26:17] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[03:26:24] [Server thread/WARN]: Legacy plugin ClickTpa v1.7.6 does not specify an api-version.
+[03:26:24] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.2-SNAPSHOT
+[03:26:24] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[03:26:24] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[03:26:25] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[03:26:26] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[03:26:26] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[03:26:26] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[03:26:26] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.1+6763-2e55f4f
+[03:26:28] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@71c95851]
+[03:26:28] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[03:26:28] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[03:26:28] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[03:26:30] [Server thread/INFO]: [floodgate] Tardó 1,521ms en iniciar Floodgate
+[03:26:30] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.1.2-SNAPSHOT
+[03:26:30] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
+[03:26:31] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.0
+[03:26:32] [Server thread/INFO]: [AngelChest] Successfully registered WorldGuard flags.
+[03:26:32] [Server thread/INFO]: [VariableEnderChests] Loading server plugin VariableEnderChests v1.11.2.1
+[03:26:32] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v17.0.1
+[03:26:32] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.17
+[03:26:33] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
+[03:26:35] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[03:26:35] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[03:26:35] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
+[03:26:35] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.3
+[03:26:35] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.6
+[03:26:35] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.136
+[03:26:35] [Server thread/INFO]: [CombatPlus] Loading server plugin CombatPlus v1.7.4
+[03:26:35] [Server thread/INFO]: [MobsToEggs] Loading server plugin MobsToEggs v1.7.14
+[03:26:35] [Server thread/INFO]: [ProtectionStones] Loading server plugin ProtectionStones v2.10.4
+[03:26:35] [Server thread/INFO]: [ClickTpa] Loading server plugin ClickTpa v1.7.6
+[03:26:35] [Server thread/INFO]: [UltimateHomes] Loading server plugin UltimateHomes v3.0
+[03:26:35] [Server thread/INFO]: [HealthBar-Reloaded] Loading server plugin HealthBar-Reloaded v2.0.4.1
+[03:26:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:26:35] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
+[03:26:36] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[03:26:36] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[03:26:36] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[03:26:38] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[03:26:38] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
+[03:26:40] [Server thread/INFO]:         __    
+[03:26:40] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
+[03:26:40] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[03:26:40] [Server thread/INFO]: 
+[03:26:40] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[03:26:40] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[03:26:41] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[03:26:42] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[03:26:42] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3395ms)
+[03:26:42] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v17.0.1
+[03:26:42] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
+[03:26:42] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
+[03:26:42] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.20.1, number: 20.1
+[03:26:43] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.17
+[03:26:44] [Server thread/INFO]: [nLogin] Successful plugin core start (took 1.11s)
+[03:26:44] [Server thread/INFO]:           __             _       
+[03:26:44] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[03:26:44] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[03:26:44] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[03:26:44] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[03:26:44] [Server thread/INFO]:                   |___/            
+[03:26:44] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.17 DEVELOPMENT
+[03:26:44] [Server thread/INFO]:  
+[03:26:46] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
+[03:26:47] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[03:26:47] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[03:26:48] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[03:26:48] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[03:26:48] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.3
+[03:26:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:26:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:26:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:26:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:26:48] [Server thread/INFO]: Preparing level "world"
+[03:26:48] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:26:48] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[03:26:48] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[03:26:48] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
+[03:26:48] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[03:26:48] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[03:26:48] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:26:48] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.4.4
+[03:26:48] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: dc501c7
+[03:26:48] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
+[03:26:48] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:26:48] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[03:26:48] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[03:26:50] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
+[03:26:50] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
+[03:26:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:26:52] [Server thread/INFO]: Time elapsed: 1029 ms
+[03:26:52] [Server thread/INFO]: [TerraformGenerator] world loaded.
+[03:26:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:26:52] [Server thread/INFO]: Time elapsed: 81 ms
+[03:26:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:26:52] [Server thread/INFO]: Time elapsed: 96 ms
+[03:26:52] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.2-SNAPSHOT
+[03:26:52] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[03:26:52] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[03:26:54] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[03:26:54] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[03:26:54] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[03:26:54] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[03:26:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[03:26:54] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[03:26:54] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[03:26:54] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[03:26:54] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[03:26:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[03:26:54] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[03:26:54] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[03:26:54] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[03:26:54] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[03:26:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[03:26:54] [Server thread/INFO]: [WorldGuard] Loading region data...
+[03:26:55] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[03:26:56] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.1.2-SNAPSHOT
+[03:26:56] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.0
+[03:26:56] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
+[03:26:56] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
+[03:26:56] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
+[03:26:57] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
+[03:26:57] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
+[03:26:57] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
+[03:26:57] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.0 (Premium: false)
+[03:26:57] [Server thread/INFO]: [VariableEnderChests] Enabling VariableEnderChests v1.11.2.1
+[03:26:57] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
+[03:26:57] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[03:26:57] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'VariableEnderChests' to create a bStats instance!
+[03:26:57] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
+[03:26:58] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.6
+[03:27:01] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[03:27:02] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
+[03:27:02] [Server thread/INFO]: [AuraSkills] Successfully registered hook ProtocolLib
+[03:27:02] [Server thread/INFO]: [AuraSkills] Successfully registered hook WorldGuard
+[03:27:02] [Server thread/INFO]: [AuraSkills] Loaded 150 config options in 113 ms
+[03:27:02] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
+[03:27:02] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[03:27:02] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[03:27:02] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[03:27:03] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[03:27:04] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.136
+[03:27:04] [Server thread/INFO]: [CombatPlus] Enabling CombatPlus v1.7.4
+[03:27:04] [Server thread/INFO]:  
+[03:27:04] [Server thread/INFO]: Combat Plus v1.7.4
+[03:27:04] [Server thread/INFO]:  
+[03:27:04] [Server thread/INFO]:   Author: Nik
+[03:27:04] [Server thread/INFO]:  
+[03:27:04] [Server thread/INFO]: [MobsToEggs] Enabling MobsToEggs v1.7.14
+[03:27:04] [Server thread/INFO]: [MobsToEggs] Loading files for MobsToEggs...
+[03:27:04] [Server thread/INFO]: [MobsToEggs] Loading language: es
+[03:27:04] [Server thread/INFO]: [MobsToEggs] Using Dependencies:
+[03:27:04] [Server thread/INFO]: [MobsToEggs] ✔️ [WorldGuard]
+[03:27:04] [Server thread/INFO]: [MobsToEggs] ❌ [Vault, MythicMobs, NBTAPI, StackMob, Towny]
+[03:27:04] [Server thread/INFO]: [ProtectionStones] Enabling ProtectionStones v2.10.4
+[03:27:04] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.GreetingFlagHandler
+[03:27:04] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.FarewellFlagHandler
+[03:27:04] [Server thread/WARN]: [ProtectionStones] Vault not enabled! There will be no economy support!
+[03:27:04] [Server thread/INFO]: [ProtectionStones] PlaceholderAPI not found! There will be no PlaceholderAPI support.
+[03:27:04] [Server thread/INFO]: [ProtectionStones] LuckPerms support enabled!
+[03:27:05] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[03:27:05] [Server thread/INFO]: [ProtectionStones] - AMETHYST_BLOCK (50)
+[03:27:05] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[03:27:06] [Server thread/INFO]: [ProtectionStones] Building region cache...
+[03:27:06] [Server thread/INFO]: [ProtectionStones] Building UUID cache... (if slow change async-load-uuid-cache in the config to true)
+[03:27:06] [Server thread/INFO]: [ProtectionStones] Checking if PS regions have been updated to UUIDs...
+[03:27:06] [Server thread/INFO]: [ProtectionStones] §fProtectionStones has successfully started!
+[03:27:06] [Server thread/INFO]: [ClickTpa] Enabling ClickTpa v1.7.6*
+[03:27:06] [Server thread/INFO]: [ClickTpa] ClickTpa v1.7.6 has been loaded successfully!
+[03:27:06] [Server thread/INFO]: [ClickTpa] ---------------------------------------
+[03:27:06] [Server thread/INFO]: [ClickTpa] To any ClickTpa users who have a version before 1.7.6:
+[03:27:06] [Server thread/INFO]: [ClickTpa] There has been an update to the config; some messages have been removed.
+[03:27:06] [Server thread/INFO]: [ClickTpa] Therefore, if your config.yml is not updated, you will get errors.
+[03:27:06] [Server thread/INFO]: [ClickTpa] ---------------------------------------
+[03:27:06] [Server thread/INFO]: [UltimateHomes] Enabling UltimateHomes v3.0
+[03:27:06] [Server thread/INFO]: 
+[03:27:06] [Server thread/INFO]: --------------------------------------
+[03:27:06] [Server thread/INFO]:        UltimateHomes by kixmc
+[03:27:06] [Server thread/INFO]:        Enabled on version 3.0
+[03:27:06] [Server thread/INFO]: --------------------------------------
+[03:27:06] [Server thread/INFO]:  
+[03:27:06] [Server thread/INFO]: [HealthBar-Reloaded] Enabling HealthBar-Reloaded v2.0.4.1
+[03:27:07] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[03:27:07] [Server thread/INFO]: [Geyser-Spigot] 
+[03:27:07] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b716 (git-master-2ebce9c)
+[03:27:07] [Server thread/INFO]: [Geyser-Spigot] 
+[03:27:07] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[03:27:19] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[03:27:19] [Server thread/INFO]: [Geyser-Spigot] Done (12.154s)! Run /geyser help for help!
+[03:27:20] [Thread-24/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.50. Download it here: https://geysermc.org/download
+[03:27:20] [Server thread/INFO]: Running delayed init tasks
+[03:27:20] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[03:27:20] [Craft Scheduler Thread - 9 - CombatPlus/INFO]: [Combat+]: No updates are found, You're running the Latest Version <3
+[03:27:20] [Craft Scheduler Thread - 6 - VariableEnderChests/INFO]: [VariableEnderChests] VariableEnderChests is up to date.
+[03:27:22] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 306 total sources
+[03:27:22] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[03:27:22] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[03:27:22] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[03:27:22] [Server thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:27:22] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
+[03:27:23] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[03:27:23] [Server thread/INFO]: Done (74.985s)! For help, type "help"
+[03:27:23] [Server thread/INFO]: Timings Reset
+[03:27:26] [Server thread/INFO]: [AngelChest] ========================================================
+[03:27:26] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
+[03:27:26] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
+[03:27:26] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
+[03:27:26] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
+[03:27:26] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
+[03:27:26] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
+[03:27:26] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
+[03:27:26] [Server thread/INFO]: [AngelChest] 
+[03:27:26] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
+[03:27:26] [Server thread/INFO]: [AngelChest] ========================================================
+[03:27:46] [User Authenticator #0/INFO]: UUID of player DJMuzan is b705c7ae-ef57-3962-9515-3bbc4cfd154f
+[03:27:47] [Server thread/INFO]: DJMuzan[/127.70.48.53:56259] logged in with entity id 195 at ([world]-181.5, 71.0, 107.5)
+[03:27:47] [Craft Scheduler Thread - 7 - VariableEnderChests/INFO]: [VariableEnderChests] Loaded enderchest for DJMuzan
+[03:27:57] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user DJMuzan has successfully logged in.
+[03:28:37] [Server thread/INFO]: Gave 2 [Egg] to DJMuzan
+[03:28:58] [Server thread/INFO]: Gave 1 [Gold Ingot] to DJMuzan
+[03:31:47] [Server thread/INFO]: Made DJMuzan a server operator
+[03:31:55] [Server thread/INFO]: DJMuzan issued server command: /lp editor
+[03:32:16] [Server thread/INFO]: DJMuzan issued server command: /mobstoeggs
+[03:32:22] [Server thread/INFO]: DJMuzan issued server command: /mobstoeggs DJMuzan
+[03:32:28] [Server thread/INFO]: DJMuzan issued server command: /mte help
+[03:32:58] [Server thread/INFO]: DJMuzan issued server command: /lp applyedits 5eHs1I2K3U
+[03:32:58] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[03:32:58] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add mobstoeggs.* true
+[03:33:04] [Server thread/INFO]: DJMuzan issued server command: /deop DJMuzan
+[03:33:04] [Server thread/INFO]: [DJMuzan: Made DJMuzan no longer a server operator]
+[03:33:09] [Server thread/INFO]: DJMuzan issued server command: /mte
+[03:33:11] [Server thread/INFO]: DJMuzan issued server command: /mte help
+[03:33:18] [Server thread/INFO]: DJMuzan issued server command: /mte help give DJMuzan 10
+[03:33:20] [Server thread/INFO]: DJMuzan issued server command: /mte help give DJMuzan 10
+[03:33:27] [Server thread/INFO]: DJMuzan issued server command: /mte give DJMuzan 10
+[03:33:45] [Server thread/INFO]: Made DJMuzan a server operator
+[03:33:52] [Server thread/INFO]: DJMuzan issued server command: /lp editor
+[03:34:49] [Server thread/INFO]: DJMuzan issued server command: /lp applyedits xkaSTkCx3O
+[03:34:50] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[03:34:50] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add mobstoeggs.crafting.capsule true
+[03:34:50] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[03:34:50] [luckperms-command-executor/INFO]: [LP] LOG > webeditor remove mobstoeggs.* true

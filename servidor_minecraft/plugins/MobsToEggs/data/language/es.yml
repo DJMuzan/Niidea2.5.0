@@ -1,9 +1,9 @@
 # Community translation by Zegameus
 # To improve on this translation, contact us on the Sugarfyi Discord: https://discord.gg/Xcgn5gC
-catch-success: '&eHas capturado un/a %mobname%&e!'
+catch-success: '&e¡Has capturado un/a %mobname%&e!'
 catch-success-with-money: '&eSe te han retirado $%money% para capturar ese/a %mobname%&e!'
 catch-success-with-item: '&eSe te han retirado %itemamount% %item% para capturar ese/a %mobname%&e!'
-catch-fail-generic: '&cTu no puedes capturar el %mobname%&c!'
+catch-fail-generic: '&c¡Fallaste al capturar %mobname%&c!'
 catch-fail-no-permission: '&cNo tienes permiso para capturar: %mobname%&c!'
 catch-fail-baby-not-allowed: '&cNo puedes capturar mobs bebÃ©s!'
 catch-fail-sheared-not-allowed: '&cNo puedes capturar mobs esquilados!'
