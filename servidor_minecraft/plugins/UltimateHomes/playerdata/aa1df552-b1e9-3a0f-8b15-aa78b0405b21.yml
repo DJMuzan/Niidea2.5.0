@@ -1,4 +1,11 @@
 player:
   info:
     lastSeenAs: TheXigonGK
-homes: {}
+homes:
+  granja:
+    x: 657
+    y: 83
+    z: -293
+    yaw: -64.62744
+    pitch: 39.77555
+    world: world
