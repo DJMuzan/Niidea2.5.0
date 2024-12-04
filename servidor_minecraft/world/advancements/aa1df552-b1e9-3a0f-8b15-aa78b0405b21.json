@@ -191,6 +191,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2024-12-04 06:33:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
       "has_flint": "2024-12-04 04:55:30 +0000"
@@ -536,6 +542,12 @@
   "minecraft:recipes/decorations/mossy_cobblestone_wall": {
     "criteria": {
       "has_mossy_cobblestone": "2024-12-04 04:28:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2024-12-04 06:33:27 +0000"
     },
     "done": true
   },
@@ -1013,6 +1025,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2024-12-04 06:33:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2024-12-04 04:25:48 +0000"
@@ -1268,6 +1286,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:deep_ocean": "2024-12-04 06:30:11 +0000",
       "minecraft:badlands": "2024-12-04 06:12:06 +0000",
       "minecraft:beach": "2024-12-04 04:23:27 +0000",
       "minecraft:river": "2024-12-04 04:24:06 +0000",
@@ -1359,6 +1378,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2024-12-04 06:36:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2024-12-04 04:37:25 +0000"
@@ -1380,6 +1405,12 @@
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2024-12-04 06:03:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-12-04 06:36:18 +0000"
     },
     "done": true
   },
@@ -1423,6 +1454,7 @@
     "criteria": {
       "chicken": "2024-12-04 05:10:49 +0000",
       "cooked_beef": "2024-12-04 05:24:59 +0000",
+      "beef": "2024-12-04 06:34:57 +0000",
       "porkchop": "2024-12-04 04:54:04 +0000",
       "spider_eye": "2024-12-04 06:05:59 +0000",
       "mutton": "2024-12-04 05:10:53 +0000",
@@ -1461,6 +1493,12 @@
   "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2024-12-04 04:31:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-12-04 06:36:18 +0000"
     },
     "done": true
   },
@@ -1698,6 +1736,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2024-12-04 06:33:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2024-12-04 04:42:21 +0000"
@@ -1743,6 +1787,12 @@
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2024-12-04 04:48:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2024-12-04 06:33:56 +0000"
     },
     "done": true
   },
