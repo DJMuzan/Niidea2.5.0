@@ -1327,3 +1327,32 @@ Use /mte help for all commands.
 [07:56:25] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
 [07:56:28] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
 [07:56:31] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
+[08:04:58] [Server thread/INFO]: TheXigonGK issued server command: /ps home
+[08:05:03] [Server thread/INFO]: DJMuzan issued server command: /tp TheXigonGK
+[08:05:03] [Server thread/INFO]: [DJMuzan: Teleported DJMuzan to TheXigonGK]
+[08:05:33] [Server thread/INFO]: TheXigonGK issued server command: /home granja
+[08:05:33] [Server thread/INFO]: DJMuzan issued server command: /gamemode spectator
+[08:05:33] [Server thread/INFO]: [DJMuzan: Set own game mode to Spectator Mode]
+[08:05:49] [Server thread/INFO]: TheXigonGK issued server command: /ps home
+[08:06:06] [Server thread/INFO]: DJMuzan issued server command: /gamemode survival
+[08:06:06] [Server thread/INFO]: [DJMuzan: Set own game mode to Survival Mode]
+[08:06:34] [Server thread/INFO]: DJMuzan issued server command: //removeabove 30
+[08:06:57] [Server thread/INFO]: DJMuzan issued server command: //undo
+[08:07:36] [Server thread/INFO]: DJMuzan issued server command: //removeabove 30
+[08:07:45] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
+[08:07:45] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
+[08:08:39] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
+[08:08:44] [Server thread/INFO]: TheXigonGK issued server command: /delhome granja
+[08:09:27] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
+[08:09:46] [Server thread/INFO]: TheXigonGK issued server command: /sethome granja
+[08:10:20] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[08:10:25] [Server thread/INFO]: DJMuzan issued server command: /ultimatehomes
+[08:10:35] [Server thread/INFO]: DJMuzan issued server command: /uh help
+[08:10:49] [Server thread/INFO]: DJMuzan issued server command: /delhome
+[08:10:54] [Server thread/INFO]: DJMuzan issued server command: /delhome micasa
+[08:11:30] [Server thread/INFO]: DJMuzan issued server command: /ps addowner TheXigonGK
+[08:11:37] [Server thread/INFO]: TheXigonGK issued server command: /ps home
+[08:11:44] [Server thread/INFO]: TheXigonGK issued server command: /ps home
+[08:11:50] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[08:11:53] [Server thread/INFO]: TheXigonGK issued server command: /ps home
+[08:11:58] [Server thread/INFO]: TheXigonGK issued server command: /ps home
