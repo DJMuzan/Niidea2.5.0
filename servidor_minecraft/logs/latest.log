@@ -1283,3 +1283,8 @@ Use /mte help for all commands.
 [07:05:18] [Server thread/INFO]: DJMuzan issued server command: /tpa TheXigonGK
 [07:05:20] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
 [07:05:20] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
+[07:12:40] [Server thread/INFO]: TheXigonGK issued server command: /ps home
+[07:12:46] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
+[07:12:48] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
+[07:12:50] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
+[07:12:57] [Server thread/INFO]: TheXigonGK issued server command: /home granja
