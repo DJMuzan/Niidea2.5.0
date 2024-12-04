@@ -989,6 +989,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-12-04 08:27:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2024-12-04 04:25:48 +0000"
@@ -1118,7 +1124,8 @@
       "minecraft:husk": "2024-12-04 05:29:13 +0000",
       "minecraft:cave_spider": "2024-12-04 06:05:42 +0000",
       "minecraft:enderman": "2024-12-04 06:22:09 +0000",
-      "minecraft:zombie": "2024-12-04 05:09:39 +0000"
+      "minecraft:zombie": "2024-12-04 05:09:39 +0000",
+      "minecraft:drowned": "2024-12-04 08:19:36 +0000"
     },
     "done": false
   },

@@ -1361,3 +1361,25 @@ Use /mte help for all commands.
 [08:20:31] [Server thread/INFO]: TheXigonGK issued server command: /ender
 [08:22:09] [Server thread/INFO]: DJMuzan issued server command: /time set day
 [08:22:09] [Server thread/INFO]: [DJMuzan: Set the time to 1000]
+[08:22:46] [Server thread/INFO]: TheXigonGK issued server command: /ender
+[08:25:39] [Server thread/INFO]: DJMuzan issued server command: /time set night
+[08:25:39] [Server thread/INFO]: [DJMuzan: Set the time to 13000]
+[08:25:45] [Server thread/INFO]: DJMuzan issued server command: /time set 18000
+[08:25:45] [Server thread/INFO]: [DJMuzan: Set the time to 18000]
+[08:25:58] [Server thread/INFO]: DJMuzan issued server command: /time set 22000
+[08:25:58] [Server thread/INFO]: [DJMuzan: Set the time to 22000]
+[08:26:23] [Server thread/INFO]: DJMuzan issued server command: /time set 18000
+[08:26:23] [Server thread/INFO]: [DJMuzan: Set the time to 18000]
+[08:26:36] [Server thread/INFO]: DJMuzan issued server command: /plugins
+[08:26:49] [Server thread/INFO]: DJMuzan issued server command: /difficulty hard
+[08:26:49] [Server thread/INFO]: [DJMuzan: The difficulty has been set to Hard]
+[08:27:20] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[08:27:28] [Server thread/INFO]: TheXigonGK issued server command: /ps allow mobs
+[08:28:11] [Server thread/INFO]: DJMuzan issued server command: /gamemode spectator
+[08:28:11] [Server thread/INFO]: [DJMuzan: Set own game mode to Spectator Mode]
+[08:29:30] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
+[08:29:30] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
+[08:30:37] [Server thread/INFO]: DJMuzan issued server command: /gamemode survival
+[08:30:37] [Server thread/INFO]: [DJMuzan: Set own game mode to Survival Mode]
+[08:30:58] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
+[08:30:58] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
