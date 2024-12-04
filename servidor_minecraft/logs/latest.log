@@ -1356,3 +1356,8 @@ Use /mte help for all commands.
 [08:11:50] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
 [08:11:53] [Server thread/INFO]: TheXigonGK issued server command: /ps home
 [08:11:58] [Server thread/INFO]: TheXigonGK issued server command: /ps home
+[08:19:50] [Server thread/INFO]: TheXigonGK drowned
+[08:19:55] [Server thread/INFO]: TheXigonGK issued server command: /ps home
+[08:20:31] [Server thread/INFO]: TheXigonGK issued server command: /ender
+[08:22:09] [Server thread/INFO]: DJMuzan issued server command: /time set day
+[08:22:09] [Server thread/INFO]: [DJMuzan: Set the time to 1000]
