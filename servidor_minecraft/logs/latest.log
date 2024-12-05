@@ -243,3 +243,12 @@
 [06:52:11] [Server thread/INFO]: DJMuzan issued server command: /ender
 [06:54:42] [Server thread/INFO]: DJMuzan issued server command: /ender
 [07:02:53] [Server thread/INFO]: DJMuzan issued server command: /ender
+[07:09:48] [Server thread/INFO]: DJMuzan issued server command: /ps home
+[07:09:56] [Server thread/INFO]: DJMuzan issued server command: /homes
+[07:10:06] [Server thread/INFO]: Made DJMuzan a server operator
+[07:10:12] [Server thread/INFO]: DJMuzan issued server command: /lp editor
+[07:10:56] [Server thread/INFO]: DJMuzan issued server command: /lp applyedits eIaFOnL9JT
+[07:10:57] [luckperms-command-executor/INFO]: [LP] LOG > (DJMuzan) [G] (default)
+[07:10:57] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add ultimatehomes.sethome.max.5 true
+[07:11:05] [Server thread/INFO]: DJMuzan issued server command: /deop DJMuzan
+[07:11:05] [Server thread/INFO]: [DJMuzan: Made DJMuzan no longer a server operator]
