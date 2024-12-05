@@ -1,1511 +1,243 @@
-[04:19:29] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[04:19:34] [ServerMain/INFO]: Loaded 7 recipes
-[04:19:35] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[04:19:35] [Server thread/INFO]: Loading properties
-[04:19:35] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[04:19:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[04:19:38] [Server thread/INFO]: Using 4 threads for Netty based IO
-[04:19:38] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[06:42:57] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06:43:01] [ServerMain/INFO]: Loaded 7 recipes
+[06:43:02] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[06:43:02] [Server thread/INFO]: Loading properties
+[06:43:02] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[06:43:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:43:05] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:43:05] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[04:19:39] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[04:19:39] [Server thread/INFO]: Default game type: SURVIVAL
-[04:19:39] [Server thread/INFO]: Generating keypair
-[04:19:40] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:19:40] [Server thread/INFO]: Using epoll channel type
-[04:19:40] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[04:19:40] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[04:19:42] [Server thread/INFO]: [AngelChest] Hooked into WorldGuard 7.0.9+5934e49
-[04:19:42] [Server thread/INFO]: [SpigotLibraryLoader] [MobsToEggs] Loading 1 libraries... please wait
-[04:19:43] [Server thread/INFO]: [SpigotLibraryLoader] [MobsToEggs] Loaded library /workspaces/Niidea2.5.0/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/1.9.22/kotlin-stdlib-1.9.22.jar
-[04:19:43] [Server thread/INFO]: [SpigotLibraryLoader] [MobsToEggs] Loaded library /workspaces/Niidea2.5.0/servidor_minecraft/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
-[04:19:44] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[04:19:51] [Server thread/WARN]: Legacy plugin ClickTpa v1.7.6 does not specify an api-version.
-[04:19:51] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.2-SNAPSHOT
-[04:19:51] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[04:19:52] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[04:19:53] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[04:19:53] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[04:19:53] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[04:19:54] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[04:19:54] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.1+6763-2e55f4f
-[04:19:55] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@71c95851]
-[04:19:55] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
-[04:19:56] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
-[04:19:56] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[04:19:56] [Server thread/INFO]: [floodgate] Tardó 775ms en iniciar Floodgate
-[04:19:56] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.1.2-SNAPSHOT
-[04:19:56] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
-[04:19:57] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.0
-[04:19:57] [Server thread/INFO]: [AngelChest] Successfully registered WorldGuard flags.
-[04:19:57] [Server thread/INFO]: [VariableEnderChests] Loading server plugin VariableEnderChests v1.11.2.1
-[04:19:57] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v17.0.1
-[04:19:57] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.17
-[04:19:59] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
-[04:20:00] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[04:20:00] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[04:20:00] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
-[04:20:00] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.3
-[04:20:00] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.6
-[04:20:00] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.136
-[04:20:00] [Server thread/INFO]: [CombatPlus] Loading server plugin CombatPlus v1.7.4
-[04:20:00] [Server thread/INFO]: [MobsToEggs] Loading server plugin MobsToEggs v1.7.14
-[04:20:00] [Server thread/INFO]: [ProtectionStones] Loading server plugin ProtectionStones v2.10.4
-[04:20:00] [Server thread/INFO]: [ClickTpa] Loading server plugin ClickTpa v1.7.6
-[04:20:00] [Server thread/INFO]: [UltimateHomes] Loading server plugin UltimateHomes v3.0
-[04:20:00] [Server thread/INFO]: [HealthBar-Reloaded] Loading server plugin HealthBar-Reloaded v2.0.4.1
-[04:20:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[04:20:00] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
-[04:20:01] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[04:20:01] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[04:20:01] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[04:20:04] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
-[04:20:04] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
-[04:20:05] [Server thread/INFO]:         __    
-[04:20:05] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
-[04:20:05] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[04:20:05] [Server thread/INFO]: 
-[04:20:05] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[04:20:05] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[04:20:07] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[04:20:07] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[04:20:07] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3554ms)
-[04:20:07] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v17.0.1
-[04:20:08] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
-[04:20:08] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
-[04:20:08] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.20.1, number: 20.1
-[04:20:08] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.17
-[04:20:09] [Server thread/INFO]: [nLogin] Successful plugin core start (took 1.05s)
-[04:20:09] [Server thread/INFO]:           __             _       
-[04:20:09] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
-[04:20:09] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
-[04:20:09] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
-[04:20:09] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
-[04:20:09] [Server thread/INFO]:                   |___/            
-[04:20:09] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.17 DEVELOPMENT
-[04:20:09] [Server thread/INFO]:  
-[04:20:11] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
-[04:20:13] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[04:20:14] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
-[04:20:14] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[04:20:14] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[04:20:15] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.3
-[04:20:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:20:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:20:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:20:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:20:15] [Server thread/INFO]: Preparing level "world"
-[04:20:15] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:20:15] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[04:20:15] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[04:20:15] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
-[04:20:15] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[04:20:15] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
-[04:20:15] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:20:15] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.4.4
-[04:20:15] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: dc501c7
-[04:20:15] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
-[04:20:15] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:20:15] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[04:20:15] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[04:20:17] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
-[04:20:17] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
-[04:20:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:20:19] [Server thread/INFO]: Time elapsed: 1502 ms
-[04:20:19] [Server thread/INFO]: [TerraformGenerator] world loaded.
-[04:20:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[04:20:19] [Server thread/INFO]: Time elapsed: 181 ms
-[04:20:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[04:20:19] [Server thread/INFO]: Time elapsed: 125 ms
-[04:20:19] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.2-SNAPSHOT
-[04:20:19] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
-[04:20:19] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
-[04:20:20] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[04:20:20] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[04:20:20] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[04:20:20] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[04:20:20] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[04:20:20] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[04:20:20] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[04:20:20] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[04:20:20] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[04:20:20] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[04:20:20] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[04:20:20] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[04:20:20] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[04:20:20] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[04:20:20] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[04:20:20] [Server thread/INFO]: [WorldGuard] Loading region data...
-[04:20:22] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[04:20:23] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.1.2-SNAPSHOT
-[04:20:23] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.0
-[04:20:24] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
-[04:20:24] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
-[04:20:24] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
-[04:20:24] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
-[04:20:24] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
-[04:20:24] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
-[04:20:24] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.0 (Premium: false)
-[04:20:24] [Server thread/INFO]: [VariableEnderChests] Enabling VariableEnderChests v1.11.2.1
-[04:20:24] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
-[04:20:24] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
-[04:20:24] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'VariableEnderChests' to create a bStats instance!
-[04:20:25] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
-[04:20:26] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.6
-[04:20:29] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
-[04:20:31] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
-[04:20:31] [Server thread/INFO]: [AuraSkills] Successfully registered hook ProtocolLib
-[04:20:31] [Server thread/INFO]: [AuraSkills] Successfully registered hook WorldGuard
-[04:20:31] [Server thread/INFO]: [AuraSkills] Loaded 150 config options in 115 ms
-[04:20:31] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
-[04:20:31] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
-[04:20:31] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
-[04:20:31] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
-[04:20:31] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[04:20:32] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.136
-[04:20:32] [Server thread/INFO]: [CombatPlus] Enabling CombatPlus v1.7.4
-[04:20:32] [Server thread/INFO]:  
-[04:20:32] [Server thread/INFO]: Combat Plus v1.7.4
-[04:20:32] [Server thread/INFO]:  
-[04:20:32] [Server thread/INFO]:   Author: Nik
-[04:20:32] [Server thread/INFO]:  
-[04:20:32] [Server thread/INFO]: [MobsToEggs] Enabling MobsToEggs v1.7.14
-[04:20:32] [Server thread/INFO]: [MobsToEggs] Loading files for MobsToEggs...
-[04:20:32] [Server thread/INFO]: [MobsToEggs] Loading language: es
-[04:20:32] [Server thread/INFO]: [MobsToEggs] Using Dependencies:
-[04:20:32] [Server thread/INFO]: [MobsToEggs] ✔️ [WorldGuard]
-[04:20:32] [Server thread/INFO]: [MobsToEggs] ❌ [Vault, MythicMobs, NBTAPI, StackMob, Towny]
-[04:20:32] [Server thread/INFO]: [ProtectionStones] Enabling ProtectionStones v2.10.4
-[04:20:32] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.GreetingFlagHandler
-[04:20:32] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.FarewellFlagHandler
-[04:20:33] [Server thread/WARN]: [ProtectionStones] Vault not enabled! There will be no economy support!
-[04:20:33] [Server thread/INFO]: [ProtectionStones] PlaceholderAPI not found! There will be no PlaceholderAPI support.
-[04:20:33] [Server thread/INFO]: [ProtectionStones] LuckPerms support enabled!
-[04:20:33] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
-[04:20:33] [Server thread/INFO]: [ProtectionStones] - AMETHYST_BLOCK (50)
-[04:20:33] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
-[04:20:34] [Server thread/INFO]: [ProtectionStones] Building region cache...
-[04:20:34] [Server thread/INFO]: [ProtectionStones] Building UUID cache... (if slow change async-load-uuid-cache in the config to true)
-[04:20:34] [Server thread/INFO]: [ProtectionStones] Checking if PS regions have been updated to UUIDs...
-[04:20:34] [Server thread/INFO]: [ProtectionStones] §fProtectionStones has successfully started!
-[04:20:34] [Server thread/INFO]: [ClickTpa] Enabling ClickTpa v1.7.6*
-[04:20:34] [Server thread/INFO]: [ClickTpa] ClickTpa v1.7.6 has been loaded successfully!
-[04:20:34] [Server thread/INFO]: [ClickTpa] ---------------------------------------
-[04:20:34] [Server thread/INFO]: [ClickTpa] To any ClickTpa users who have a version before 1.7.6:
-[04:20:34] [Server thread/INFO]: [ClickTpa] There has been an update to the config; some messages have been removed.
-[04:20:34] [Server thread/INFO]: [ClickTpa] Therefore, if your config.yml is not updated, you will get errors.
-[04:20:34] [Server thread/INFO]: [ClickTpa] ---------------------------------------
-[04:20:34] [Server thread/INFO]: [UltimateHomes] Enabling UltimateHomes v3.0
-[04:20:34] [Server thread/INFO]: 
-[04:20:34] [Server thread/INFO]: --------------------------------------
-[04:20:34] [Server thread/INFO]:        UltimateHomes by kixmc
-[04:20:34] [Server thread/INFO]:        Enabled on version 3.0
-[04:20:34] [Server thread/INFO]: --------------------------------------
-[04:20:34] [Server thread/INFO]:  
-[04:20:34] [Server thread/INFO]: [HealthBar-Reloaded] Enabling HealthBar-Reloaded v2.0.4.1
-[04:20:35] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[04:20:35] [Server thread/INFO]: [Geyser-Spigot] 
-[04:20:35] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b716 (git-master-2ebce9c)
-[04:20:35] [Server thread/INFO]: [Geyser-Spigot] 
-[04:20:35] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[04:20:48] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[04:20:48] [Server thread/INFO]: [Geyser-Spigot] Done (12.65s)! Run /geyser help for help!
-[04:20:48] [Thread-24/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.50. Download it here: https://geysermc.org/download
-[04:20:48] [Server thread/INFO]: Running delayed init tasks
-[04:20:48] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[04:20:48] [Craft Scheduler Thread - 9 - CombatPlus/INFO]: [Combat+]: No updates are found, You're running the Latest Version <3
-[04:20:48] [Craft Scheduler Thread - 6 - VariableEnderChests/INFO]: [VariableEnderChests] VariableEnderChests is up to date.
-[04:20:50] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 306 total sources
-[04:20:50] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
-[04:20:50] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
-[04:20:50] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
-[04:20:51] [Server thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[04:20:51] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
-[04:20:51] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
-[04:20:51] [Server thread/INFO]: Done (75.687s)! For help, type "help"
-[04:20:51] [Server thread/INFO]: Timings Reset
-[04:20:56] [Server thread/INFO]: [AngelChest] ========================================================
-[04:20:56] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
-[04:20:56] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
-[04:20:56] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
-[04:20:56] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
-[04:20:56] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
-[04:20:56] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
-[04:20:56] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
-[04:20:56] [Server thread/INFO]: [AngelChest] 
-[04:20:56] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
-[04:20:56] [Server thread/INFO]: [AngelChest] ========================================================
-[04:22:35] [User Authenticator #0/INFO]: UUID of player DJMuzan is b705c7ae-ef57-3962-9515-3bbc4cfd154f
-[04:22:36] [Server thread/INFO]: DJMuzan[/127.70.48.53:36171] logged in with entity id 229 at ([world]-183.77338242453263, 71.0, 100.15329884965962)
-[04:22:36] [Craft Scheduler Thread - 9 - VariableEnderChests/INFO]: [VariableEnderChests] Loaded enderchest for DJMuzan
-[04:22:48] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user DJMuzan has successfully logged in.
-[04:23:26] [User Authenticator #0/INFO]: UUID of player TheXigonGK is aa1df552-b1e9-3a0f-8b15-aa78b0405b21
-[04:23:26] [Server thread/INFO]: TheXigonGK[/127.3.104.126:48077] logged in with entity id 503 at ([world]9.5, 63.0, 8.5)
-[04:23:26] [Craft Scheduler Thread - 9 - VariableEnderChests/INFO]: [VariableEnderChests] Creating new enderchest for TheXigonGK
-[04:23:48] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user TheXigonGK has successfully registered.
-[04:23:59] [Async Chat Thread - #0/INFO]: [Not Secure] <TheXigonGK> holi bb
-[04:24:03] [Async Chat Thread - #1/INFO]: [Not Secure] <DJMuzan> Ojito
-[04:24:19] [Server thread/INFO]: DJMuzan issued server command: /tpa TheXigonGK
-[04:24:22] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
-[04:24:32] [Async Chat Thread - #1/INFO]: [Not Secure] <DJMuzan> Qué linda skin
-[04:24:35] [Async Chat Thread - #0/INFO]: [Not Secure] <TheXigonGK> holiiiiiii
-[04:24:46] [Async Chat Thread - #1/INFO]: [Not Secure] <DJMuzan> ¿Qué skin tengo?
-[04:24:50] [Async Chat Thread - #0/INFO]: [Not Secure] <TheXigonGK> lebron
-[04:24:50] [Async Chat Thread - #0/INFO]: [Not Secure] <TheXigonGK> xd
-[04:24:57] [Async Chat Thread - #0/INFO]: [Not Secure] <DJMuzan> Rico
-[04:25:15] [Server thread/INFO]: DJMuzan issued server command: /skin set S_ib
-[04:25:27] [Async Chat Thread - #0/INFO]: [Not Secure] <TheXigonGK> bueno bb
-[04:25:32] [Async Chat Thread - #1/INFO]: [Not Secure] <TheXigonGK> a hacer nuestra casita
-[04:25:35] [Async Chat Thread - #0/INFO]: [Not Secure] <DJMuzan> Usa el comando /ender
-[04:25:48] [Server thread/INFO]: TheXigonGK has made the advancement [Stone Age]
-[04:26:08] [Server thread/INFO]: The difficulty is Normal
-[04:26:18] [Server thread/INFO]: TheXigonGK has made the advancement [Getting an Upgrade]
-[04:26:27] [Server thread/INFO]: Made DJMuzan a server operator
-[04:26:32] [Server thread/INFO]: DJMuzan issued server command: /difficulty peaceful
-[04:26:32] [Server thread/INFO]: [DJMuzan: The difficulty has been set to Peaceful]
-[04:26:45] [Async Chat Thread - #2/INFO]: [Not Secure] <DJMuzan> Mano
-[04:26:48] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> q bb
-[04:26:58] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Busca un buen sitio plano
-[04:27:12] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Porque te tengo otro betica
-[04:27:17] [Async Chat Thread - #2/INFO]: [Not Secure] <TheXigonGK> nwbona
-[04:28:16] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> vas lag bb?
-[04:28:24] [Async Chat Thread - #2/INFO]: [Not Secure] <DJMuzan> Ambos
-[04:28:35] [Async Chat Thread - #2/INFO]: [Not Secure] <TheXigonGK> y fps?
-[04:28:40] [Async Chat Thread - #2/INFO]: [Not Secure] <DJMuzan> El servicio de tunelización que utilizo es gratuito
-[04:28:58] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Y nadie me quiere dar 3 dolitas mensuales para poner las ip de paga u.u
-[04:29:08] [Async Chat Thread - #2/INFO]: [Not Secure] <TheXigonGK> :(
-[04:29:12] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> q es tunelizacion
-[04:29:13] [Async Chat Thread - #2/INFO]: [Not Secure] <TheXigonGK> xd
-[04:29:13] [Server thread/INFO]: DJMuzan issued server command: /tpa TheXigonGK
-[04:29:29] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Un servicio que hace que te puedas conectar a los servidores
-[04:29:30] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
-[04:29:43] [Async Chat Thread - #2/INFO]: [Not Secure] <DJMuzan> Aquí puede ser
-[04:29:50] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> Sisa, aplanemois
-[04:30:01] [Async Chat Thread - #2/INFO]: [Not Secure] <DJMuzan> Lo puedo hacer con un comando e.e
-[04:30:13] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> pero vacilemos la experiencia vanilla
-[04:30:18] [Async Chat Thread - #2/INFO]: [Not Secure] <TheXigonGK> estan de pinga los plugins+
-[04:30:26] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Papi, tas hablando con el mejor
-[04:30:32] [Async Chat Thread - #2/INFO]: [Not Secure] <DJMuzan> ¿Querés tu regalito?
-[04:30:34] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> casi se me olvida bb, es verdad
-[04:30:40] [Async Chat Thread - #2/INFO]: [Not Secure] <TheXigonGK> shi
-[04:30:44] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Atento
-[04:30:48] [Server thread/INFO]: DJMuzan issued server command: /ps give 50 TheXigonGK
-[04:30:55] [Async Chat Thread - #2/INFO]: [Not Secure] <DJMuzan> Mira inventario
-[04:31:08] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> para protegfer
-[04:31:09] [Async Chat Thread - #4/INFO]: [Not Secure] <TheXigonGK> xd
-[04:31:16] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> es de 50 :o
-[04:31:18] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> ¿Te parece malo?
-[04:31:23] [Async Chat Thread - #4/INFO]: [Not Secure] <TheXigonGK> bb es bello
-[04:31:30] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> pero contigo no tengo nada q estar protegiendo
-[04:31:34] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Jajaja
-[04:31:39] [Async Chat Thread - #4/INFO]: [Not Secure] <DJMuzan> Pero es que tengo otros amigos que entran al sv
-[04:31:49] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> ah si?
-[04:31:51] [Async Chat Thread - #4/INFO]: [Not Secure] <TheXigonGK> *celoso*
-[04:31:54] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> JAJAJ
-[04:32:00] [Async Chat Thread - #4/INFO]: [Not Secure] <TheXigonGK> xd
-[04:32:01] [Async Chat Thread - #4/INFO]: [Not Secure] <DJMuzan> Ahh bb
-[04:32:03] [Async Chat Thread - #4/INFO]: [Not Secure] <DJMuzan> Otra cosita
-[04:32:11] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Te enseñaré algo super heavy
-[04:32:21] [Server thread/INFO]: DJMuzan issued server command: /mte get 10
-[04:32:25] [Server thread/INFO]: DJMuzan issued server command: /mte DJMuzan
-[04:32:30] [Server thread/INFO]: DJMuzan issued server command: /mte give DJMuzan 10
-[04:32:36] [Async Chat Thread - #4/INFO]: [Not Secure] <DJMuzan> Con 6 huevos
-[04:32:40] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Y un lingote de oro
-[04:32:43] [Async Chat Thread - #4/INFO]: [Not Secure] <TheXigonGK> aja?
-[04:32:45] [Async Chat Thread - #4/INFO]: [Not Secure] <DJMuzan> Se pueden crear unas capturadoras
-[04:32:52] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Toma una y lánzaselo a un mob
-[04:33:05] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> nwbona
-[04:33:07] [Async Chat Thread - #4/INFO]: [Not Secure] <TheXigonGK> JAJAJAJA
-[04:33:08] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> JAJAJAJA
-[04:33:11] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> este si está monstruoo
-[04:33:17] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Papi
-[04:33:18] [Async Chat Thread - #4/INFO]: [Not Secure] <TheXigonGK> épico mrk
-[04:33:23] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> ¿Tas viendo?
-[04:33:32] [Async Chat Thread - #4/INFO]: [Not Secure] <TheXigonGK> mrk es perfecto
-[04:33:43] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Jijiji
-[04:33:47] [Async Chat Thread - #4/INFO]: [Not Secure] <TheXigonGK> vamos a minar
-[04:33:54] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Dale, yo necesito minar también
-[04:34:00] [Async Chat Thread - #4/INFO]: [Not Secure] <DJMuzan> Por cierto
-[04:34:02] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> acá es nuestro point
-[04:34:13] [Async Chat Thread - #4/INFO]: [Not Secure] <DJMuzan> También cambié el motor de generación de mundos
-[04:34:17] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Todo es diferente
-[04:34:24] [Async Chat Thread - #4/INFO]: [Not Secure] <TheXigonGK> mrk es bonito todo
-[04:34:26] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Te vas a dar cuenta
-[04:34:28] [Async Chat Thread - #4/INFO]: [Not Secure] <TheXigonGK> lastima q no tengo la pc gamer
-[04:34:38] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> creo q el 3 de enero o el 10 me llega mrk
-[04:34:40] [Async Chat Thread - #4/INFO]: [Not Secure] <TheXigonGK> 16 gb ram
-[04:34:44] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Uff
-[04:34:47] [Async Chat Thread - #4/INFO]: [Not Secure] <TheXigonGK> una rx 580 de 8 gb
-[04:34:51] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> 1 tera y 1 tera ssd
-[04:34:52] [Async Chat Thread - #4/INFO]: [Not Secure] <DJMuzan> Yo puedo expandir la laptop mía a 16
-[04:34:54] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Pero soy pobre
-[04:35:04] [Async Chat Thread - #4/INFO]: [Not Secure] <TheXigonGK> y mrk una i7
-[04:35:12] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> con eso ya maicra me correrá a 900 fps
-[04:35:12] [Async Chat Thread - #4/INFO]: [Not Secure] <DJMuzan> ¿Qué generación?
-[04:35:21] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> decima
-[04:35:38] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> y un chasis white and black full rbg
-[04:35:43] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Vergatario
-[04:35:51] [Async Chat Thread - #4/INFO]: [Not Secure] <TheXigonGK> una de mis metas mrk
-[04:35:53] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> desde peladito
-[04:35:56] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> luego voy por la motico
-[04:36:05] [Async Chat Thread - #4/INFO]: [Not Secure] <DJMuzan> No te compres moto bb
-[04:36:08] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> si Dios lo permite
-[04:36:43] [Async Chat Thread - #4/INFO]: [Not Secure] <DJMuzan> A la izquierda
-[04:37:03] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Dale derecho
-[04:37:11] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Aguanta
-[04:37:17] [Async Chat Thread - #4/INFO]: [Not Secure] <DJMuzan> A la izquierda
-[04:37:45] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> mrk
-[04:37:48] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> minecraft es perfecto
-[04:38:23] [Async Chat Thread - #4/INFO]: [Not Secure] <DJMuzan> Ven
-[04:38:47] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> debemos ir a la -54
-[04:38:57] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Na' guará
-[04:39:01] [Async Chat Thread - #3/INFO]: [Not Secure] <DJMuzan> Quieres speedrunear diamantes
-[04:39:01] [Async Chat Thread - #4/INFO]: [Not Secure] <TheXigonGK> sisas
-[04:39:07] [Async Chat Thread - #3/INFO]: [Not Secure] <TheXigonGK> para poder conseguiir diamantes bonitos
-[04:39:14] [Server thread/INFO]: [AngelChest] Trying to hook into WorldGuard...
-[04:39:14] [Server thread/INFO]: [AngelChest] Successfully hooked into WorldGuard.
-[04:39:15] [Server thread/INFO]: TheXigonGK fell from a high place
-[04:39:18] [Server thread/INFO]: TheXigonGK issued server command: /back
-[04:39:19] [Async Chat Thread - #4/INFO]: [Not Secure] <TheXigonGK> JAJAJA
-[04:39:22] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[04:39:25] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
-[04:41:03] [Async Chat Thread - #5/INFO]: [Not Secure] <TheXigonGK> mrk tu a tus 10 años
-[04:41:10] [Async Chat Thread - #6/INFO]: [Not Secure] <TheXigonGK> hacias funcionar un sv de mc
-[04:41:15] [Async Chat Thread - #6/INFO]: [Not Secure] <TheXigonGK> y eras el hacker de los hackers
-[04:41:15] [Async Chat Thread - #5/INFO]: [Not Secure] <TheXigonGK> xd
-[04:41:19] [Async Chat Thread - #5/INFO]: [Not Secure] <DJMuzan> JAJAJAJ
-[04:41:20] [Async Chat Thread - #6/INFO]: [Not Secure] <DJMuzan> Naah
-[04:41:33] [Async Chat Thread - #5/INFO]: [Not Secure] <DJMuzan> ¿Si te gusta el sv?
-[04:41:39] [Async Chat Thread - #6/INFO]: [Not Secure] <DJMuzan> Cofresito de muerte
-[04:41:43] [Async Chat Thread - #5/INFO]: [Not Secure] <TheXigonGK> es perfecto bb
-[04:41:44] [Async Chat Thread - #6/INFO]: [Not Secure] <DJMuzan> Y todo
-[04:41:47] [Async Chat Thread - #5/INFO]: [Not Secure] <DJMuzan> Sethome
-[04:41:48] [Async Chat Thread - #6/INFO]: [Not Secure] <TheXigonGK> tiene todo de vanilla
-[04:41:49] [Async Chat Thread - #5/INFO]: [Not Secure] <DJMuzan> Hay to' bb
-[04:41:51] [Async Chat Thread - #6/INFO]: [Not Secure] <TheXigonGK> pero con plugins
-[04:41:53] [Async Chat Thread - #5/INFO]: [Not Secure] <TheXigonGK> eshoo
-[04:41:57] [Async Chat Thread - #6/INFO]: [Not Secure] <TheXigonGK> eres un crack
-[04:42:02] [Async Chat Thread - #5/INFO]: [Not Secure] <DJMuzan> ¿Probaste el /ender?
-[04:42:02] [Async Chat Thread - #5/INFO]: [Not Secure] <TheXigonGK> abrazito*
-[04:42:06] [Server thread/INFO]: TheXigonGK issued server command: /ender
-[04:42:09] [Async Chat Thread - #5/INFO]: [Not Secure] <TheXigonGK> nwbonaaa
-[04:42:10] [Server thread/INFO]: DJMuzan issued server command: /ender
-[04:42:11] [Async Chat Thread - #6/INFO]: [Not Secure] <TheXigonGK> ese está bacanito
-[04:42:17] [Async Chat Thread - #5/INFO]: [Not Secure] <TheXigonGK> es como un /pv
-[04:42:19] [Server thread/INFO]: TheXigonGK issued server command: /pv
-[04:42:21] [Server thread/INFO]: TheXigonGK has made the advancement [Acquire Hardware]
-[04:42:22] [Async Chat Thread - #5/INFO]: [Not Secure] <DJMuzan> Algo así
-[04:42:27] [Async Chat Thread - #6/INFO]: [Not Secure] <DJMuzan> Pero lo abres cuando quieras
-[04:42:28] [Server thread/INFO]: TheXigonGK has made the advancement [Isn't It Iron Pick]
-[04:42:43] [Async Chat Thread - #6/INFO]: [Not Secure] <TheXigonGK> está roto ese comando
-[04:42:45] [Server thread/INFO]: DJMuzan issued server command: /give DJMuzan minecraft:torch 128
-[04:42:45] [Server thread/INFO]: [DJMuzan: Gave 128 [Torch] to DJMuzan]
-[04:42:54] [Server thread/INFO]: DJMuzan issued server command: /deop DJMuzan
-[04:42:54] [Server thread/INFO]: [DJMuzan: Made DJMuzan no longer a server operator]
-[04:42:59] [Server thread/INFO]: TheXigonGK has made the advancement [Suit Up]
-[04:43:04] [Async Chat Thread - #6/INFO]: [Not Secure] <TheXigonGK> pero
-[04:43:05] [Async Chat Thread - #5/INFO]: [Not Secure] <TheXigonGK> JAJAJ
-[04:43:14] [Async Chat Thread - #6/INFO]: [Not Secure] <DJMuzan> JAJAJAJAj
-[04:43:14] [Async Chat Thread - #6/INFO]: [Not Secure] <TheXigonGK> jajajaja
-[04:43:24] [Async Chat Thread - #5/INFO]: [Not Secure] <DJMuzan> Hasta mobs hostiles puedes atrapar
-[04:43:30] [Async Chat Thread - #6/INFO]: [Not Secure] <DJMuzan> Algun día atrapo un creeper
-[04:43:31] [Async Chat Thread - #7/INFO]: [Not Secure] <TheXigonGK> mrk está rotisima esa verga
-[04:43:32] [Async Chat Thread - #5/INFO]: [Not Secure] <DJMuzan> Y lo tiro
-[04:43:35] [Async Chat Thread - #7/INFO]: [Not Secure] <DJMuzan> JAJAJSs
-[04:43:41] [Async Chat Thread - #7/INFO]: [Not Secure] <TheXigonGK> con eso armamos una granja de aldeanos fácil
-[04:43:51] [Async Chat Thread - #7/INFO]: [Not Secure] <DJMuzan> Yo voy a hacer un trading hall
-[04:43:53] [Async Chat Thread - #5/INFO]: [Not Secure] <DJMuzan> No sé vos
-[04:43:58] [Async Chat Thread - #7/INFO]: [Not Secure] <TheXigonGK> igual
-[04:44:03] [Async Chat Thread - #7/INFO]: [Not Secure] <TheXigonGK> pero lo hacemos bien bonito
-[04:44:09] [Server thread/INFO]: DJMuzan issued server command: /ender
-[04:44:19] [Async Chat Thread - #5/INFO]: [Not Secure] <TheXigonGK> mira mi capa mrk
-[04:44:23] [Async Chat Thread - #7/INFO]: [Not Secure] <DJMuzan> Está bella
-[04:44:27] [Async Chat Thread - #7/INFO]: [Not Secure] <DJMuzan> Yo no tengo capita
-[04:44:35] [Async Chat Thread - #5/INFO]: [Not Secure] <TheXigonGK> soy premium
-[04:44:38] [Async Chat Thread - #7/INFO]: [Not Secure] <TheXigonGK> la regalaron
-[04:44:38] [Async Chat Thread - #7/INFO]: [Not Secure] <DJMuzan> Lo sé bb
-[04:44:49] [Async Chat Thread - #5/INFO]: [Not Secure] <TheXigonGK> ven
-[04:44:50] [Async Chat Thread - #5/INFO]: [Not Secure] <TheXigonGK> ajemos
-[04:44:52] [Async Chat Thread - #7/INFO]: [Not Secure] <TheXigonGK> bajemos
-[04:44:55] [Async Chat Thread - #5/INFO]: [Not Secure] <DJMuzan> Ven
-[04:45:01] [Async Chat Thread - #7/INFO]: [Not Secure] <DJMuzan> Veeeen
-[04:45:06] [Async Chat Thread - #5/INFO]: [Not Secure] <DJMuzan> Para acá
-[04:45:09] [Async Chat Thread - #5/INFO]: [Not Secure] <DJMuzan> Bajamdo
-[04:45:12] [Async Chat Thread - #8/INFO]: [Not Secure] <DJMuzan> Hay una cámara
-[04:45:24] [Async Chat Thread - #7/INFO]: [Not Secure] <DJMuzan> Baja en escalera
-[04:45:30] [Async Chat Thread - #8/INFO]: [Not Secure] <TheXigonGK> y necesitamos una granja de exp
-[04:46:02] [Async Chat Thread - #7/INFO]: [Not Secure] <DJMuzan> Justo acá
-[04:46:09] [Async Chat Thread - #7/INFO]: [Not Secure] <DJMuzan> Baja directo abajo
-[04:46:20] [Async Chat Thread - #8/INFO]: [Not Secure] <DJMuzan> Yo tenía otro pico pero gracias <3
-[04:46:55] [Async Chat Thread - #8/INFO]: [Not Secure] <DJMuzan> -37 estamos
-[04:47:01] [Async Chat Thread - #8/INFO]: [Not Secure] <TheXigonGK> miraaa
-[04:47:07] [Async Chat Thread - #7/INFO]: [Not Secure] <TheXigonGK> siiii
-[04:47:09] [Async Chat Thread - #8/INFO]: [Not Secure] <TheXigonGK> diamantes
-[04:47:12] [Async Chat Thread - #7/INFO]: [Not Secure] <TheXigonGK> gg
-[04:47:13] [Async Chat Thread - #7/INFO]: [Not Secure] <DJMuzan> JAJAJAJ
-[04:47:20] [Async Chat Thread - #8/INFO]: [Not Secure] <TheXigonGK> q no se pierdan las tradiciones
-[04:47:21] [Async Chat Thread - #8/INFO]: [Not Secure] <TheXigonGK> xd
-[04:47:25] [Async Chat Thread - #8/INFO]: [Not Secure] <TheXigonGK> cogelo
-[04:47:29] [Async Chat Thread - #7/INFO]: [Not Secure] <TheXigonGK> no tengo iron pick
-[04:47:40] [Async Chat Thread - #7/INFO]: [Not Secure] <DJMuzan> Toma
-[04:47:47] [Server thread/INFO]: TheXigonGK has made the advancement [Diamonds!]
-[04:47:59] [Async Chat Thread - #7/INFO]: [Not Secure] <DJMuzan> Necesito hierro
-[04:48:06] [Async Chat Thread - #8/INFO]: [Not Secure] <TheXigonGK> busquemos
-[04:50:39] [Async Chat Thread - #9/INFO]: [Not Secure] <DJMuzan> Esta mina es gigantesca
-[04:50:43] [Async Chat Thread - #9/INFO]: [Not Secure] <TheXigonGK> demasiado mrk
-[04:50:44] [Async Chat Thread - #10/INFO]: [Not Secure] <TheXigonGK> jajaj
-[04:51:21] [Async Chat Thread - #10/INFO]: [Not Secure] <DJMuzan> Por cierto
-[04:51:29] [Async Chat Thread - #9/INFO]: [Not Secure] <DJMuzan> Estamos en modo pacífico
-[04:51:39] [Async Chat Thread - #9/INFO]: [Not Secure] <TheXigonGK> deberias ponerlo ya en hard
-[04:52:00] [Async Chat Thread - #10/INFO]: [Not Secure] <DJMuzan> xd
-[04:52:04] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[04:52:09] [Server thread/INFO]: [Not Secure] [Server] Habla el admin
-[04:52:13] [Async Chat Thread - #9/INFO]: [Not Secure] <TheXigonGK> :c
-[04:52:17] [Server thread/INFO]: The difficulty has been set to Normal
-[04:52:23] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
-[04:52:29] [Async Chat Thread - #9/INFO]: [Not Secure] <TheXigonGK> :c
-[04:52:30] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[04:52:36] [Async Chat Thread - #10/INFO]: [Not Secure] <TheXigonGK> u.u
-[04:52:36] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
-[04:52:37] [Async Chat Thread - #10/INFO]: [Not Secure] <DJMuzan> t
-[04:52:57] [Async Chat Thread - #9/INFO]: [Not Secure] <DJMuzan> Er weso
-[04:53:05] [Server thread/INFO]: TheXigonGK has made the advancement [Cover Me with Diamonds]
-[04:53:07] [Async Chat Thread - #10/INFO]: [Not Secure] <DJMuzan> ¿De donde sacaste diamante?
-[04:53:12] [Async Chat Thread - #11/INFO]: [Not Secure] <DJMuzan> El wesooo
-[04:53:22] [Async Chat Thread - #11/INFO]: [Not Secure] <TheXigonGK> jajaja
-[04:53:26] [Async Chat Thread - #11/INFO]: [Not Secure] <DJMuzan> Míralo
-[04:53:26] [Async Chat Thread - #11/INFO]: [Not Secure] <TheXigonGK> mrk eso es rápido
-[04:53:34] [Async Chat Thread - #10/INFO]: [Not Secure] <DJMuzan> Yo tardo más
-[04:53:35] [Async Chat Thread - #10/INFO]: [Not Secure] <DJMuzan> JASJSa
-[04:53:59] [Server thread/INFO]: TheXigonGK 8❤ has made the advancement [Monster Hunter]
-[04:55:22] [Async Chat Thread - #12/INFO]: [Not Secure] <TheXigonGK> DJMuzan
-[04:55:54] [Async Chat Thread - #12/INFO]: [Not Secure] <DJMuzan> Qué te hiciste
-[04:55:55] [Async Chat Thread - #12/INFO]: [Not Secure] <TheXigonGK> JKAJAJA
-[04:55:57] [Async Chat Thread - #12/INFO]: [Not Secure] <TheXigonGK> baja bb
-[04:56:11] [Async Chat Thread - #12/INFO]: [Not Secure] <TheXigonGK> baby
-[04:56:20] [Async Chat Thread - #13/INFO]: [Not Secure] <DJMuzan> Trabaja
-[04:56:24] [Async Chat Thread - #13/INFO]: [Not Secure] <TheXigonGK> u_u
-[04:56:27] [Async Chat Thread - #13/INFO]: [Not Secure] <DJMuzan> En esta zona
-[04:56:29] [Async Chat Thread - #12/INFO]: [Not Secure] <DJMuzan> No hay cámaras
-[04:56:39] [Async Chat Thread - #13/INFO]: [Not Secure] <DJMuzan> Es un nadas grandísimo
-[04:56:39] [Async Chat Thread - #12/INFO]: [Not Secure] <TheXigonGK> pero si diamantes
-[04:57:17] [Async Chat Thread - #12/INFO]: [Not Secure] <TheXigonGK> gracias por existir en mi vida bb
-[04:57:24] [Async Chat Thread - #13/INFO]: [Not Secure] <DJMuzan> <3
-[04:57:27] [Async Chat Thread - #12/INFO]: [Not Secure] <DJMuzan> Quien lo diría
-[04:57:29] [Async Chat Thread - #12/INFO]: [Not Secure] <DJMuzan> Los dos jugando mc
-[04:57:37] [Async Chat Thread - #12/INFO]: [Not Secure] <TheXigonGK> q lindo mrk
-[04:57:37] [Async Chat Thread - #12/INFO]: [Not Secure] <DJMuzan> Habbo pasó de moda
-[04:57:40] [Async Chat Thread - #13/INFO]: [Not Secure] <TheXigonGK> JAJAJAJA
-[04:57:46] [Async Chat Thread - #13/INFO]: [Not Secure] <TheXigonGK> disque habbo pasó de moda
-[04:57:47] [Async Chat Thread - #13/INFO]: [Not Secure] <TheXigonGK> xddd
-[04:57:50] [Async Chat Thread - #13/INFO]: [Not Secure] <DJMuzan> Rastrillemos
-[04:57:57] [Async Chat Thread - #13/INFO]: [Not Secure] <DJMuzan> haz pasillos cada dos bloques
-[04:58:53] [Server thread/INFO]: DJMuzan issued server command: /ender
-[04:59:44] [Async Chat Thread - #14/INFO]: [Not Secure] <DJMuzan> ¿encontraste algo?
-[04:59:49] [Async Chat Thread - #14/INFO]: [Not Secure] <TheXigonGK> nada bb
-[05:00:03] [Async Chat Thread - #14/INFO]: [Not Secure] <DJMuzan> Toy perdiendo la fe
-[05:00:21] [Async Chat Thread - #15/INFO]: [Not Secure] <TheXigonGK> yujuuu
-[05:00:24] [Async Chat Thread - #14/INFO]: [Not Secure] <TheXigonGK> ven
-[05:00:32] [Async Chat Thread - #14/INFO]: [Not Secure] <DJMuzan> Voy
-[05:00:47] [Async Chat Thread - #15/INFO]: [Not Secure] <DJMuzan> JAJAj
-[05:00:52] [Async Chat Thread - #14/INFO]: [Not Secure] <DJMuzan> Y yo justo diciendo que perdí la fe
-[05:00:57] [Async Chat Thread - #15/INFO]: [Not Secure] <TheXigonGK> el wesooo
-[05:00:59] [Async Chat Thread - #14/INFO]: [Not Secure] <TheXigonGK> es grande
-[05:01:22] [Async Chat Thread - #15/INFO]: [Not Secure] <TheXigonGK> minemos en via recta
-[05:01:27] [Async Chat Thread - #15/INFO]: [Not Secure] <TheXigonGK> en un pasillo 2x
-[05:01:31] [Async Chat Thread - #15/INFO]: [Not Secure] <DJMuzan> Dale
-[05:04:52] [Async Chat Thread - #16/INFO]: [Not Secure] <DJMuzan> Pon una antorcha
-[05:04:53] [Async Chat Thread - #16/INFO]: [Not Secure] <TheXigonGK> quiza los diamantes se vieron afectados por la generacion de mundos
-[05:04:58] [Async Chat Thread - #16/INFO]: [Not Secure] <DJMuzan> Para que la gravilla se joda
-[05:05:11] [Async Chat Thread - #17/INFO]: [Not Secure] <DJMuzan> JAJA
-[05:05:12] [Async Chat Thread - #17/INFO]: [Not Secure] <DJMuzan> See
-[05:05:14] [Async Chat Thread - #17/INFO]: [Not Secure] <DJMuzan> Puede ser
-[05:05:32] [Async Chat Thread - #16/INFO]: [Not Secure] <TheXigonGK> en esta version se encuentra más diamantes en las camaras
-[05:05:35] [Async Chat Thread - #17/INFO]: [Not Secure] <TheXigonGK> osea en las cuevas
-[05:05:39] [Async Chat Thread - #17/INFO]: [Not Secure] <DJMuzan> Vamos a cuevas
-[05:05:41] [Async Chat Thread - #16/INFO]: [Not Secure] <DJMuzan> Y ya
-[05:06:08] [Async Chat Thread - #16/INFO]: [Not Secure] <DJMuzan> Espera
-[05:06:11] [Async Chat Thread - #17/INFO]: [Not Secure] <DJMuzan> Aguantalo
-[05:06:18] [Async Chat Thread - #16/INFO]: [Not Secure] <DJMuzan> NO SUBAS
-[05:06:21] [Async Chat Thread - #16/INFO]: [Not Secure] <TheXigonGK> xdz
-[05:06:23] [Async Chat Thread - #16/INFO]: [Not Secure] <DJMuzan> Baja a mi nivel
-[05:06:33] [Async Chat Thread - #17/INFO]: [Not Secure] <DJMuzan> Aquí para adelante
-[05:06:36] [Async Chat Thread - #17/INFO]: [Not Secure] <DJMuzan> Hay una cámara
-[05:06:38] [Async Chat Thread - #17/INFO]: [Not Secure] <DJMuzan> Y para atrás
-[05:06:39] [Async Chat Thread - #17/INFO]: [Not Secure] <DJMuzan> Otra
-[05:06:41] [Async Chat Thread - #16/INFO]: [Not Secure] <TheXigonGK> como sabes eso?
-[05:06:50] [Async Chat Thread - #16/INFO]: [Not Secure] <DJMuzan> Tengo el mod del mapa
-[05:07:01] [Async Chat Thread - #17/INFO]: [Not Secure] <TheXigonGK> aaaa
-[05:08:01] [Async Chat Thread - #18/INFO]: [Not Secure] <DJMuzan> Justico
-[05:08:04] [Async Chat Thread - #18/INFO]: [Not Secure] <DJMuzan> Que crack
-[05:08:56] [Async Chat Thread - #19/INFO]: [Not Secure] <DJMuzan> Será que reviso en el motor de generación la capa de diamante xd
-[05:08:59] [Async Chat Thread - #19/INFO]: [Not Secure] <TheXigonGK> mrk
-[05:09:01] [Async Chat Thread - #19/INFO]: [Not Secure] <DJMuzan> En el código
-[05:09:02] [Async Chat Thread - #19/INFO]: [Not Secure] <TheXigonGK> aqui estan todos los diamantes
-[05:09:12] [Async Chat Thread - #19/INFO]: [Not Secure] <TheXigonGK> ve
-[05:09:38] [Async Chat Thread - #19/INFO]: [Not Secure] <DJMuzan> Yo nunca encuentro un qlo
-[05:09:43] [Async Chat Thread - #18/INFO]: [Not Secure] <TheXigonGK> ven
-[05:09:51] [Server thread/INFO]: DJMuzan has made the advancement [Diamonds!]
-[05:09:54] [Async Chat Thread - #20/INFO]: [Not Secure] <TheXigonGK> legalito
-[05:09:57] [Async Chat Thread - #20/INFO]: [Not Secure] <DJMuzan> ¿Todo eso?
-[05:10:03] [Async Chat Thread - #19/INFO]: [Not Secure] <TheXigonGK> si bb
-[05:10:04] [Async Chat Thread - #20/INFO]: [Not Secure] <TheXigonGK> ven
-[05:10:05] [Async Chat Thread - #20/INFO]: [Not Secure] <DJMuzan> ¿Con cuanto te quedaste?
-[05:10:08] [Async Chat Thread - #19/INFO]: [Not Secure] <TheXigonGK> 13
-[05:10:12] [Async Chat Thread - #19/INFO]: [Not Secure] <DJMuzan> Qué rico
-[05:10:18] [Async Chat Thread - #19/INFO]: [Not Secure] <DJMuzan> Mira
-[05:10:20] [Async Chat Thread - #19/INFO]: [Not Secure] <DJMuzan> Cuchame
-[05:10:25] [Async Chat Thread - #19/INFO]: [Not Secure] <DJMuzan> No te muevas
-[05:10:28] [Async Chat Thread - #20/INFO]: [Not Secure] <TheXigonGK> shi?
-[05:10:29] [Async Chat Thread - #20/INFO]: [Not Secure] <DJMuzan> O bueno sí
-[05:10:30] [Async Chat Thread - #19/INFO]: [Not Secure] <TheXigonGK> oki
-[05:11:02] [Async Chat Thread - #19/INFO]: [Not Secure] <TheXigonGK> eso, obsidiana
-[05:11:14] [Server thread/INFO]: TheXigonGK has made the advancement [Ice Bucket Challenge]
-[05:11:51] [Server thread/INFO]: DJMuzan has made the advancement [Ice Bucket Challenge]
-[05:11:59] [Server thread/INFO]: DJMuzan issued server command: /ender
-[05:13:40] [Async Chat Thread - #21/INFO]: [Not Secure] <TheXigonGK> lets go, tenemos para portal y mesa de hechizos
-[05:13:45] [Async Chat Thread - #21/INFO]: [Not Secure] <DJMuzan> Aguanta
-[05:13:52] [Async Chat Thread - #21/INFO]: [Not Secure] <DJMuzan> Cuantos mas o menos
-[05:13:55] [Async Chat Thread - #22/INFO]: [Not Secure] <DJMuzan> El portal
-[05:14:04] [Async Chat Thread - #22/INFO]: [Not Secure] <TheXigonGK> 2 abajo, 2 arriba, y 3 a cada lado
-[05:14:06] [Async Chat Thread - #22/INFO]: [Not Secure] <DJMuzan> es 4x5 creo
-[05:14:20] [Async Chat Thread - #22/INFO]: [Not Secure] <TheXigonGK> pero en las esquinas se usan otros bloques
-[05:14:24] [Async Chat Thread - #22/INFO]: [Not Secure] <DJMuzan> Ahhh
-[05:14:26] [Async Chat Thread - #22/INFO]: [Not Secure] <DJMuzan> cierto
-[05:14:41] [Async Chat Thread - #22/INFO]: [Not Secure] <DJMuzan> Con 10 haces el portal
-[05:14:44] [Async Chat Thread - #22/INFO]: [Not Secure] <DJMuzan> Entonces
-[05:14:47] [Async Chat Thread - #22/INFO]: [Not Secure] <TheXigonGK> eso, con 10
-[05:14:50] [Async Chat Thread - #22/INFO]: [Not Secure] <TheXigonGK> llevo 13
-[05:14:51] [Async Chat Thread - #21/INFO]: [Not Secure] <TheXigonGK> xd
-[05:15:01] [Async Chat Thread - #21/INFO]: [Not Secure] <DJMuzan> 10+4 que es la mesa
-[05:15:03] [Async Chat Thread - #21/INFO]: [Not Secure] <DJMuzan> Yo tengo 6 xd
-[05:15:07] [Async Chat Thread - #21/INFO]: [Not Secure] <TheXigonGK> go
-[05:15:25] [Server thread/INFO]: TheXigonGK was slain by Enderman
-[05:15:28] [Async Chat Thread - #22/INFO]: [Not Secure] <TheXigonGK> xd
-[05:15:31] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[05:15:40] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
-[05:15:50] [Async Chat Thread - #21/INFO]: [Not Secure] <TheXigonGK> }eso bvb
-[05:16:23] [Async Chat Thread - #22/INFO]: [Not Secure] <DJMuzan> Ya quiero tener las elytras con reparación u.u
-[05:16:27] [Async Chat Thread - #21/INFO]: [Not Secure] <TheXigonGK> yo:
-[05:16:43] [Async Chat Thread - #22/INFO]: [Not Secure] <DJMuzan> Y hacer mi granja de xp en el end
-[05:16:50] [Async Chat Thread - #21/INFO]: [Not Secure] <TheXigonGK> debemos chetarnos bonito bb
-[05:17:39] [Async Chat Thread - #22/INFO]: [Not Secure] <DJMuzan> Loco
-[05:17:43] [Async Chat Thread - #22/INFO]: [Not Secure] <DJMuzan> Hay un slime aquí
-[05:17:44] [Async Chat Thread - #21/INFO]: [Not Secure] <DJMuzan> XD
-[05:17:44] [Async Chat Thread - #22/INFO]: [Not Secure] <TheXigonGK> si?
-[05:17:45] [Async Chat Thread - #22/INFO]: [Not Secure] <TheXigonGK> xddd
-[05:17:51] [Async Chat Thread - #22/INFO]: [Not Secure] <TheXigonGK> wtf?
-[05:18:04] [Async Chat Thread - #21/INFO]: [Not Secure] <TheXigonGK> bb
-[05:18:09] [Async Chat Thread - #22/INFO]: [Not Secure] <TheXigonGK> vamos a la superficie y busquemos una aldea
-[05:18:10] [Async Chat Thread - #21/INFO]: [Not Secure] <DJMuzan> a?
-[05:18:20] [Async Chat Thread - #21/INFO]: [Not Secure] <DJMuzan> Todavía no
-[05:18:22] [Async Chat Thread - #22/INFO]: [Not Secure] <DJMuzan> ¿O si?
-[05:18:25] [Async Chat Thread - #22/INFO]: [Not Secure] <TheXigonGK> ya tengo hierro
-[05:18:52] [Server thread/INFO]: DJMuzan issued server command: /tpa TheXigonGK
-[05:18:58] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept
-[05:19:00] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
-[05:19:00] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
-[05:19:08] [Async Chat Thread - #22/INFO]: [Not Secure] <DJMuzan> Velo ve
-[05:19:13] [Async Chat Thread - #22/INFO]: [Not Secure] <DJMuzan> Lo descuido y se anda chetando
-[05:19:16] [Async Chat Thread - #23/INFO]: [Not Secure] <TheXigonGK> sjsjjs
-[05:19:44] [Async Chat Thread - #21/INFO]: [Not Secure] <DJMuzan> Yo veo el mc muy oscuro
-[05:19:57] [Async Chat Thread - #23/INFO]: [Not Secure] <TheXigonGK> si pasa bb
-[05:20:21] [Async Chat Thread - #23/INFO]: [Not Secure] <TheXigonGK> ya llegó diciembre mrk
-[05:20:24] [Server thread/INFO]: Gave 128 [Torch] to DJMuzan
-[05:20:34] [Async Chat Thread - #21/INFO]: [Not Secure] <DJMuzan> See
-[05:21:46] [Async Chat Thread - #24/INFO]: [Not Secure] <DJMuzan> Es raro
-[05:21:54] [Async Chat Thread - #25/INFO]: [Not Secure] <DJMuzan> Porque eres el único que encuentra diamantes xd
-[05:22:02] [Async Chat Thread - #25/INFO]: [Not Secure] <TheXigonGK> bb
-[05:22:07] [Async Chat Thread - #25/INFO]: [Not Secure] <TheXigonGK> esq el badlion tiene mods
-[05:22:13] [Async Chat Thread - #24/INFO]: [Not Secure] <TheXigonGK> y hay uno q es full light
-[05:22:18] [Async Chat Thread - #26/INFO]: [Not Secure] <TheXigonGK> veo todo como si fuese de día
-[05:22:23] [Async Chat Thread - #26/INFO]: [Not Secure] <DJMuzan> Ahhh
-[05:22:25] [Async Chat Thread - #24/INFO]: [Not Secure] <DJMuzan> Maginate
-[05:22:26] [Async Chat Thread - #24/INFO]: [Not Secure] <TheXigonGK> se me facilita la vision de ellos
-[05:22:27] [Async Chat Thread - #24/INFO]: [Not Secure] <TheXigonGK> xd
-[05:22:32] [Async Chat Thread - #25/INFO]: [Not Secure] <TheXigonGK> ve
-[05:22:37] [Async Chat Thread - #24/INFO]: [Not Secure] <TheXigonGK> ahi dejaste pasar unos
-[05:22:39] [Async Chat Thread - #25/INFO]: [Not Secure] <TheXigonGK> le pasaste por ladito
-[05:22:43] [Async Chat Thread - #25/INFO]: [Not Secure] <TheXigonGK> ven
-[05:22:50] [Async Chat Thread - #24/INFO]: [Not Secure] <DJMuzan> a
-[05:22:52] [Async Chat Thread - #25/INFO]: [Not Secure] <DJMuzan> No lo vi
-[05:23:02] [Async Chat Thread - #25/INFO]: [Not Secure] <TheXigonGK> mrk
-[05:23:10] [Async Chat Thread - #25/INFO]: [Not Secure] <TheXigonGK> imaginate estas cuevas en el 2010
-[05:23:10] [Async Chat Thread - #24/INFO]: [Not Secure] <DJMuzan> Puede ser mi paquete de texturas también
-[05:23:11] [Async Chat Thread - #25/INFO]: [Not Secure] <TheXigonGK> JAJAJAJ
-[05:23:20] [Async Chat Thread - #24/INFO]: [Not Secure] <TheXigonGK> yo uso el default
-[05:23:41] [Async Chat Thread - #24/INFO]: [Not Secure] <DJMuzan> ya puse el original
-[05:24:03] [Async Chat Thread - #24/INFO]: [Not Secure] <TheXigonGK> muero de habmre convive
-[05:24:08] [Async Chat Thread - #24/INFO]: [Not Secure] <TheXigonGK> pero
-[05:24:11] [Async Chat Thread - #25/INFO]: [Not Secure] <DJMuzan> Yo te doy
-[05:24:13] [Async Chat Thread - #24/INFO]: [Not Secure] <TheXigonGK> no hay problemas
-[05:24:14] [Async Chat Thread - #24/INFO]: [Not Secure] <DJMuzan> 7u7
-[05:24:17] [Async Chat Thread - #25/INFO]: [Not Secure] <TheXigonGK> 7u7
-[05:24:18] [Async Chat Thread - #24/INFO]: [Not Secure] <TheXigonGK> shi bb?
-[05:24:21] [Async Chat Thread - #24/INFO]: [Not Secure] <DJMuzan> Shi
-[05:24:26] [Async Chat Thread - #25/INFO]: [Not Secure] <TheXigonGK> wuw
-[05:24:49] [Async Chat Thread - #24/INFO]: [Not Secure] <TheXigonGK> faltan los aldeanos
-[05:25:04] [Async Chat Thread - #25/INFO]: [Not Secure] <TheXigonGK> gracias b
-[05:25:06] [Async Chat Thread - #25/INFO]: [Not Secure] <TheXigonGK> bb
-[05:25:08] [Async Chat Thread - #24/INFO]: [Not Secure] <DJMuzan> De nada <3
-[05:25:16] [Async Chat Thread - #24/INFO]: [Not Secure] <TheXigonGK> subamos
-[05:26:22] [Async Chat Thread - #27/INFO]: [Not Secure] <TheXigonGK> soy nivel 6 de minero
-[05:26:28] [Async Chat Thread - #27/INFO]: [Not Secure] <TheXigonGK> opor lo tanto puedo usar un efecto de prisa
-[05:26:28] [Async Chat Thread - #27/INFO]: [Not Secure] <TheXigonGK> xd
-[05:26:39] [Async Chat Thread - #28/INFO]: [Not Secure] <DJMuzan> Es por los diamantes
-[05:26:45] [Async Chat Thread - #27/INFO]: [Not Secure] <DJMuzan> Yo soy nivel 4 creo xd
-[05:27:08] [Server thread/INFO]: TheXigonGK issued server command: /skin herobrine
-[05:28:06] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> manda tpa bb
-[05:28:24] [Server thread/INFO]: DJMuzan issued server command: /tpa DJMuzan
-[05:28:27] [Server thread/INFO]: DJMuzan issued server command: /tpa
-[05:28:30] [Server thread/INFO]: DJMuzan issued server command: /tpa TheXigonGK
-[05:28:33] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
-[05:28:51] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> JAJAj
-[05:28:52] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> JAJAJA
-[05:28:53] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> toma
-[05:28:55] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> No duró un sevillo
-[05:28:56] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> JAJAJ
-[05:29:08] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> busquemos una aldea bb
-[05:29:28] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> DALEEE
-[05:29:40] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> busquemos una aldea
-[05:29:48] [Server thread/INFO]: DJMuzan was blown up by Creeper
-[05:29:52] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> XDD
-[05:29:52] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> naaa
-[05:29:54] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> jajajaja
-[05:29:58] [Server thread/INFO]: DJMuzan issued server command: /tpa TheXigonGK
-[05:30:03] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Maldito creeper
-[05:30:05] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
-[05:30:09] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> xdddd
-[05:30:19] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> vente bb
-[05:30:33] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> Este mar
-[05:30:35] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Está perfecto
-[05:30:36] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> wtf?
-[05:30:41] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Para hacer la granja de xp
-[05:30:43] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> ve como se generó este lindo arbol
-[05:30:52] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Ta' wapo
-[05:31:02] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> Escucha
-[05:31:10] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Ven
-[05:31:25] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> cogeras algas?
-[05:31:31] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> No bb
-[05:31:34] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> La granja de xp
-[05:31:39] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> cual sueles hacer?
-[05:31:39] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> Son más efectivas en el mar
-[05:31:42] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> la torre gigante
-[05:31:45] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> See
-[05:31:46] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> con un cuadro
-[05:31:52] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> y q salgan mobs de ahi
-[05:31:54] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> y caigan graves?
-[05:31:57] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> See
-[05:31:58] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> y luego los rematas
-[05:31:59] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> xddd
-[05:32:00] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Eso
-[05:32:11] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> bueno la generación de mobs en este mundo es alta
-[05:32:14] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> creo q será efectiva
-[05:32:18] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> pero será por los momentos
-[05:32:24] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Este sv no tiene límite
-[05:32:24] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> luego debemos hacer una de piglins
-[05:32:26] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> No los necesita
-[05:32:28] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Este sv
-[05:32:31] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> Tiene 8gb de ram
-[05:32:32] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Xd
-[05:32:35] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> mmgvo
-[05:32:36] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> q locura
-[05:32:52] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> Y sí
-[05:32:54] [Server thread/INFO]: DJMuzan issued server command: /ender
-[05:33:25] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> será una hp granja
-[05:33:29] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> de 20 de altura
-[05:33:33] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> 20x20
-[05:33:39] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Yo no sé
-[05:33:40] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> no, 12x12
-[05:33:47] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> Yo busco en yt el tutorial de como hacerla
-[05:33:50] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> por las corrientes dde agua
-[05:33:50] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Y ya
-[05:33:52] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> bb
-[05:33:56] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> ver tutoriales es noob
-[05:34:09] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> debemos basarnos en nuestras experiencias de jugadores profesionales de mc
-[05:34:11] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> Es que yo no soy experto
-[05:34:21] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> bb
-[05:34:23] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> creo q acá es
-[05:34:24] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> xd
-[05:34:28] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Yo soy el señor técnico
-[05:34:33] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> Y usted el señor tryhard
-[05:34:51] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> ok
-[05:34:53] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> 2x2
-[05:34:59] [Server thread/INFO]: DJMuzan issued server command: /sethome xp
-[05:35:03] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> necesitamos hacerle su tunel de caida
-[05:35:31] [Server thread/INFO]: Gave 50 to DJMuzan.
-[05:35:44] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> xddd
-[05:35:46] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> dame permiso
-[05:35:50] [Server thread/INFO]: DJMuzan issued server command: /ps addowner TheXigonGK
-[05:35:50] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[05:35:51] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> Ya
-[05:35:54] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> mrk
-[05:35:59] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> necesitaremos mucha pero mucha piedra
-[05:36:02] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> como 10 stacks
-[05:36:09] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> Puse esta ps para podernos tepear acá
-[05:36:21] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Mir
-[05:36:25] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Tengo la roca esta
-[05:36:26] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> Pizarra
-[05:36:30] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Tengo como 6 stacks
-[05:36:41] [Server thread/INFO]: DJMuzan issued server command: /ender
-[05:36:55] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> ¿Te las doy?
-[05:37:00] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> shi
-[05:37:14] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> Estás tirando al piso
-[05:37:16] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Gei
-[05:37:21] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> jajaja
-[05:37:22] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> mala mia
-[05:37:30] [Server thread/INFO]: DJMuzan issued server command: /ps home
-[05:37:30] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> manda tpa
-[05:37:32] [Server thread/INFO]: DJMuzan issued server command: /ps home ps-183x70y106z
-[05:37:35] [Server thread/INFO]: DJMuzan issued server command: /ps home ps656x65y-289z
-[05:37:40] [Async Chat Thread - #29/INFO]: [Not Secure] <DJMuzan> Nah, soy un capo
-[05:37:53] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> dame las piedras
-[05:38:15] [Server thread/INFO]: DJMuzan issued server command: /ps home
-[05:38:17] [Server thread/INFO]: DJMuzan issued server command: /ps home ps656x65y-287z
-[05:38:20] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[05:38:22] [Server thread/INFO]: DJMuzan issued server command: /ps home
-[05:38:24] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> bb
-[05:38:25] [Server thread/INFO]: DJMuzan issued server command: /ps home ps656x65y-287z
-[05:38:28] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> piedras
-[05:38:42] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> pero
-[05:38:44] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> xddd
-[05:38:46] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> Si tienes el inventario lleno
-[05:38:47] [Async Chat Thread - #30/INFO]: [Not Secure] <DJMuzan> Gei
-[05:38:47] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> las volviste a coger
-[05:38:52] [Async Chat Thread - #30/INFO]: [Not Secure] <TheXigonGK> no mrk
-[05:39:08] [Server thread/INFO]: DJMuzan issued server command: /ender
-[05:39:15] [Async Chat Thread - #29/INFO]: [Not Secure] <TheXigonGK> dame add
-[05:39:22] [Server thread/INFO]: DJMuzan issued server command: /ps addowner TheXigonGK
-[05:39:31] [Server thread/INFO]: DJMuzan issued server command: /ender
-[05:39:50] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[05:41:12] [Async Chat Thread - #31/INFO]: [Not Secure] <DJMuzan> Creo que tiene que ser 16 de altura
-[05:41:16] [Async Chat Thread - #31/INFO]: [Not Secure] <DJMuzan> Para que queden justos de vida
-[05:41:27] [Async Chat Thread - #32/INFO]: [Not Secure] <TheXigonGK> si bb
-[05:44:02] [Server thread/INFO]: DJMuzan issued server command: /tpa TheXigonGK
-[05:44:05] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
-[05:44:08] [Async Chat Thread - #33/INFO]: [Not Secure] <TheXigonGK> con cuidadito
-[05:44:20] [Async Chat Thread - #34/INFO]: [Not Secure] <DJMuzan> Tranqui bb
-[05:44:24] [Async Chat Thread - #33/INFO]: [Not Secure] <DJMuzan> Mano
-[05:44:33] [Async Chat Thread - #33/INFO]: [Not Secure] <DJMuzan> Mesa de encantamientos, granja de xp
-[05:44:37] [Async Chat Thread - #34/INFO]: [Not Secure] <DJMuzan> Haremos desastre
-[05:44:40] [Async Chat Thread - #33/INFO]: [Not Secure] <TheXigonGK> si mrk
-[05:44:42] [Async Chat Thread - #34/INFO]: [Not Secure] <TheXigonGK> lit
-[05:44:55] [Async Chat Thread - #33/INFO]: [Not Secure] <TheXigonGK> ok, ahora a rellenar
-[05:45:18] [Async Chat Thread - #34/INFO]: [Not Secure] <DJMuzan> Dame una piedrita
-[05:46:34] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> mrk se acabó la materia prima
-[05:46:40] [Server thread/INFO]: TheXigonGK issued server command: /sethome granja
-[05:46:41] [Async Chat Thread - #35/INFO]: [Not Secure] <DJMuzan> Déjame hablar con un mago
-[05:46:43] [Async Chat Thread - #36/INFO]: [Not Secure] <TheXigonGK> hice sethome
-[05:46:47] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> vamos a buscar mas
-[05:46:56] [Async Chat Thread - #36/INFO]: [Not Secure] <TheXigonGK> a lo vanilla
-[05:47:00] [Async Chat Thread - #35/INFO]: [Not Secure] <DJMuzan> JAJAJA
-[05:47:02] [Async Chat Thread - #36/INFO]: [Not Secure] <DJMuzan> :c
-[05:47:12] [Async Chat Thread - #35/INFO]: [Not Secure] <DJMuzan> Yo con la prote me puedo tepear acá
-[05:47:17] [Async Chat Thread - #36/INFO]: [Not Secure] <TheXigonGK> mrk el comando de /sethome de por si ya es rotisimo
-[05:47:19] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> gooo
-[05:47:48] [Async Chat Thread - #35/INFO]: [Not Secure] <DJMuzan> Mano
-[05:47:50] [Async Chat Thread - #36/INFO]: [Not Secure] <DJMuzan> Yo te amo
-[05:47:55] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> y yo a ti bb
-[05:48:05] [Async Chat Thread - #36/INFO]: [Not Secure] <TheXigonGK> eres como mi hermanito wn
-[05:48:52] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> mrk te ves muy exclusivo con tus muay thai en habbo
-[05:48:59] [Async Chat Thread - #36/INFO]: [Not Secure] <TheXigonGK> te vi y por un momento pensé q eras un tipo de esos ricos
-[05:49:03] [Async Chat Thread - #36/INFO]: [Not Secure] <DJMuzan> JAJAJ
-[05:49:08] [Async Chat Thread - #35/INFO]: [Not Secure] <DJMuzan> Lo puse en negro
-[05:49:13] [Async Chat Thread - #36/INFO]: [Not Secure] <DJMuzan> Se ve exótico dígalo
-[05:49:18] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> demas
-[05:49:34] [Async Chat Thread - #35/INFO]: [Not Secure] <DJMuzan> Nivel 5 de minería
-[05:49:35] [Async Chat Thread - #36/INFO]: [Not Secure] <DJMuzan> xd
-[05:49:55] [Async Chat Thread - #36/INFO]: [Not Secure] <TheXigonGK> el mod de picar mas rapidop y eso
-[05:49:58] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> el plugin
-[05:50:00] [Async Chat Thread - #36/INFO]: [Not Secure] <TheXigonGK> está brutal
-[05:50:07] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> yo siempre he querido un sv asi
-[05:50:09] [Async Chat Thread - #36/INFO]: [Not Secure] <TheXigonGK> simple
-[05:50:17] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> le ponen a meter vergas q si aviones, dragones, coins
-[05:50:18] [Async Chat Thread - #36/INFO]: [Not Secure] <TheXigonGK> naaa
-[05:50:24] [Async Chat Thread - #35/INFO]: [Not Secure] <DJMuzan> Seee
-[05:50:33] [Async Chat Thread - #36/INFO]: [Not Secure] <DJMuzan> Este sv es privadito
-[05:50:35] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> q si encantamientos nivel 2000
-[05:50:35] [Async Chat Thread - #36/INFO]: [Not Secure] <DJMuzan> Pa' los pana
-[05:50:52] [Async Chat Thread - #35/INFO]: [Not Secure] <DJMuzan> Lo básico para pasarla bien
-[05:50:57] [Async Chat Thread - #36/INFO]: [Not Secure] <TheXigonGK> eso es tan bobo mrk unos encantamientos que "espada del diablo" tiene 99999 de agudeza
-[05:51:08] [Async Chat Thread - #35/INFO]: [Not Secure] <DJMuzan> Eso es una grosería JAJ
-[05:51:09] [Async Chat Thread - #36/INFO]: [Not Secure] <TheXigonGK> xddd
-[05:51:11] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> esq mrk
-[05:51:15] [Async Chat Thread - #36/INFO]: [Not Secure] <TheXigonGK> yo he visto sv´s asi
-[05:51:21] [Async Chat Thread - #35/INFO]: [Not Secure] <DJMuzan> Yo también
-[05:51:26] [Async Chat Thread - #36/INFO]: [Not Secure] <TheXigonGK> eso es pa kid´s
-[05:51:32] [Async Chat Thread - #35/INFO]: [Not Secure] <DJMuzan> Mi hermanito y un primo
-[05:51:36] [Async Chat Thread - #36/INFO]: [Not Secure] <DJMuzan> Estaban jugando en un sv
-[05:51:49] [Async Chat Thread - #36/INFO]: [Not Secure] <DJMuzan> Que nada más al iniciar te regalan el set entero de nederite
-[05:51:50] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> sabes q tus hermanos van bien cuando conocen maicraft y les gusta
-[05:52:02] [Async Chat Thread - #36/INFO]: [Not Secure] <DJMuzan> Total
-[05:52:07] [Async Chat Thread - #36/INFO]: [Not Secure] <TheXigonGK> muzaaaaan
-[05:52:14] [Async Chat Thread - #37/INFO]: [Not Secure] <DJMuzan> Pero mi hermano no conoce el terraria
-[05:52:15] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> sabes q es bacanito bandera tmb?
-[05:52:24] [Async Chat Thread - #37/INFO]: [Not Secure] <TheXigonGK> el skyblock
-[05:52:31] [Async Chat Thread - #35/INFO]: [Not Secure] <DJMuzan> Eso nunca lo he jugao
-[05:52:59] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> tengo 3 stacks, no es suficiente
-[05:53:01] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> unos 8
-[05:53:07] [Async Chat Thread - #35/INFO]: [Not Secure] <DJMuzan> Yo tengo 2 stacks
-[05:53:07] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> o 12
-[05:53:10] [Async Chat Thread - #37/INFO]: [Not Secure] <TheXigonGK> porq falta el techo
-[05:53:12] [Async Chat Thread - #37/INFO]: [Not Secure] <TheXigonGK> y las paredes
-[05:53:17] [Async Chat Thread - #37/INFO]: [Not Secure] <DJMuzan> Sisa
-[05:53:18] [Async Chat Thread - #37/INFO]: [Not Secure] <TheXigonGK> y mrk cubetas para coger agua
-[05:53:25] [Async Chat Thread - #37/INFO]: [Not Secure] <DJMuzan> Yo tengo una y en mi casa 2
-[05:53:33] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> yo dejé haciendo hierro
-[05:53:36] [Async Chat Thread - #38/INFO]: [Not Secure] <TheXigonGK> cubrime
-[05:53:44] [Async Chat Thread - #37/INFO]: [Not Secure] <DJMuzan> No sé, tengo la costumbre de craftear 3 baldes siempre
-[05:53:47] [Async Chat Thread - #37/INFO]: [Not Secure] <TheXigonGK> calentaré café
-[05:53:50] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> esperame
-[05:53:53] [Async Chat Thread - #35/INFO]: [Not Secure] <DJMuzan> Dale
-[05:53:54] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> esto me está gustando muxo
-[05:53:55] [Async Chat Thread - #35/INFO]: [Not Secure] <TheXigonGK> xdddd
-[05:54:00] [Async Chat Thread - #35/INFO]: [Not Secure] <DJMuzan> JAJAA
-[05:59:12] [Async Chat Thread - #40/INFO]: [Not Secure] <TheXigonGK> ya
-[05:59:30] [Async Chat Thread - #40/INFO]: [Not Secure] <DJMuzan> No te imagina
-[05:59:35] [Async Chat Thread - #39/INFO]: [Not Secure] <DJMuzan> Lo que encontré en el mapa
-[05:59:36] [Async Chat Thread - #40/INFO]: [Not Secure] <TheXigonGK> q?
-[05:59:39] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[05:59:48] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
-[05:59:53] [Async Chat Thread - #40/INFO]: [Not Secure] <DJMuzan> xd
-[05:59:56] [Async Chat Thread - #39/INFO]: [Not Secure] <DJMuzan> Estaba a tu lado
-[05:59:58] [Async Chat Thread - #41/INFO]: [Not Secure] <TheXigonGK> quedé
-[06:00:00] [Async Chat Thread - #39/INFO]: [Not Secure] <DJMuzan> JAJAJAj
-[06:00:02] [Async Chat Thread - #41/INFO]: [Not Secure] <TheXigonGK> xddd
-[06:00:04] [Async Chat Thread - #39/INFO]: [Not Secure] <DJMuzan> Ven
-[06:00:19] [Async Chat Thread - #41/INFO]: [Not Secure] <TheXigonGK> naaaa
-[06:00:20] [Async Chat Thread - #41/INFO]: [Not Secure] <TheXigonGK> épico
-[06:00:30] [Async Chat Thread - #41/INFO]: [Not Secure] <TheXigonGK> haremos camas
-[06:00:32] [Async Chat Thread - #41/INFO]: [Not Secure] <DJMuzan> No tengo espada
-[06:00:38] [Async Chat Thread - #39/INFO]: [Not Secure] <DJMuzan> Para picar la telaraña
-[06:00:46] [Async Chat Thread - #41/INFO]: [Not Secure] <DJMuzan> Cama ya tengo
-[06:01:00] [Async Chat Thread - #39/INFO]: [Not Secure] <TheXigonGK> DJMuzan
-[06:01:05] [Async Chat Thread - #42/INFO]: [Not Secure] <TheXigonGK> tengo un circulo social de mujeres
-[06:01:07] [Async Chat Thread - #41/INFO]: [Not Secure] <TheXigonGK> son 5 mujeres
-[06:01:10] [Async Chat Thread - #41/INFO]: [Not Secure] <TheXigonGK> y soy el unico hombre
-[06:01:13] [Async Chat Thread - #42/INFO]: [Not Secure] <TheXigonGK> y mrk se siente burde bien
-[06:01:21] [Async Chat Thread - #42/INFO]: [Not Secure] <DJMuzan> Ese soy yo
-[06:01:27] [Async Chat Thread - #42/INFO]: [Not Secure] <TheXigonGK> me tratan bonito
-[06:01:29] [Async Chat Thread - #41/INFO]: [Not Secure] <DJMuzan> Me junto puro con mujeres
-[06:01:30] [Async Chat Thread - #39/INFO]: [Not Secure] <TheXigonGK> me regalan cosas
-[06:01:38] [Async Chat Thread - #39/INFO]: [Not Secure] <TheXigonGK> hablan de cosas de mujeres
-[06:01:42] [Async Chat Thread - #42/INFO]: [Not Secure] <TheXigonGK> me da risa
-[06:01:43] [Async Chat Thread - #42/INFO]: [Not Secure] <TheXigonGK> xd
-[06:01:51] [Async Chat Thread - #42/INFO]: [Not Secure] <TheXigonGK> y las veo como amigas y es biebn
-[06:01:56] [Async Chat Thread - #42/INFO]: [Not Secure] <TheXigonGK> se sienten cómodas conmigo
-[06:02:04] [Async Chat Thread - #39/INFO]: [Not Secure] <DJMuzan> Eso es bonito
-[06:02:13] [Async Chat Thread - #42/INFO]: [Not Secure] <TheXigonGK> mrkkk
-[06:02:14] [Async Chat Thread - #42/INFO]: [Not Secure] <TheXigonGK> MIRAAA
-[06:02:31] [Async Chat Thread - #43/INFO]: [Not Secure] <TheXigonGK> WAOOOO
-[06:02:31] [Async Chat Thread - #39/INFO]: [Not Secure] <DJMuzan> Ñeelda
-[06:02:38] [Async Chat Thread - #39/INFO]: [Not Secure] <TheXigonGK> mrk está muy rota
-[06:02:46] [Async Chat Thread - #39/INFO]: [Not Secure] <TheXigonGK> ven
-[06:02:58] [Async Chat Thread - #39/INFO]: [Not Secure] <TheXigonGK> wtf
-[06:03:14] [Async Chat Thread - #39/INFO]: [Not Secure] <DJMuzan> Qué loco xd
-[06:03:18] [Async Chat Thread - #43/INFO]: [Not Secure] <TheXigonGK> mrk ve
-[06:03:39] [Async Chat Thread - #39/INFO]: [Not Secure] <TheXigonGK> q lindas las generaciones si o no?
-[06:03:46] [Async Chat Thread - #39/INFO]: [Not Secure] <DJMuzan> con el motor que puse si
-[06:03:50] [Async Chat Thread - #43/INFO]: [Not Secure] <TheXigonGK> brutal
-[06:04:01] [Async Chat Thread - #43/INFO]: [Not Secure] <TheXigonGK> sigamos
-[06:04:10] [Async Chat Thread - #43/INFO]: [Not Secure] <DJMuzan> Mira lo que tengo
-[06:04:24] [Async Chat Thread - #43/INFO]: [Not Secure] <DJMuzan> :o
-[06:04:24] [Async Chat Thread - #43/INFO]: [Not Secure] <TheXigonGK> xdddd
-[06:04:26] [Async Chat Thread - #43/INFO]: [Not Secure] <TheXigonGK> jkajaja
-[06:04:27] [Async Chat Thread - #39/INFO]: [Not Secure] <DJMuzan> JAJAJ
-[06:04:29] [Async Chat Thread - #43/INFO]: [Not Secure] <TheXigonGK> ese de espinas 3 es para ti b b
-[06:04:34] [Async Chat Thread - #39/INFO]: [Not Secure] <DJMuzan> ¿En serio?
-[06:04:35] [Async Chat Thread - #44/INFO]: [Not Secure] <DJMuzan> Ayy
-[06:04:39] [Async Chat Thread - #43/INFO]: [Not Secure] <TheXigonGK> shi
-[06:04:44] [Server thread/INFO]: DJMuzan issued server command: /ender
-[06:04:51] [Server thread/INFO]: DJMuzan issued server command: /ender
-[06:06:06] [Async Chat Thread - #46/INFO]: [Not Secure] <DJMuzan> Sonó a creeper xd
-[06:06:10] [Async Chat Thread - #45/INFO]: [Not Secure] <TheXigonGK> JAJAJA
-[06:06:11] [Async Chat Thread - #45/INFO]: [Not Secure] <TheXigonGK> si
-[06:06:44] [Server thread/INFO]: TheXigonGK was shot by Skeleton
-[06:06:49] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[06:06:51] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
-[06:06:53] [Async Chat Thread - #45/INFO]: [Not Secure] <TheXigonGK> mrk se generan muchisimos mobs
-[06:06:54] [Async Chat Thread - #45/INFO]: [Not Secure] <TheXigonGK> xddd
-[06:06:59] [Server thread/INFO]: [AngelChest] TheXigonGK opened the AngelChest of TheXigonGK at Location{world=CraftWorld{name=world},x=815.0,y=-9.0,z=-165.0,pitch=0.0,yaw=0.0}
-[06:07:00] [Server thread/INFO]: [AngelChest] TheXigonGK opened the AngelChest of TheXigonGK at Location{world=CraftWorld{name=world},x=815.0,y=-9.0,z=-165.0,pitch=0.0,yaw=0.0}
-[06:07:18] [Server thread/INFO]: [AngelChest] TheXigonGK opened the AngelChest of TheXigonGK at Location{world=CraftWorld{name=world},x=815.0,y=-9.0,z=-165.0,pitch=0.0,yaw=0.0}
-[06:07:23] [Server thread/INFO]: [AngelChest] TheXigonGK opened the AngelChest of TheXigonGK at Location{world=CraftWorld{name=world},x=815.0,y=-9.0,z=-165.0,pitch=0.0,yaw=0.0}
-[06:07:34] [Async Chat Thread - #45/INFO]: [Not Secure] <TheXigonGK> muzan
-[06:07:38] [Async Chat Thread - #45/INFO]: [Not Secure] <TheXigonGK> yo estoy en un viaje
-[06:07:43] [Async Chat Thread - #46/INFO]: [Not Secure] <TheXigonGK> y mrk le diste como era a la noche wn
-[06:07:45] [Async Chat Thread - #46/INFO]: [Not Secure] <DJMuzan> me imagino JAJA
-[06:07:52] [Async Chat Thread - #47/INFO]: [Not Secure] <TheXigonGK> minecraft
-[06:07:54] [Async Chat Thread - #45/INFO]: [Not Secure] <TheXigonGK> con mi bro
-[06:08:01] [Async Chat Thread - #45/INFO]: [Not Secure] <DJMuzan> Sisa <3
-[06:08:02] [Async Chat Thread - #45/INFO]: [Not Secure] <TheXigonGK> mrk la real casi no hablamos
-[06:08:06] [Async Chat Thread - #47/INFO]: [Not Secure] <TheXigonGK> pero pasamos momentos bien
-[06:08:15] [Async Chat Thread - #47/INFO]: [Not Secure] <DJMuzan> Sisa
-[06:08:17] [Server thread/INFO]: TheXigonGK issued server command: /ender
-[06:08:24] [Async Chat Thread - #46/INFO]: [Not Secure] <DJMuzan> hermanos que se desaparecen a veces pero estamos
-[06:08:30] [Async Chat Thread - #45/INFO]: [Not Secure] <TheXigonGK> vi un meme que decia
-[06:08:44] [Async Chat Thread - #46/INFO]: [Not Secure] <TheXigonGK> "yo con ese bro al que le hablo cada 8 meses para saber de nuestras vidas y logros"
-[06:08:51] [Async Chat Thread - #46/INFO]: [Not Secure] <TheXigonGK> y sale una escena de un tipo hablando por telefono con otro tipo
-[06:08:57] [Async Chat Thread - #46/INFO]: [Not Secure] <TheXigonGK> xddd
-[06:08:58] [Async Chat Thread - #45/INFO]: [Not Secure] <DJMuzan> Aww
-[06:08:59] [Async Chat Thread - #46/INFO]: [Not Secure] <TheXigonGK> épico
-[06:09:11] [Async Chat Thread - #45/INFO]: [Not Secure] <DJMuzan> Mano mira
-[06:09:18] [Async Chat Thread - #46/INFO]: [Not Secure] <TheXigonGK> wtf
-[06:09:25] [Async Chat Thread - #46/INFO]: [Not Secure] <TheXigonGK> las plataformas
-[06:09:26] [Async Chat Thread - #46/INFO]: [Not Secure] <TheXigonGK> re good
-[06:09:29] [Async Chat Thread - #45/INFO]: [Not Secure] <DJMuzan> Agarrame ahí
-[06:09:43] [Server thread/INFO]: DJMuzan fell from a high place
-[06:09:47] [Async Chat Thread - #46/INFO]: [Not Secure] <DJMuzan> JAJAJAJAJAJA
-[06:10:00] [Async Chat Thread - #46/INFO]: [Not Secure] <TheXigonGK> jkajajajaj
-[06:10:01] [Async Chat Thread - #46/INFO]: [Not Secure] <TheXigonGK> pero q?
-[06:10:03] [Async Chat Thread - #46/INFO]: [Not Secure] <TheXigonGK> JAJAJAJAJAJ
-[06:10:08] [Async Chat Thread - #45/INFO]: [Not Secure] <TheXigonGK> bb manda tpa
-[06:10:12] [Async Chat Thread - #48/INFO]: [Not Secure] <DJMuzan> Usé una perla de ender pa' subir y la pelé
-[06:10:15] [Server thread/INFO]: DJMuzan issued server command: /tpa TheXigonGK
-[06:10:17] [Async Chat Thread - #48/INFO]: [Not Secure] <TheXigonGK> F en el chat
-[06:10:18] [Async Chat Thread - #45/INFO]: [Not Secure] <TheXigonGK> f
-[06:10:19] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
-[06:10:19] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
-[06:10:27] [Async Chat Thread - #48/INFO]: [Not Secure] <DJMuzan> Había un perro en mi casa
-[06:10:30] [Async Chat Thread - #45/INFO]: [Not Secure] <DJMuzan> Y lo adopté
-[06:10:58] [Async Chat Thread - #45/INFO]: [Not Secure] <DJMuzan> Aunque no sé por qué no vino
-[06:11:02] [Async Chat Thread - #48/INFO]: [Not Secure] <TheXigonGK> nwbona
-[06:11:02] [Async Chat Thread - #45/INFO]: [Not Secure] <TheXigonGK> ve
-[06:11:15] [Async Chat Thread - #48/INFO]: [Not Secure] <TheXigonGK> diamantes
-[06:11:19] [Async Chat Thread - #45/INFO]: [Not Secure] <DJMuzan> Y yo no los encuentro xd
-[06:11:24] [Async Chat Thread - #45/INFO]: [Not Secure] <DJMuzan> Se me esconden
-[06:11:32] [Async Chat Thread - #48/INFO]: [Not Secure] <TheXigonGK> ve
-[06:11:33] [Async Chat Thread - #48/INFO]: [Not Secure] <TheXigonGK> vebn
-[06:11:36] [Async Chat Thread - #45/INFO]: [Not Secure] <TheXigonGK> ven
-[06:12:22] [Async Chat Thread - #48/INFO]: [Not Secure] <TheXigonGK> fragmentos de amatista
-[06:12:26] [Async Chat Thread - #45/INFO]: [Not Secure] <TheXigonGK> sirven para los cristales oscuros
-[06:12:35] [Server thread/INFO]: TheXigonGK issued server command: /sethome amatista
-[06:12:47] [Server thread/INFO]: TheXigonGK issued server command: /ender
-[06:12:54] [Async Chat Thread - #48/INFO]: [Not Secure] <TheXigonGK> tengo un tag
-[06:13:08] [Server thread/INFO]: DJMuzan issued server command: /ender
-[06:14:39] [Async Chat Thread - #49/INFO]: [Not Secure] <TheXigonGK> bb
-[06:14:41] [Async Chat Thread - #50/INFO]: [Not Secure] <TheXigonGK> estas afk?_
-[06:14:44] [Async Chat Thread - #50/INFO]: [Not Secure] <DJMuzan> Nop
-[06:14:47] [Async Chat Thread - #49/INFO]: [Not Secure] <DJMuzan> Te estoy siguiendo xd
-[06:14:57] [Async Chat Thread - #50/INFO]: [Not Secure] <DJMuzan> Es que me caí
-[06:15:10] [Server thread/INFO]: Unknown or incomplete command, see below for error
-...ve DJMuzan<--[HERE]
-[06:16:19] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> ya tenemos muichas piedras?
-[06:16:20] [Server thread/INFO]: TheXigonGK issued server command: /ender
-[06:16:23] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Yo creo que sí
-[06:16:26] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> ¿Regresamos?
-[06:16:29] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> goi
-[06:16:33] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> ESPERAA
-[06:16:33] [Server thread/INFO]: TheXigonGK issued server command: /home granja
-[06:16:37] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> dale
-[06:16:41] [Server thread/INFO]: DJMuzan issued server command: /tpahere TheXigonGK
-[06:16:44] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
-[06:16:44] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
-[06:16:45] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> MIRA ESTO
-[06:16:50] [Server thread/INFO]: DJMuzan issued server command: /tpahere TheXigonGK
-[06:16:52] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
-[06:16:52] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
-[06:16:58] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[06:16:59] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> Pero no te muevas gei
-[06:16:59] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> a ya
-[06:17:01] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
-[06:17:02] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> es un tphere
-[06:17:02] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> xddd
-[06:17:04] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
-[06:17:11] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> wtf?
-[06:17:14] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> Mira esa generación
-[06:17:15] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> JAJAJ
-[06:17:17] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> eso si se ve épico hermano
-[06:17:18] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Es como un botín
-[06:17:20] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> JAJAJA
-[06:17:26] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> mrk q lindo eso
-[06:17:28] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> DJMuzan
-[06:17:34] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> tu te imagina tu y yo
-[06:17:36] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> con pc´s de la nasa
-[06:17:38] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> y con shaders
-[06:17:40] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> nwbona
-[06:17:50] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Sería demasiado épico
-[06:17:55] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> pronto b b
-[06:17:59] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Yo con plata
-[06:18:07] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Me compro una vps con 16 gb de ram
-[06:18:09] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Y 4 cores
-[06:18:18] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> Y monto el mejor sv de mc
-[06:18:20] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> mas rico
-[06:18:39] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> No te imaginas lo que he aprendido con este sv
-[06:18:56] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> m imagino bb
-[06:19:34] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> wtf ese trueno q?
-[06:19:39] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> No sé JAJ
-[06:19:44] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> t imaginas un boss
-[06:19:46] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> o algo asi xd
-[06:19:58] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> con armor vanilla pero re cheto
-[06:20:00] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> Lo partimos en 2
-[06:20:05] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> mrk
-[06:20:06] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> otraves
-[06:20:09] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> el rayo
-[06:20:18] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> Es mcqueen
-[06:20:23] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Cuchaooo
-[06:20:23] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> bro y si es herobrine
-[06:20:28] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> :c
-[06:20:30] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> :o
-[06:20:37] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> tu me cuidas?
-[06:20:38] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> u.u
-[06:20:41] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> shi
-[06:20:53] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> si mrk entonces mis amigas
-[06:20:56] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> mrk eso yo antier
-[06:21:03] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> con las 4 acostadas encima mio, todos comiendo helado
-[06:21:08] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> mrk yo con 4 jevas en una cama
-[06:21:15] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> nwbona, eso es top
-[06:21:20] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> Durooo
-[06:21:32] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> la confianza y eso
-[06:21:33] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> es bonito
-[06:21:43] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Lo sé
-[06:21:46] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Antes de yo mudarme
-[06:21:51] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> Yo metía a dos amigas a la casa
-[06:21:52] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> tu vives solo bb?
-[06:21:57] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> No
-[06:22:02] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Pero antes de mudarme sí
-[06:22:05] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> con los pures?
-[06:22:11] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Sisa
-[06:22:15] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> la primera ender pearl
-[06:22:16] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> para el end
-[06:22:36] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> necesitamos chetar los picos
-[06:22:39] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Vamos a construir esa mondá pues
-[06:22:41] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> goo
-[06:22:44] [Server thread/INFO]: TheXigonGK issued server command: /home granja
-[06:22:46] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> me haces tp
-[06:22:49] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> ven
-[06:22:59] [Server thread/INFO]: Gave 10 [Ender Pearl] to DJMuzan
-[06:23:01] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> está lloviendo
-[06:23:13] [Server thread/INFO]: DJMuzan issued server command: /ps home
-[06:23:14] [Server thread/INFO]: DJMuzan issued server command: /ps home ps656x65y-287z
-[06:23:33] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Me estoy quedando sin comida
-[06:24:01] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> Míralo, con escaleritas y todo
-[06:24:11] [Server thread/INFO]: DJMuzan issued server command: /ender
-[06:24:18] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> vamos arriba bb
-[06:24:26] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Usa home
-[06:24:31] [Server thread/INFO]: TheXigonGK issued server command: /home granja
-[06:25:12] [Server thread/INFO]: DJMuzan issued server command: /ender
-[06:25:15] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> el maduro ese como q va para fuera o q?
-[06:25:31] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> Sisa, le tengo fe
-[06:25:33] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> mrk
-[06:25:43] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> ¿Esto no lo ves muy pequeño?
-[06:26:01] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> Este piso hay que expandirlo más
-[06:26:09] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> no mrk, lo q pasa es q ve
-[06:26:21] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> las medidas son de 8 desde el hueco de caida
-[06:26:28] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> se resta un bloque por las paredes
-[06:26:42] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> ves?
-[06:26:45] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> Ahh
-[06:26:46] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> ahi, exacto
-[06:26:48] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> Queda completico
-[06:26:50] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> ellos caeran
-[06:26:54] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> Qué experto dios mio
-[06:27:01] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> pero hay q saber poner el awa
-[06:27:01] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> xddd
-[06:27:10] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> sino se stackea y bugea infinita y es una lala
-[06:27:30] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> dame
-[06:27:33] [Server thread/INFO]: TheXigonGK issued server command: /craft
-[06:27:34] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> piedritas
-[06:27:49] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> 5 de alto quizá?
-[06:27:53] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> o 4
-[06:27:54] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Nah
-[06:28:00] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Tan alto no hace falta o si?
-[06:28:03] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Hagámosla de 5
-[06:28:06] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> go
-[06:28:09] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> van 2 bloques ya
-[06:28:57] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> mrkj
-[06:29:00] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> se viene el amanecer
-[06:29:11] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Falta minar más xd
-[06:29:13] [Server thread/INFO]: DJMuzan issued server command: /ender
-[06:29:15] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> si bb
-[06:29:19] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> gooooo
-[06:29:49] [Server thread/INFO]: TheXigonGK suffocated in a wall
-[06:29:53] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> vesaverga
-[06:29:55] [Server thread/INFO]: TheXigonGK issued server command: /home granj
-[06:29:58] [Server thread/INFO]: TheXigonGK issued server command: /home granjas
-[06:29:59] [Server thread/INFO]: TheXigonGK issued server command: /home granja
-[06:30:00] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> xddddddd
-[06:30:08] [Server thread/INFO]: DJMuzan issued server command: /tpahere
-[06:30:15] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Ven
-[06:30:45] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> Hey
-[06:30:50] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> Sube para allá arriba
-[06:30:51] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> donde?
-[06:30:56] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> Ah no
-[06:31:01] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> Ya buscaste tu vaina
-[06:31:03] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> JASJSJA
-[06:31:05] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> xddd
-[06:31:16] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> Te iba a tirar ayuda
-[06:31:35] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> va tomando formita
-[06:31:42] [Async Chat Thread - #52/INFO]: [Not Secure] <DJMuzan> sí
-[06:31:45] [Server thread/INFO]: TheXigonGK issued server command: /ender
-[06:32:14] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[06:32:17] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
-[06:32:24] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Toy buscando mina
-[06:32:26] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> wtf?
-[06:32:36] [Server thread/INFO]: TheXigonGK issued server command: /ender
-[06:32:48] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> NOOOOOOOOOOOOOOOOOOOOOOOOOO
-[06:32:51] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> Mira lo que encontré
-[06:32:54] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> MMGVOOOOOO
-[06:32:56] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> esto q es?
-[06:33:03] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> VEEEn
-[06:33:04] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> mrk
-[06:33:06] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> VEEEN
-[06:33:07] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> es oro
-[06:33:13] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> ojito
-[06:33:19] [Async Chat Thread - #51/INFO]: [Not Secure] <DJMuzan> UNA ALDEAAA
-[06:33:23] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> sisa?
-[06:33:33] [Async Chat Thread - #51/INFO]: [Not Secure] <TheXigonGK> mrk
-[06:33:35] [Async Chat Thread - #52/INFO]: [Not Secure] <TheXigonGK> q lindo
-[06:34:47] [Async Chat Thread - #53/INFO]: [Not Secure] <TheXigonGK> mrk tengo cuero
-[06:34:53] [Async Chat Thread - #53/INFO]: [Not Secure] <TheXigonGK> para los libros y hacer mesa de encantamientos
-[06:35:02] [Async Chat Thread - #53/INFO]: [Not Secure] <DJMuzan> Yo tengo un viaje de cuero también
-[06:35:06] [Async Chat Thread - #53/INFO]: [Not Secure] <DJMuzan> En mi casa
-[06:35:43] [Async Chat Thread - #54/INFO]: [Not Secure] <DJMuzan> Esta es una aldea pequeña
-[06:35:48] [Async Chat Thread - #54/INFO]: [Not Secure] <TheXigonGK> mrk literal los aldeanos necesitamos llevarlos
-[06:35:51] [Server thread/INFO]: TheXigonGK issued server command: /ender
-[06:35:58] [Async Chat Thread - #54/INFO]: [Not Secure] <DJMuzan> Calmate
-[06:36:14] [Server thread/INFO]: ---------== MobsToEggs ==---------
-MobsToEggs v1.7.14 by Sugarfyi
-Support: https://discord.sugar.fyi
-Plugin Link: https://mte.sugar.fyi
-Use /mte help for all commands.
-[06:36:14] [Server thread/INFO]: ---------== MobsToEggs ==---------
-[06:36:18] [Server thread/INFO]: -------== MobsToEggs Help ==-------
-[06:36:18] [Server thread/INFO]: /mte give <amount> <player> - Give the player a catch capsule.
-/mte reload - Reload all config files.
-/mte bulkupdate <chance|money|item> <value> - Set the chance or cost for all mobs.
-/mte info - Show plugin dependency information.
-[06:36:18] [Server thread/INFO]: --------== MobsToEggs Help ==--------
-[06:37:08] [Async Chat Thread - #56/INFO]: [Not Secure] <DJMuzan> ¿Solo habían dos aldeanos?
-[06:37:15] [Async Chat Thread - #56/INFO]: [Not Secure] <TheXigonGK> eso parece
-[06:37:21] [Async Chat Thread - #56/INFO]: [Not Secure] <DJMuzan> Ya los capturé
-[06:37:30] [Async Chat Thread - #55/INFO]: [Not Secure] <TheXigonGK> tengo burde pan
-[06:37:36] [Server thread/INFO]: TheXigonGK issued server command: /ender
-[06:38:28] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[06:38:34] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
-[06:38:56] [Async Chat Thread - #58/INFO]: [Not Secure] <DJMuzan> Mano
-[06:38:56] [Async Chat Thread - #57/INFO]: [Not Secure] <TheXigonGK> busquemos las piedras
-[06:38:59] [Async Chat Thread - #58/INFO]: [Not Secure] <DJMuzan> Llevo 3 camellos
-[06:39:09] [Async Chat Thread - #57/INFO]: [Not Secure] <TheXigonGK> bb
-[06:39:10] [Async Chat Thread - #58/INFO]: [Not Secure] <DJMuzan> Nomentira, 2
-[06:39:14] [Async Chat Thread - #57/INFO]: [Not Secure] <TheXigonGK> pero a lo legal de donde sacas tantos huevos?
-[06:39:15] [Async Chat Thread - #58/INFO]: [Not Secure] <TheXigonGK> xd
-[06:39:23] [Async Chat Thread - #57/INFO]: [Not Secure] <DJMuzan> Los tenía en mi /ender
-[06:39:26] [Async Chat Thread - #58/INFO]: [Not Secure] <TheXigonGK> ven
-[06:39:29] [Async Chat Thread - #57/INFO]: [Not Secure] <DJMuzan> Son baratos de hacer
-[06:39:50] [Async Chat Thread - #58/INFO]: [Not Secure] <TheXigonGK> busquemos una mina
-[06:40:01] [Async Chat Thread - #57/INFO]: [Not Secure] <DJMuzan> Dame un chance
-[06:40:08] [Server thread/INFO]: DJMuzan issued server command: /ender
-[06:40:33] [Async Chat Thread - #58/INFO]: [Not Secure] <TheXigonGK> tengo un yunque
-[06:40:42] [Async Chat Thread - #57/INFO]: [Not Secure] <TheXigonGK> ves
-[06:40:53] [Async Chat Thread - #58/INFO]: [Not Secure] <DJMuzan> Weso
-[06:41:05] [Server thread/INFO]: DJMuzan issued server command: /ender
-[06:41:10] [Async Chat Thread - #57/INFO]: [Not Secure] <TheXigonGK> muzan
-[06:41:12] [Async Chat Thread - #57/INFO]: [Not Secure] <DJMuzan> ¿Has visto mi terrenito?
-[06:41:21] [Async Chat Thread - #58/INFO]: [Not Secure] <TheXigonGK> y por q coñoelamadre no nos hemos tirado una foto?
-[06:41:24] [Async Chat Thread - #58/INFO]: [Not Secure] <TheXigonGK> deja pongo saturacion
-[06:41:31] [Server thread/INFO]: DJMuzan issued server command: /ender
-[06:41:37] [Server thread/INFO]: DJMuzan issued server command: /ender
-[06:41:56] [Async Chat Thread - #58/INFO]: [Not Secure] <DJMuzan> me regaña épicamente
-[06:42:18] [Async Chat Thread - #57/INFO]: [Not Secure] <DJMuzan> Tomé dos fotos
-[06:42:23] [Async Chat Thread - #57/INFO]: [Not Secure] <DJMuzan> Pero es que es de noche
-[06:43:05] [Async Chat Thread - #57/INFO]: [Not Secure] <TheXigonGK> ven
-[06:43:10] [Async Chat Thread - #57/INFO]: [Not Secure] <TheXigonGK> foto
-[06:44:03] [Async Chat Thread - #57/INFO]: [Not Secure] <DJMuzan> Vamos a mi ranchito
-[06:44:08] [Async Chat Thread - #57/INFO]: [Not Secure] <DJMuzan> Pa' que lo conozcas
-[06:44:10] [Async Chat Thread - #58/INFO]: [Not Secure] <TheXigonGK> go
-[06:44:16] [Server thread/INFO]: DJMuzan issued server command: /home micasa
-[06:44:55] [Server thread/INFO]: DJMuzan issued server command: /tpahere TheXigonGK
-[06:47:12] [Server thread/INFO]: DJMuzan issued server command: /ender
-[06:47:17] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[06:47:25] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
-[06:47:33] [Async Chat Thread - #59/INFO]: [Not Secure] <TheXigonGK> joa mrk
-[06:47:34] [Async Chat Thread - #60/INFO]: [Not Secure] <TheXigonGK> q lindo
-[06:47:39] [Async Chat Thread - #59/INFO]: [Not Secure] <DJMuzan> No tengo casa
-[06:47:40] [Async Chat Thread - #59/INFO]: [Not Secure] <TheXigonGK> brooooo
-[06:47:41] [Async Chat Thread - #59/INFO]: [Not Secure] <DJMuzan> Pero tengo rancho
-[06:47:41] [Async Chat Thread - #59/INFO]: [Not Secure] <TheXigonGK> wtf?
-[06:47:52] [Async Chat Thread - #59/INFO]: [Not Secure] <DJMuzan> Ahh
-[06:47:55] [Async Chat Thread - #60/INFO]: [Not Secure] <DJMuzan> Los árboles
-[06:47:58] [Async Chat Thread - #60/INFO]: [Not Secure] <DJMuzan> están preciosos ono
-[06:48:03] [Async Chat Thread - #59/INFO]: [Not Secure] <TheXigonGK> sisas mrk
-[06:48:14] [Async Chat Thread - #60/INFO]: [Not Secure] <DJMuzan> Esa casita que ves allá
-[06:48:16] [Async Chat Thread - #60/INFO]: [Not Secure] <DJMuzan> Es de un qlito
-[06:48:19] [Async Chat Thread - #60/INFO]: [Not Secure] <DJMuzan> Que juega conmigo
-[06:48:23] [Server thread/INFO]: DJMuzan issued server command: /ender
-[06:48:30] [Async Chat Thread - #60/INFO]: [Not Secure] <TheXigonGK> q goal
-[06:48:38] [Async Chat Thread - #59/INFO]: [Not Secure] <TheXigonGK> *celoso*
-[06:48:40] [Async Chat Thread - #59/INFO]: [Not Secure] <TheXigonGK> aq jhajajaja
-[06:48:44] [Async Chat Thread - #59/INFO]: [Not Secure] <DJMuzan> JAJA
-[06:49:08] [Async Chat Thread - #60/INFO]: [Not Secure] <TheXigonGK> el motor de generracion
-[06:49:11] [Async Chat Thread - #59/INFO]: [Not Secure] <TheXigonGK> es brutal mrk
-[06:49:19] [Async Chat Thread - #59/INFO]: [Not Secure] <DJMuzan> Y sí
-[06:49:29] [Async Chat Thread - #60/INFO]: [Not Secure] <TheXigonGK> conseguimos
-[06:49:35] [Async Chat Thread - #60/INFO]: [Not Secure] <TheXigonGK> ehhhh
-[06:49:37] [Async Chat Thread - #59/INFO]: [Not Secure] <TheXigonGK> como se llama?
-[06:49:38] [Async Chat Thread - #61/INFO]: [Not Secure] <TheXigonGK> eso dulce
-[06:50:09] [Async Chat Thread - #59/INFO]: [Not Secure] <DJMuzan> Ohh
-[06:50:18] [Async Chat Thread - #59/INFO]: [Not Secure] <DJMuzan> Están feas las vistas pues
-[06:51:10] [Async Chat Thread - #61/INFO]: [Not Secure] <DJMuzan> a
-[06:52:06] [Async Chat Thread - #59/INFO]: [Not Secure] <DJMuzan> Mi perrito nos cuidará
-[06:52:11] [Async Chat Thread - #61/INFO]: [Not Secure] <TheXigonGK> shi
-[06:52:40] [Async Chat Thread - #59/INFO]: [Not Secure] <TheXigonGK> mrk fui testigo de una humillacion
-[06:52:41] [Async Chat Thread - #61/INFO]: [Not Secure] <TheXigonGK> xddd
-[06:52:48] [Async Chat Thread - #59/INFO]: [Not Secure] <TheXigonGK> un tipo pretendia a una de mis compañeras
-[06:52:49] [Async Chat Thread - #61/INFO]: [Not Secure] <DJMuzan> ¿Cómo así?
-[06:53:07] [Async Chat Thread - #59/INFO]: [Not Secure] <TheXigonGK> equis, el tipo insistió y mi compañera tin, le hizo el coro
-[06:53:14] [Async Chat Thread - #59/INFO]: [Not Secure] <TheXigonGK> cuando llegan a la habitación y tal
-[06:53:18] [Async Chat Thread - #61/INFO]: [Not Secure] <DJMuzan> Mrc llamemos por tlg
-[06:53:20] [Async Chat Thread - #59/INFO]: [Not Secure] <DJMuzan> xd
-[06:53:25] [Async Chat Thread - #59/INFO]: [Not Secure] <TheXigonGK> sisas?
-[06:53:27] [Async Chat Thread - #59/INFO]: [Not Secure] <TheXigonGK> dale
-[06:56:23] [Server thread/INFO]: DJMuzan issued server command: /ender
-[06:56:23] [Server thread/INFO]: TheXigonGK issued server command: /ender
-[06:56:39] [Server thread/INFO]: DJMuzan issued server command: /ender
-[06:58:53] [Server thread/INFO]: TheXigonGK issued server command: /ender
-[06:59:08] [Server thread/INFO]: DJMuzan issued server command: /ender
-[06:59:41] [Server thread/INFO]: TheXigonGK issued server command: /ender
-[07:01:22] [Server thread/INFO]: TheXigonGK issued server command: /home granja
-[07:02:49] [Server thread/INFO]: TheXigonGK issued server command: /home granja
-[07:02:56] [Server thread/INFO]: DJMuzan issued server command: /tpa TheXigonGK
-[07:02:59] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
-[07:04:14] [Server thread/INFO]: DJMuzan issued server command: /ps home
-[07:04:16] [Server thread/INFO]: DJMuzan issued server command: /ps home ps656x65y-287z
-[07:04:17] [Server thread/INFO]: TheXigonGK issued server command: /ps home
-[07:04:31] [Server thread/INFO]: TheXigonGK issued server command: /back
-[07:04:34] [Server thread/INFO]: TheXigonGK issued server command: /home granja
-[07:04:39] [Server thread/INFO]: TheXigonGK issued server command: /tpahere DJMuzan
-[07:04:44] [Server thread/INFO]: DJMuzan issued server command: /ps
-[07:04:48] [Server thread/INFO]: DJMuzan issued server command: /home micasa
-[07:04:49] [Server thread/INFO]: TheXigonGK issued server command: /ps home
-[07:04:50] [Server thread/INFO]: DJMuzan issued server command: /home micasa
-[07:04:57] [Server thread/INFO]: TheXigonGK issued server command: /home granja
-[07:05:08] [Server thread/INFO]: TheXigonGK issued server command: /ender
-[07:05:18] [Server thread/INFO]: DJMuzan issued server command: /tpa TheXigonGK
-[07:05:20] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
-[07:05:20] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
-[07:12:40] [Server thread/INFO]: TheXigonGK issued server command: /ps home
-[07:12:46] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[07:12:48] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[07:12:50] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[07:12:57] [Server thread/INFO]: TheXigonGK issued server command: /home granja
-[07:24:34] [Server thread/INFO]: Made DJMuzan a server operator
-[07:24:41] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
-[07:24:41] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
-[07:27:03] [Server thread/INFO]: DJMuzan issued server command: /gamemode survival
-[07:27:03] [Server thread/INFO]: [DJMuzan: Set own game mode to Survival Mode]
-[07:27:06] [Server thread/INFO]: DJMuzan issued server command: /deop DJMuzan
-[07:27:06] [Server thread/INFO]: [DJMuzan: Made DJMuzan no longer a server operator]
-[07:31:28] [Server thread/INFO]: TheXigonGK issued server command: /home granja
-[07:35:02] [Async Chat Thread - #62/INFO]: [Not Secure] <DJMuzan> zinli
-[07:45:42] [Server thread/INFO]: DJMuzan issued server command: /tpa TheXigonGK
-[07:45:47] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
-[07:45:48] [Server thread/INFO]: TheXigonGK issued server command: /tpaccept DJMuzan
-[07:46:34] [Server thread/INFO]: TheXigonGK issued server command: /ps home
-[07:46:43] [Server thread/INFO]: TheXigonGK issued server command: /ps home
-[07:47:57] [Server thread/INFO]: TheXigonGK issued server command: /home granja
-[07:48:25] [Server thread/INFO]: TheXigonGK issued server command: /ps home
-[07:49:40] [Server thread/INFO]: The difficulty has been set to Hard
-[07:50:58] [Server thread/INFO]: The difficulty has been set to Peaceful
-[07:51:06] [Server thread/INFO]: The difficulty has been set to Normal
-[07:54:45] [Server thread/INFO]: Made DJMuzan a server operator
-[07:54:50] [Server thread/INFO]: DJMuzan issued server command: /gamemode spectator
-[07:54:50] [Server thread/INFO]: [DJMuzan: Set own game mode to Spectator Mode]
-[07:55:02] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
-[07:55:02] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
-[07:55:18] [Server thread/INFO]: DJMuzan issued server command: /gamemode survival
-[07:55:18] [Server thread/INFO]: [DJMuzan: Set own game mode to Survival Mode]
-[07:55:28] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[07:55:41] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[07:55:53] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
-[07:56:10] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
-[07:56:10] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
-[07:56:15] [Server thread/INFO]: DJMuzan issued server command: /gamemode spectator
-[07:56:15] [Server thread/INFO]: [DJMuzan: Set own game mode to Spectator Mode]
-[07:56:19] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[07:56:22] [Server thread/INFO]: DJMuzan issued server command: /gamemode survival
-[07:56:22] [Server thread/INFO]: [DJMuzan: Set own game mode to Survival Mode]
-[07:56:25] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
-[07:56:28] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[07:56:31] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
-[08:04:58] [Server thread/INFO]: TheXigonGK issued server command: /ps home
-[08:05:03] [Server thread/INFO]: DJMuzan issued server command: /tp TheXigonGK
-[08:05:03] [Server thread/INFO]: [DJMuzan: Teleported DJMuzan to TheXigonGK]
-[08:05:33] [Server thread/INFO]: TheXigonGK issued server command: /home granja
-[08:05:33] [Server thread/INFO]: DJMuzan issued server command: /gamemode spectator
-[08:05:33] [Server thread/INFO]: [DJMuzan: Set own game mode to Spectator Mode]
-[08:05:49] [Server thread/INFO]: TheXigonGK issued server command: /ps home
-[08:06:06] [Server thread/INFO]: DJMuzan issued server command: /gamemode survival
-[08:06:06] [Server thread/INFO]: [DJMuzan: Set own game mode to Survival Mode]
-[08:06:34] [Server thread/INFO]: DJMuzan issued server command: //removeabove 30
-[08:06:57] [Server thread/INFO]: DJMuzan issued server command: //undo
-[08:07:36] [Server thread/INFO]: DJMuzan issued server command: //removeabove 30
-[08:07:45] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
-[08:07:45] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
-[08:08:39] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[08:08:44] [Server thread/INFO]: TheXigonGK issued server command: /delhome granja
-[08:09:27] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
-[08:09:46] [Server thread/INFO]: TheXigonGK issued server command: /sethome granja
-[08:10:20] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[08:10:25] [Server thread/INFO]: DJMuzan issued server command: /ultimatehomes
-[08:10:35] [Server thread/INFO]: DJMuzan issued server command: /uh help
-[08:10:49] [Server thread/INFO]: DJMuzan issued server command: /delhome
-[08:10:54] [Server thread/INFO]: DJMuzan issued server command: /delhome micasa
-[08:11:30] [Server thread/INFO]: DJMuzan issued server command: /ps addowner TheXigonGK
-[08:11:37] [Server thread/INFO]: TheXigonGK issued server command: /ps home
-[08:11:44] [Server thread/INFO]: TheXigonGK issued server command: /ps home
-[08:11:50] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[08:11:53] [Server thread/INFO]: TheXigonGK issued server command: /ps home
-[08:11:58] [Server thread/INFO]: TheXigonGK issued server command: /ps home
-[08:19:50] [Server thread/INFO]: TheXigonGK drowned
-[08:19:55] [Server thread/INFO]: TheXigonGK issued server command: /ps home
-[08:20:31] [Server thread/INFO]: TheXigonGK issued server command: /ender
-[08:22:09] [Server thread/INFO]: DJMuzan issued server command: /time set day
-[08:22:09] [Server thread/INFO]: [DJMuzan: Set the time to 1000]
-[08:22:46] [Server thread/INFO]: TheXigonGK issued server command: /ender
-[08:25:39] [Server thread/INFO]: DJMuzan issued server command: /time set night
-[08:25:39] [Server thread/INFO]: [DJMuzan: Set the time to 13000]
-[08:25:45] [Server thread/INFO]: DJMuzan issued server command: /time set 18000
-[08:25:45] [Server thread/INFO]: [DJMuzan: Set the time to 18000]
-[08:25:58] [Server thread/INFO]: DJMuzan issued server command: /time set 22000
-[08:25:58] [Server thread/INFO]: [DJMuzan: Set the time to 22000]
-[08:26:23] [Server thread/INFO]: DJMuzan issued server command: /time set 18000
-[08:26:23] [Server thread/INFO]: [DJMuzan: Set the time to 18000]
-[08:26:36] [Server thread/INFO]: DJMuzan issued server command: /plugins
-[08:26:49] [Server thread/INFO]: DJMuzan issued server command: /difficulty hard
-[08:26:49] [Server thread/INFO]: [DJMuzan: The difficulty has been set to Hard]
-[08:27:20] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[08:27:28] [Server thread/INFO]: TheXigonGK issued server command: /ps allow mobs
-[08:28:11] [Server thread/INFO]: DJMuzan issued server command: /gamemode spectator
-[08:28:11] [Server thread/INFO]: [DJMuzan: Set own game mode to Spectator Mode]
-[08:29:30] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
-[08:29:30] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
-[08:30:37] [Server thread/INFO]: DJMuzan issued server command: /gamemode survival
-[08:30:37] [Server thread/INFO]: [DJMuzan: Set own game mode to Survival Mode]
-[08:30:58] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
-[08:30:58] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
-[08:32:56] [Server thread/INFO]: TheXigonGK issued server command: /ender
-[08:34:27] [Server thread/INFO]: DJMuzan issued server command: /gamemode spectator
-[08:34:27] [Server thread/INFO]: [DJMuzan: Set own game mode to Spectator Mode]
-[08:35:23] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
-[08:35:23] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
-[08:36:50] [Server thread/INFO]: DJMuzan issued server command: /gamemode spectator
-[08:36:50] [Server thread/INFO]: [DJMuzan: Set own game mode to Spectator Mode]
-[08:37:27] [Server thread/INFO]: DJMuzan issued server command: /gamemode survival
-[08:37:27] [Server thread/INFO]: [DJMuzan: Set own game mode to Survival Mode]
-[08:37:34] [Server thread/INFO]: DJMuzan issued server command: /time set noon
-[08:37:34] [Server thread/INFO]: [DJMuzan: Set the time to 6000]
-[08:37:39] [Server thread/INFO]: DJMuzan issued server command: /time set 18000
-[08:37:39] [Server thread/INFO]: [DJMuzan: Set the time to 18000]
-[08:38:13] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
-[08:38:13] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
-[08:38:40] [Server thread/INFO]: TheXigonGK was killed by magic
-[08:38:52] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[08:38:58] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
-[08:39:07] [Server thread/INFO]: DJMuzan issued server command: /angelchest TheXigonGK
-[08:39:10] [Server thread/INFO]: DJMuzan issued server command: /acfetch TheXigonGK 1
-[08:43:21] [Server thread/INFO]: DJMuzan issued server command: /tp TheXigonGK
-[08:43:21] [Server thread/INFO]: [DJMuzan: Teleported DJMuzan to TheXigonGK]
-[08:43:40] [Async Chat Thread - #64/INFO]: [Not Secure] <TheXigonGK> u_:u
-[08:45:12] [Server thread/INFO]: TheXigonGK issued server command: /ps home
-[08:45:19] [Server thread/INFO]: TheXigonGK issued server command: /ps home
-[08:45:22] [Server thread/INFO]: TheXigonGK issued server command: /ps home
-[08:45:33] [Server thread/INFO]: TheXigonGK fell from a high place
-[08:45:39] [Server thread/INFO]: TheXigonGK issued server command: /tpa DJMuzan
-[08:46:09] [Server thread/INFO]: DJMuzan issued server command: /tpaccept TheXigonGK
-[08:46:11] [Server thread/INFO]: TheXigonGK issued server command: /home granja
-[08:46:28] [Server thread/INFO]: DJMuzan issued server command: /angelchest TheXigonGK
-[08:46:29] [Server thread/INFO]: DJMuzan issued server command: /acfetch TheXigonGK 1
-[08:48:06] [Server thread/INFO]: DJMuzan issued server command: /time set 18000
-[08:48:06] [Server thread/INFO]: [DJMuzan: Set the time to 18000]
-[08:48:54] [Server thread/INFO]: DJMuzan issued server command: /difficulty normal
-[08:48:54] [Server thread/INFO]: [DJMuzan: The difficulty has been set to Normal]
-[08:49:01] [Server thread/INFO]: DJMuzan issued server command: /gamemode spectator
-[08:49:01] [Server thread/INFO]: [DJMuzan: Set own game mode to Spectator Mode]
-[08:49:29] [Server thread/INFO]: DJMuzan issued server command: /gamemode survival
-[08:49:29] [Server thread/INFO]: [DJMuzan: Set own game mode to Survival Mode]
-[08:49:44] [Server thread/INFO]: TheXigonGK issued server command: /sethome granja
-[08:49:49] [Server thread/INFO]: TheXigonGK issued server command: /delhome granja
-[08:49:51] [Server thread/INFO]: TheXigonGK issued server command: /sethome granja
-[08:50:42] [Server thread/INFO]: DJMuzan issued server command: /gamemode spectator
-[08:50:42] [Server thread/INFO]: [DJMuzan: Set own game mode to Spectator Mode]
-[08:51:03] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
-[08:51:03] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
-[08:51:19] [Server thread/INFO]: DJMuzan issued server command: /gamemode spectator TheXigonGK
-[08:51:19] [Server thread/INFO]: [DJMuzan: Set TheXigonGK's game mode to Spectator Mode]
-[08:51:48] [Server thread/INFO]: DJMuzan issued server command: //removeabove 30
-[08:51:50] [Server thread/WARN]: TheXigonGK moved too quickly! 2.142500253397884,-14.250000566244125,-0.8792084175241826
-[08:53:30] [Server thread/INFO]: DJMuzan issued server command: //brush
-[08:54:39] [Server thread/INFO]: DJMuzan issued server command: /worldedit help
-[08:54:51] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative TheXigonGK
-[08:54:51] [Server thread/INFO]: [DJMuzan: Set TheXigonGK's game mode to Creative Mode]
-[08:55:08] [Server thread/INFO]: DJMuzan issued server command: /op TheXigonGK
-[08:55:08] [Server thread/INFO]: [DJMuzan: Made TheXigonGK a server operator]
-[08:55:15] [Server thread/INFO]: TheXigonGK issued server command: /spectate
-[08:55:19] [Server thread/INFO]: TheXigonGK issued server command: /spectate TheXigonGK
-[08:55:29] [Server thread/INFO]: TheXigonGK issued server command: /gamemode spectator
-[08:55:29] [Server thread/INFO]: [TheXigonGK: Set own game mode to Spectator Mode]
-[08:55:56] [Server thread/INFO]: DJMuzan issued server command: //set minecraft:cobbled_deepslate
-[08:55:59] [Server thread/INFO]: TheXigonGK issued server command: /gamemode creative
-[08:55:59] [Server thread/INFO]: [TheXigonGK: Set own game mode to Creative Mode]
-[08:56:49] [Server thread/INFO]: TheXigonGK issued server command: /worldedit:.s
-[08:56:55] [Server thread/INFO]: DJMuzan issued server command: /tp TheXigonGK
-[08:56:55] [Server thread/INFO]: [DJMuzan: Teleported DJMuzan to TheXigonGK]
-[08:57:28] [Server thread/INFO]: TheXigonGK issued server command: /worldedit:/limit
-[08:59:25] [Server thread/INFO]: TheXigonGK issued server command: /gamemode
-[08:59:29] [Server thread/INFO]: TheXigonGK issued server command: /gamemode spectator
-[08:59:29] [Server thread/INFO]: [TheXigonGK: Set own game mode to Spectator Mode]
-[08:59:35] [Server thread/INFO]: DJMuzan issued server command: /gamemode spectator
-[08:59:35] [Server thread/INFO]: [DJMuzan: Set own game mode to Spectator Mode]
-[08:59:57] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
-[08:59:57] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
-[09:00:06] [Server thread/INFO]: TheXigonGK issued server command: /tp dj
-[09:00:08] [Server thread/INFO]: TheXigonGK issued server command: /tp DJMuzan
-[09:00:08] [Server thread/INFO]: [TheXigonGK: Teleported TheXigonGK to DJMuzan]
-[09:00:20] [Server thread/INFO]: TheXigonGK issued server command: /gamemode creative
-[09:00:20] [Server thread/INFO]: [TheXigonGK: Set own game mode to Creative Mode]
-[09:01:09] [Server thread/INFO]: DJMuzan issued server command: /gamemode survival
-[09:01:09] [Server thread/INFO]: [DJMuzan: Set own game mode to Survival Mode]
-[09:01:30] [Server thread/INFO]: TheXigonGK issued server command: /time set night
-[09:01:30] [Server thread/INFO]: [TheXigonGK: Set the time to 13000]
-[09:01:34] [Server thread/INFO]: TheXigonGK issued server command: /gamemode spectator
-[09:01:34] [Server thread/INFO]: [TheXigonGK: Set own game mode to Spectator Mode]
-[09:02:01] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
-[09:02:01] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
-[09:02:09] [Server thread/INFO]: TheXigonGK issued server command: /gamemode survival
-[09:02:09] [Server thread/INFO]: [TheXigonGK: Set own game mode to Survival Mode]
-[09:02:42] [Server thread/INFO]: TheXigonGK issued server command: /gamemode spectator
-[09:02:42] [Server thread/INFO]: [TheXigonGK: Set own game mode to Spectator Mode]
-[09:03:35] [Server thread/INFO]: TheXigonGK issued server command: /home granja
-[09:04:51] [Server thread/INFO]: DJMuzan issued server command: /gamemode survival
-[09:04:51] [Server thread/INFO]: [DJMuzan: Set own game mode to Survival Mode]
-[09:05:03] [Server thread/INFO]: DJMuzan issued server command: /gamemode spectator
-[09:05:03] [Server thread/INFO]: [DJMuzan: Set own game mode to Spectator Mode]
-[09:05:15] [Async Chat Thread - #66/INFO]: [Not Secure] <TheXigonGK> s
-[09:05:18] [Server thread/INFO]: TheXigonGK issued server command: /gamemode survival
-[09:05:18] [Server thread/INFO]: [TheXigonGK: Set own game mode to Survival Mode]
-[09:05:25] [Server thread/INFO]: DJMuzan issued server command: /gamemode creative
-[09:05:25] [Server thread/INFO]: [DJMuzan: Set own game mode to Creative Mode]
-[09:07:54] [Server thread/INFO]: DJMuzan issued server command: //copy
-[09:08:01] [Server thread/INFO]: DJMuzan issued server command: //clearhistory
-[09:08:32] [Server thread/INFO]: TheXigonGK issued server command: /gamemode spectator
-[09:08:32] [Server thread/INFO]: [TheXigonGK: Set own game mode to Spectator Mode]
-[09:09:57] [Tuinity Chunk System Worker #0/WARN]: [ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
-[09:10:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5508ms or 110 ticks behind
-[09:10:07] [Server thread/WARN]: TheXigonGK moved too quickly! -2.4072019348908498,0.0,40.72746538317847
-[09:10:09] [Server thread/INFO]: TheXigonGK issued server command: /tp DJMuzan
-[09:10:09] [Server thread/INFO]: [TheXigonGK: Teleported TheXigonGK to DJMuzan]
-[09:10:14] [Server thread/INFO]: DJMuzan issued server command: //cut
-[09:10:24] [Server thread/INFO]: TheXigonGK issued server command: /tp DJMuzan
-[09:10:24] [Server thread/INFO]: [TheXigonGK: Teleported TheXigonGK to DJMuzan]
-[09:10:43] [Server thread/INFO]: TheXigonGK issued server command: /tp DJMuzan
-[09:10:43] [Server thread/INFO]: [TheXigonGK: Teleported TheXigonGK to DJMuzan]
-[09:11:10] [Server thread/INFO]: TheXigonGK issued server command: /gamemode creative
-[09:11:10] [Server thread/INFO]: [TheXigonGK: Set own game mode to Creative Mode]
-[09:11:39] [Server thread/INFO]: TheXigonGK issued server command: /tp djmuzan
-[09:11:39] [Server thread/INFO]: [TheXigonGK: Teleported TheXigonGK to DJMuzan]
-[09:12:05] [Server thread/INFO]: DJMuzan issued server command: //paste
-[09:12:22] [Server thread/INFO]: DJMuzan issued server command: /undo
-[09:12:40] [Server thread/INFO]: DJMuzan issued server command: /paste
-[09:12:41] [Server thread/INFO]: DJMuzan issued server command: //paste
-[09:13:29] [Server thread/INFO]: TheXigonGK issued server command: /time set night
-[09:13:29] [Server thread/INFO]: [TheXigonGK: Set the time to 13000]
+[06:43:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[06:43:06] [Server thread/INFO]: Default game type: SURVIVAL
+[06:43:06] [Server thread/INFO]: Generating keypair
+[06:43:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:43:06] [Server thread/INFO]: Using epoll channel type
+[06:43:07] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[06:43:07] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[06:43:08] [Server thread/INFO]: [AngelChest] Hooked into WorldGuard 7.0.9+5934e49
+[06:43:09] [Server thread/INFO]: [SpigotLibraryLoader] [MobsToEggs] Loading 1 libraries... please wait
+[06:43:09] [Server thread/INFO]: [SpigotLibraryLoader] [MobsToEggs] Loaded library /workspaces/Niidea2.5.0/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/1.9.22/kotlin-stdlib-1.9.22.jar
+[06:43:09] [Server thread/INFO]: [SpigotLibraryLoader] [MobsToEggs] Loaded library /workspaces/Niidea2.5.0/servidor_minecraft/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[06:43:10] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[06:43:17] [Server thread/WARN]: Legacy plugin ClickTpa v1.7.6 does not specify an api-version.
+[06:43:17] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.2-SNAPSHOT
+[06:43:17] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[06:43:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[06:43:19] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[06:43:19] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[06:43:19] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[06:43:20] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[06:43:20] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.1+6763-2e55f4f
+[06:43:22] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@b11c592]
+[06:43:22] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[06:43:23] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[06:43:23] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[06:43:25] [Server thread/INFO]: [floodgate] Tardó 1,803ms en iniciar Floodgate
+[06:43:25] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.1.2-SNAPSHOT
+[06:43:25] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
+[06:43:25] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.0
+[06:43:25] [Server thread/INFO]: [AngelChest] Successfully registered WorldGuard flags.
+[06:43:25] [Server thread/INFO]: [VariableEnderChests] Loading server plugin VariableEnderChests v1.11.2.1
+[06:43:25] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v17.0.1
+[06:43:25] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.17
+[06:43:27] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
+[06:43:29] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[06:43:29] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[06:43:29] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
+[06:43:29] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.3
+[06:43:29] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.6
+[06:43:29] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.136
+[06:43:29] [Server thread/INFO]: [CombatPlus] Loading server plugin CombatPlus v1.7.4
+[06:43:29] [Server thread/INFO]: [MobsToEggs] Loading server plugin MobsToEggs v1.7.14
+[06:43:29] [Server thread/INFO]: [ProtectionStones] Loading server plugin ProtectionStones v2.10.4
+[06:43:29] [Server thread/INFO]: [ClickTpa] Loading server plugin ClickTpa v1.7.6
+[06:43:29] [Server thread/INFO]: [UltimateHomes] Loading server plugin UltimateHomes v3.0
+[06:43:29] [Server thread/INFO]: [HealthBar-Reloaded] Loading server plugin HealthBar-Reloaded v2.0.4.1
+[06:43:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:43:29] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
+[06:43:29] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[06:43:29] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[06:43:29] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[06:43:32] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[06:43:32] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
+[06:43:34] [Server thread/INFO]:         __    
+[06:43:34] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
+[06:43:34] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[06:43:34] [Server thread/INFO]: 
+[06:43:34] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[06:43:35] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[06:43:36] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[06:43:36] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[06:43:36] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 4022ms)
+[06:43:36] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v17.0.1
+[06:43:37] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
+[06:43:37] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
+[06:43:37] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.20.1, number: 20.1
+[06:43:37] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.17
+[06:43:38] [Server thread/INFO]: [nLogin] Successful plugin core start (took 1.21s)
+[06:43:39] [Server thread/INFO]:           __             _       
+[06:43:39] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[06:43:39] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[06:43:39] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[06:43:39] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[06:43:39] [Server thread/INFO]:                   |___/            
+[06:43:39] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.17 DEVELOPMENT
+[06:43:39] [Server thread/INFO]:  
+[06:43:41] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
+[06:43:41] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[06:43:42] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[06:43:42] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[06:43:42] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[06:43:43] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.3
+[06:43:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:43:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:43:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:43:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:43:43] [Server thread/INFO]: Preparing level "world"
+[06:43:43] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[06:43:43] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[06:43:43] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[06:43:43] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
+[06:43:43] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[06:43:43] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[06:43:43] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[06:43:43] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.4.4
+[06:43:43] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: dc501c7
+[06:43:43] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
+[06:43:43] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[06:43:43] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[06:43:43] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[06:43:44] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
+[06:43:44] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
+[06:43:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:43:46] [Server thread/INFO]: Time elapsed: 719 ms
+[06:43:46] [Server thread/INFO]: [TerraformGenerator] world loaded.
+[06:43:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[06:43:46] [Server thread/INFO]: Time elapsed: 179 ms
+[06:43:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[06:43:46] [Server thread/INFO]: Time elapsed: 366 ms
+[06:43:46] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.2-SNAPSHOT
+[06:43:47] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[06:43:47] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[06:43:48] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[06:43:48] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[06:43:48] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[06:43:48] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[06:43:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[06:43:48] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[06:43:48] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[06:43:48] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[06:43:48] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[06:43:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[06:43:48] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[06:43:48] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[06:43:48] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[06:43:48] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[06:43:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[06:43:48] [Server thread/INFO]: [WorldGuard] Loading region data...
+[06:43:49] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[06:43:51] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.1.2-SNAPSHOT
+[06:43:51] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.0
+[06:43:51] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
+[06:43:51] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
+[06:43:51] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
+[06:43:51] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
+[06:43:51] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
+[06:43:51] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
+[06:43:52] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.0 (Premium: false)
+[06:43:52] [Server thread/INFO]: [VariableEnderChests] Enabling VariableEnderChests v1.11.2.1
+[06:43:52] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
+[06:43:52] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[06:43:52] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'VariableEnderChests' to create a bStats instance!
+[06:43:52] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
+[06:43:53] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.6
+[06:43:56] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[06:43:57] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
+[06:43:57] [Server thread/INFO]: [AuraSkills] Successfully registered hook ProtocolLib
+[06:43:57] [Server thread/INFO]: [AuraSkills] Successfully registered hook WorldGuard
+[06:43:57] [Server thread/INFO]: [AuraSkills] Loaded 150 config options in 110 ms
+[06:43:57] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
+[06:43:57] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[06:43:57] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[06:43:57] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[06:43:58] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[06:43:59] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.136
+[06:43:59] [Server thread/INFO]: [CombatPlus] Enabling CombatPlus v1.7.4
+[06:43:59] [Server thread/INFO]:  
+[06:43:59] [Server thread/INFO]: Combat Plus v1.7.4
+[06:43:59] [Server thread/INFO]:  
+[06:43:59] [Server thread/INFO]:   Author: Nik
+[06:43:59] [Server thread/INFO]:  
+[06:43:59] [Server thread/INFO]: [MobsToEggs] Enabling MobsToEggs v1.7.14
+[06:43:59] [Server thread/INFO]: [MobsToEggs] Loading files for MobsToEggs...
+[06:44:00] [Server thread/INFO]: [MobsToEggs] Loading language: es
+[06:44:00] [Server thread/INFO]: [MobsToEggs] Using Dependencies:
+[06:44:00] [Server thread/INFO]: [MobsToEggs] ✔️ [WorldGuard]
+[06:44:00] [Server thread/INFO]: [MobsToEggs] ❌ [Vault, MythicMobs, NBTAPI, StackMob, Towny]
+[06:44:00] [Server thread/INFO]: [ProtectionStones] Enabling ProtectionStones v2.10.4
+[06:44:00] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.GreetingFlagHandler
+[06:44:00] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.FarewellFlagHandler
+[06:44:00] [Server thread/WARN]: [ProtectionStones] Vault not enabled! There will be no economy support!
+[06:44:00] [Server thread/INFO]: [ProtectionStones] PlaceholderAPI not found! There will be no PlaceholderAPI support.
+[06:44:00] [Server thread/INFO]: [ProtectionStones] LuckPerms support enabled!
+[06:44:00] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[06:44:00] [Server thread/INFO]: [ProtectionStones] - AMETHYST_BLOCK (50)
+[06:44:00] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[06:44:01] [Server thread/INFO]: [ProtectionStones] Building region cache...
+[06:44:01] [Server thread/INFO]: [ProtectionStones] Building UUID cache... (if slow change async-load-uuid-cache in the config to true)
+[06:44:01] [Server thread/INFO]: [ProtectionStones] Checking if PS regions have been updated to UUIDs...
+[06:44:01] [Server thread/INFO]: [ProtectionStones] §fProtectionStones has successfully started!
+[06:44:01] [Server thread/INFO]: [ClickTpa] Enabling ClickTpa v1.7.6*
+[06:44:01] [Server thread/INFO]: [ClickTpa] ClickTpa v1.7.6 has been loaded successfully!
+[06:44:01] [Server thread/INFO]: [ClickTpa] ---------------------------------------
+[06:44:01] [Server thread/INFO]: [ClickTpa] To any ClickTpa users who have a version before 1.7.6:
+[06:44:01] [Server thread/INFO]: [ClickTpa] There has been an update to the config; some messages have been removed.
+[06:44:01] [Server thread/INFO]: [ClickTpa] Therefore, if your config.yml is not updated, you will get errors.
+[06:44:01] [Server thread/INFO]: [ClickTpa] ---------------------------------------
+[06:44:01] [Server thread/INFO]: [UltimateHomes] Enabling UltimateHomes v3.0
+[06:44:01] [Server thread/INFO]: 
+[06:44:01] [Server thread/INFO]: --------------------------------------
+[06:44:01] [Server thread/INFO]:        UltimateHomes by kixmc
+[06:44:01] [Server thread/INFO]:        Enabled on version 3.0
+[06:44:01] [Server thread/INFO]: --------------------------------------
+[06:44:01] [Server thread/INFO]:  
+[06:44:01] [Server thread/INFO]: [HealthBar-Reloaded] Enabling HealthBar-Reloaded v2.0.4.1
+[06:44:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[06:44:02] [Server thread/INFO]: [Geyser-Spigot] 
+[06:44:02] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b716 (git-master-2ebce9c)
+[06:44:02] [Server thread/INFO]: [Geyser-Spigot] 
+[06:44:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[06:44:14] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[06:44:14] [Server thread/INFO]: [Geyser-Spigot] Done (11.869s)! Run /geyser help for help!
+[06:44:14] [Thread-24/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.50. Download it here: https://geysermc.org/download
+[06:44:15] [Server thread/INFO]: Running delayed init tasks
+[06:44:15] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[06:44:15] [Craft Scheduler Thread - 6 - VariableEnderChests/INFO]: [VariableEnderChests] VariableEnderChests is up to date.
+[06:44:15] [Craft Scheduler Thread - 9 - CombatPlus/INFO]: [Combat+]: No updates are found, You're running the Latest Version <3
+[06:44:17] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 306 total sources
+[06:44:17] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[06:44:17] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[06:44:17] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[06:44:18] [Server thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06:44:18] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
+[06:44:18] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[06:44:18] [Server thread/INFO]: Done (76.344s)! For help, type "help"
+[06:44:18] [Server thread/INFO]: Timings Reset
+[06:44:21] [Server thread/INFO]: [AngelChest] ========================================================
+[06:44:21] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
+[06:44:21] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
+[06:44:21] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
+[06:44:21] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
+[06:44:21] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
+[06:44:21] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
+[06:44:21] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
+[06:44:21] [Server thread/INFO]: [AngelChest] 
+[06:44:21] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
+[06:44:21] [Server thread/INFO]: [AngelChest] ========================================================
+[06:44:43] [User Authenticator #0/INFO]: UUID of player DJMuzan is b705c7ae-ef57-3962-9515-3bbc4cfd154f
+[06:44:45] [Server thread/INFO]: DJMuzan[/127.214.19.73:56321] logged in with entity id 230 at ([world]-181.3107205571546, 71.0, 103.22703102770403)
+[06:44:45] [Craft Scheduler Thread - 5 - VariableEnderChests/INFO]: [VariableEnderChests] Loaded enderchest for DJMuzan
+[06:44:56] [Folia Async Scheduler Thread #2/INFO]: [nLogin] The user DJMuzan has successfully logged in.
+[06:47:31] [Server thread/INFO]: DJMuzan issued server command: /ender
+[06:52:11] [Server thread/INFO]: DJMuzan issued server command: /ender
