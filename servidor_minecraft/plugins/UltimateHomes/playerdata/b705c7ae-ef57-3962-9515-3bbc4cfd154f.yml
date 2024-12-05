@@ -1,4 +1,11 @@
 player:
   info:
     lastSeenAs: DJMuzan
-homes: {}
+homes:
+  casa:
+    x: -199
+    y: 71
+    z: 132
+    yaw: 94.41039
+    pitch: 2.313946
+    world: world

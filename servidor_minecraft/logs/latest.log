@@ -252,3 +252,50 @@
 [07:10:57] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add ultimatehomes.sethome.max.5 true
 [07:11:05] [Server thread/INFO]: DJMuzan issued server command: /deop DJMuzan
 [07:11:05] [Server thread/INFO]: [DJMuzan: Made DJMuzan no longer a server operator]
+[07:40:17] [Server thread/INFO]: DJMuzan issued server command: /sethome casa
+[07:40:22] [Server thread/INFO]: DJMuzan issued server command: /homes
+[07:40:28] [Server thread/INFO]: DJMuzan issued server command: /sethome casa2
+[07:40:38] [Server thread/INFO]: DJMuzan issued server command: /sethome casa3
+[07:40:40] [Server thread/INFO]: DJMuzan issued server command: /sethome casa4
+[07:40:42] [Server thread/INFO]: DJMuzan issued server command: /sethome casa5
+[07:40:44] [Server thread/INFO]: DJMuzan issued server command: /sethome casa6
+[07:40:51] [Server thread/INFO]: DJMuzan issued server command: /delhome casa 5
+[07:40:54] [Server thread/INFO]: DJMuzan issued server command: /delhome casa 5
+[07:40:58] [Server thread/INFO]: DJMuzan issued server command: /delhome casa5
+[07:41:00] [Server thread/INFO]: DJMuzan issued server command: /delhome casa4
+[07:41:01] [Server thread/INFO]: DJMuzan issued server command: /delhome casa3
+[07:41:03] [Server thread/INFO]: DJMuzan issued server command: /delhome casa2
+[07:41:05] [Server thread/INFO]: DJMuzan issued server command: /delhome casa1
+[07:41:08] [Server thread/INFO]: DJMuzan issued server command: /homes
+[07:41:11] [Server thread/INFO]: DJMuzan issued server command: /home casa
+[07:41:19] [Server thread/INFO]: DJMuzan issued server command: /home casa
+[07:41:25] [Server thread/INFO]: DJMuzan issued server command: /delhome casa
+[07:41:34] [Server thread/INFO]: DJMuzan issued server command: /sethome casa
+[07:41:57] [User Authenticator #1/INFO]: UUID of player TheXigonGK is aa1df552-b1e9-3a0f-8b15-aa78b0405b21
+[07:41:57] [Server thread/INFO]: TheXigonGK[/127.3.104.126:37251] logged in with entity id 6985 at ([world]97.01577226929598, 69.0, -543.3577359062298)
+[07:41:57] [Craft Scheduler Thread - 22 - VariableEnderChests/INFO]: [VariableEnderChests] Loaded enderchest for TheXigonGK
+[07:42:09] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user TheXigonGK has successfully logged in.
+[07:42:14] [Async Chat Thread - #1/INFO]: [Not Secure] <TheXigonGK> qlq baby
+[07:42:19] [Async Chat Thread - #0/INFO]: [Not Secure] <DJMuzan> Mrc
+[07:42:21] [Async Chat Thread - #1/INFO]: [Not Secure] <DJMuzan> No me imaginé
+[07:42:25] [Async Chat Thread - #1/INFO]: [Not Secure] <DJMuzan> Que te conectaras acá
+[07:42:30] [Async Chat Thread - #0/INFO]: [Not Secure] <TheXigonGK> xdddd
+[07:42:31] [Async Chat Thread - #0/INFO]: [Not Secure] <DJMuzan> Me asustaste
+[07:42:32] [Async Chat Thread - #1/INFO]: [Not Secure] <DJMuzan> xd
+[07:42:37] [Async Chat Thread - #1/INFO]: [Not Secure] <TheXigonGK> mrk yo vivo en mc
+[07:42:38] [Async Chat Thread - #0/INFO]: [Not Secure] <TheXigonGK> vos sabe
+[07:42:51] [Async Chat Thread - #1/INFO]: [Not Secure] <DJMuzan> ¿Cómo tai bb?
+[07:42:55] [Async Chat Thread - #0/INFO]: [Not Secure] <TheXigonGK> bien bb
+[07:43:04] [Async Chat Thread - #1/INFO]: [Not Secure] <TheXigonGK> pero ya me voi pirao bb
+[07:43:06] [Async Chat Thread - #1/INFO]: [Not Secure] <DJMuzan> Yo toy haciendo mi fucking casa
+[07:43:07] [Async Chat Thread - #0/INFO]: [Not Secure] <TheXigonGK> estaba en pvp
+[07:43:08] [Async Chat Thread - #1/INFO]: [Not Secure] <TheXigonGK> un rato
+[07:43:09] [Async Chat Thread - #0/INFO]: [Not Secure] <DJMuzan> Ahhh
+[07:43:11] [Async Chat Thread - #1/INFO]: [Not Secure] <DJMuzan> Entiendo
+[07:43:12] [Async Chat Thread - #0/INFO]: [Not Secure] <TheXigonGK> me haces mi cuarto
+[07:43:15] [Async Chat Thread - #1/INFO]: [Not Secure] <DJMuzan> Ño
+[07:43:18] [Async Chat Thread - #0/INFO]: [Not Secure] <TheXigonGK> a
+[07:43:23] [Async Chat Thread - #1/INFO]: [Not Secure] <DJMuzan> Bueno puede ser
+[07:43:24] [Async Chat Thread - #1/INFO]: [Not Secure] <DJMuzan> :d
+[07:43:26] [Async Chat Thread - #0/INFO]: [Not Secure] <TheXigonGK> uwu
+[07:43:29] [Async Chat Thread - #1/INFO]: [Not Secure] <DJMuzan> Vení a vela
