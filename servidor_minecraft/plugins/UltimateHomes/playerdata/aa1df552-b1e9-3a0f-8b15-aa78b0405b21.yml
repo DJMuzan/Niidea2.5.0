@@ -9,3 +9,10 @@ homes:
     yaw: -95.51282
     pitch: 2.0318985
     world: world
+  djmuzan:
+    x: -194
+    y: 71
+    z: 138
+    yaw: -157.83011
+    pitch: -3.7724612
+    world: world
