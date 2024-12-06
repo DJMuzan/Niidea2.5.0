@@ -23,7 +23,7 @@ skills:
     xp: 311.844000029564
   auraskills/agility:
     level: 6
-    xp: 706.7028000000008
+    xp: 868.0784000000009
   auraskills/enchanting:
     level: 1
     xp: 188.0
@@ -55,4 +55,4 @@ trait_modifiers:
     value: 10.0
 ability_data:
   auraskills/xp_convert:
-    xp: 27.265200000000103
+    xp: 8.640800000000127
