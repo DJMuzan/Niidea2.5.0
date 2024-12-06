@@ -1,1 +1,24 @@
 [00:04:29] [Server thread/INFO]: DJMuzan issued server command: /home casa
+[00:53:37] [Server thread/INFO]: DJMuzan issued server command: /ender
+[00:54:01] [Server thread/INFO]: DJMuzan issued server command: /ender
+[00:57:47] [Server thread/INFO]: DJMuzan has made the advancement [What a Deal!]
+[01:00:18] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Mochhi02
+[01:00:18] [localSession-7-3/INFO]: [Geyser-Spigot] Mochhi02 (logged in as: Mochhi02) has connected to the Java server
+[01:00:19] [User Authenticator #2/INFO]: UUID of player .Mochhi02 is 00000000-0000-0000-0009-01f873e88de6
+[01:00:19] [Server thread/INFO]: [floodgate] Jugador conectado por Floodgate como .Mochhi02 se ha conectado (UUID: 00000000-0000-0000-0009-01f873e88de6)
+[01:00:19] [Server thread/INFO]: .Mochhi02[/127.0.0.1:0] logged in with entity id 9019 at ([world]-204.1417, 71.0, 125.70279)
+[01:00:19] [Craft Scheduler Thread - 29 - VariableEnderChests/INFO]: [VariableEnderChests] Loaded enderchest for .Mochhi02
+[01:00:40] [Folia Async Scheduler Thread #1/INFO]: [nLogin] The user .Mochhi02 has successfully logged in.
+[01:01:02] [Async Chat Thread - #7/INFO]: [Not Secure] <.Mochhi02> holaaaaaa
+[01:01:06] [Async Chat Thread - #6/INFO]: [Not Secure] <DJMuzan> Holi
+[01:01:22] [Async Chat Thread - #7/INFO]: [Not Secure] <.Mochhi02> veni a abrirme
+[01:01:28] [Async Chat Thread - #7/INFO]: [Not Secure] <.Mochhi02> xd
+[01:01:52] [Async Chat Thread - #7/INFO]: [Not Secure] <DJMuzan> *Examinando casa*
+[01:01:58] [Async Chat Thread - #7/INFO]: [Not Secure] <.Mochhi02> que bonitaaaaaa
+[01:02:04] [Async Chat Thread - #7/INFO]: [Not Secure] <DJMuzan> Gracias <3
+[01:02:20] [Async Chat Thread - #6/INFO]: [Not Secure] <.Mochhi02> dejane buscar una skin y nos tomamos foto
+[01:02:24] [Async Chat Thread - #6/INFO]: [Not Secure] <DJMuzan> Vava <3
+[01:02:24] [Async Chat Thread - #6/INFO]: [Not Secure] <.Mochhi02> ya vuelvo
+[01:02:29] [localSession-7-3/INFO]: [Geyser-Spigot] Mochhi02 has disconnected from the Java server because of Bedrock client disconnected
+[01:02:29] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Jugador conectado por Floodgate como .Mochhi02 se ha desconectado
+[01:02:29] [Server thread/INFO]: .Mochhi02 lost connection: Disconnected
